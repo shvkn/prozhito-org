@@ -2,4 +2,9 @@
 @import "../variables/variables.css";
 @import "../fonts/fonts.css";
 
+@import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/content/content.css";
+@import "../blocks/footer/footer.css";
