@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "WF";
+  font-weight: 400;
+  src:  url("./WF_Semibold.woff") format("woff"),
+        url("./WF_Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  src:  url("./PT-Sans_Regular.woff") format("woff"),
+        url("./PT-Sans_Regular.woff2") format("woff2");
+}
