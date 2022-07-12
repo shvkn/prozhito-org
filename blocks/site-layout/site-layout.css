@@ -1,0 +1,12 @@
+.site-layout {
+  display: grid;
+  grid-template-areas:
+    ". header header header ."
+    ". . . . ."
+    "content content content content content"
+    ". . . . ."
+    ". . footer . ."
+    ". . . . .";
+  grid-template-columns: 20px 13px 1fr 13px 20px;
+  grid-template-rows: auto 70px auto 72px auto 94px;
+}
