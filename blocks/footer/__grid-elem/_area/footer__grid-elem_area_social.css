@@ -1,0 +1,11 @@
+.footer__grid-elem_area_social {
+  grid-area: f-social;
+  max-width: 160px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__grid-elem_area_social {
+    grid-auto-flow: column;
+    grid-column-gap: 24px;
+  }
+}

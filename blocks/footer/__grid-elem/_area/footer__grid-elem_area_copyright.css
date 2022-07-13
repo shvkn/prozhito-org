@@ -1,0 +1,5 @@
+.footer__grid-elem_area_copyright {
+  grid-area: f-copyright;
+  max-width: 280px;
+  justify-self: left;
+}

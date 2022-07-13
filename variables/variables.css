@@ -1,0 +1,11 @@
+:root {
+  --color-text-black: #323232;
+  --font-pt-sans: 'PT Sans', Times, Sans;
+  --inner-container: 32px;
+}
+
+@media screen and (max-width: 520px) {
+  :root {
+    --inner-container: 12px;
+  }
+}
