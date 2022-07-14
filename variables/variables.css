@@ -15,6 +15,12 @@
   --grid-mobile-gap: 8px;
 }
 
+@media screen and (max-width: 1024px) {
+  :root {
+    --inner-container: 16px;
+  }
+}
+
 @media screen and (max-width: 520px) {
   :root {
     --inner-container: 12px;
