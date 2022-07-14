@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+  .footer__link_type_social {
+    font-size: 0;
+  }
+}

@@ -4,7 +4,28 @@
 
 @import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
+@import "../blocks/link/link.css";
+@import "../blocks/grid/grid.css";
+
 
 @import "../blocks/header/header.css";
 @import "../blocks/content/content.css";
+
 @import "../blocks/footer/footer.css";
+@import "../blocks/footer/__grid-container/footer__grid-container.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__link/_type/footer__link_type_social.css";
+@import "../blocks/footer/__grid-elem/footer__grid-elem.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_social.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_logo.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_copyright.css";
+@import "../blocks/footer/__social-icon/footer__social-icon.css";
+
+@import "../blocks/sub-menu/sub-menu.css";
+@import "../blocks/sub-menu/__item/sub-menu__item.css";
+@import "../blocks/sub-menu/__items/sub-menu__items.css";
+@import "../blocks/sub-menu/__link/sub-menu__link.css";
+
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__image/logo__image.css";
