@@ -1,11 +1,18 @@
 .footer__grid-elem_area_social {
-  grid-area: f-social;
-  max-width: 160px;
+  grid-area: 1 / 7 / 1 / 8;
 }
 
 @media screen and (max-width: 1024px) {
   .footer__grid-elem_area_social {
+    grid-area: 1 / 12 / 1 / 13;
     grid-auto-flow: column;
     grid-column-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__grid-elem_area_social {
+    grid-area: 1 / 1 / 1 / -1;
+    justify-self: center;
   }
 }

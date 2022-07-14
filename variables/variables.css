@@ -2,6 +2,14 @@
   --color-text-black: #323232;
   --font-pt-sans: 'PT Sans', Times, Sans;
   --inner-container: 32px;
+
+  --grid-desktop-columns: 12;
+  --grid-tablet-columns: 12;
+  --grid-mobile-columns: 4;
+
+  --grid-desktop-gap: 20px;
+  --grid-tablet-gap: 12px;
+  --grid-mobile-gap: 8px;
 }
 
 @media screen and (max-width: 520px) {
