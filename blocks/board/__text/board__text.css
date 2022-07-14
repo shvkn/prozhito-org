@@ -1,0 +1,17 @@
+.board__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  max-width: 660px;
+  border: rgb(99, 20, 85) solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .board__text {
+    font-size: 14px;
+    line-height: 18px;
+
+  }
+}

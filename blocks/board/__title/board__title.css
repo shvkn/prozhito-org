@@ -1,0 +1,16 @@
+.board__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  padding: 0 0 32px 0;
+  margin: 0;
+  border: blue solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .board__title {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 0 12px 0;
+  }
+}

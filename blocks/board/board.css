@@ -1,0 +1,10 @@
+.board {
+  background-color: #f7f4f0;
+  max-width: 1376px;
+  max-height: 560px;
+  margin: 0 32px 0 32px;
+  padding: 56px 0 64px 0;
+  display: flex;
+  flex-direction: row;
+
+}

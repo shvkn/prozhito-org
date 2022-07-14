@@ -1,0 +1,10 @@
+.board__tools {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+ /* padding: 0 134px 0 136px;*/
+  justify-content: space-between;
+  max-width: 660px;
+  border: red solid 1px;
+}

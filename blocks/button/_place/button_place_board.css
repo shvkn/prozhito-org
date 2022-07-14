@@ -1,0 +1,13 @@
+/*.button_place_board {
+ width: 329px;
+ height: 60px;
+}
+
+/*кнопки не дают блоку с текстом сужаться между брейкпоинтами*/
+/*@media screen and (max-width: 1439px) {
+  .button_place_board {
+    width: 237px;
+    height: 48px;
+   }
+}*/
+

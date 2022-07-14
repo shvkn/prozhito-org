@@ -1,0 +1,17 @@
+.board__content {
+  margin: 0 134px 0 136px;
+  /* padding: 0 134px 0 136px; */
+  padding: 0;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: green solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .board__content {
+    margin: 0 20px 0 75px;
+    /*padding: 0 0 66px 0;*/
+  }
+}
