@@ -1,0 +1,4 @@
+.intro {
+  padding: 0 var(--inner-container);
+  background-color: var(--color-bg-orange-2);
+}
