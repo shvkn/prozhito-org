@@ -29,3 +29,6 @@
 
 @import "../blocks/logo/logo.css";
 @import "../blocks/logo/__image/logo__image.css";
+
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__text/intro__text.css";

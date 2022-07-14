@@ -1,6 +1,9 @@
 :root {
   --color-text-black: #323232;
+  --color-bg-orange-2: #F7F4F0;
+
   --font-pt-sans: 'PT Sans', Times, Sans;
+  --font-wt-sans: 'WT', Times, Sans;
   --inner-container: 32px;
 
   --grid-desktop-columns: 12;
