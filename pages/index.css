@@ -11,6 +11,14 @@
 @import "../blocks/header/header.css";
 @import "../blocks/content/content.css";
 
+/* POPUP */
+@import "../blocks/popup-special-project/popup-special-project.css";
+@import "../blocks/popup-special-project/__wrapper/popup-special-project-wrapper.css";
+@import "../blocks/popup-special-project/__link/popup-special-project__link.css";
+@import "../blocks/popup-special-project/__button-close/popup-special-project__button-close.css";
+@import "../blocks/popup-special-project/__title/popup-special-project__title.css";
+@import "../blocks/popup-special-project/__subtitle/popup-special-project__subtitle.css";
+
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__grid-container/footer__grid-container.css";
 @import "../blocks/footer/__links/footer__links.css";
