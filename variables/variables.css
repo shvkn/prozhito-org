@@ -1,6 +1,7 @@
 :root {
   --color-text-black: #323232;
   --color-bg-orange-2: #F7F4F0;
+  --color-bg-black-a30: rgba(50, 50, 50, 0.3);
 
   --font-pt-sans: 'PT Sans', Times, Sans;
   --font-wt-sans: 'WT', Times, Sans;
