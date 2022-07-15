@@ -1,0 +1,12 @@
+.popup-special-project__link {
+  text-decoration: none;
+}
+
+.popup-special-project__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
