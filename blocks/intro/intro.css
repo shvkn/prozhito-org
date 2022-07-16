@@ -1,5 +1,0 @@
-.intro {
-  padding: 0 var(--inner-container);
-  background-color: var(--color-bg-orange-2);
-  grid-template-rows: auto 114px auto 164px;
-}

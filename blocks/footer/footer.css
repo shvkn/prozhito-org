@@ -1,12 +1,3 @@
 .footer {
-  display: grid;
-  grid-row: footer;
-  grid-template-rows: [bottom-menu] auto 32px [footer-columns] auto;
-  padding: 0 var(--inner-container);
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    grid-template-rows: [bottom-menu] auto 28px [footer-columns] auto;
-  }
+  grid-area: footer;
 }

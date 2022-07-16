@@ -1,16 +1,12 @@
 .site-layout {
   display: grid;
-  grid-template-rows: [header] auto 70px [content] auto 72px [footer] auto 94px;
-}
-
-@media screen and (max-width: 1024px) {
-  .site-layout {
-    grid-template-rows: [header] auto 40px [content] auto 32px [footer] auto 22px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .site-layout {
-    grid-template-rows: [header] auto 31px [content] auto 28px [footer] auto 16px;
-  }
+  grid-template-areas:
+    ". header header header ."
+    ". . . . ."
+    "content content content content content"
+    ". . . . ."
+    ". . footer . ."
+    ". . . . .";
+  grid-template-columns: 20px 13px 1fr 13px 20px;
+  grid-template-rows: auto 70px auto 72px auto 94px;
 }
