@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 730px) and (min-width: 361px) {
+  .board__image {
+    object-fit: scale-down;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .board__image {
     grid-area: 4 / 2 / 4 / 4;
