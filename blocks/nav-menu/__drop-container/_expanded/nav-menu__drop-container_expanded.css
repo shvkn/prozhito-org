@@ -1,3 +1,4 @@
 .nav-menu__drop-container_expanded {
-  visibility: visible;
+  clip: auto;
+  height: calc(100vh - 50px);
 }
