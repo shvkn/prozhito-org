@@ -1,3 +1,6 @@
 .header {
   grid-row: header;
+  min-height: 50px;
+  padding: 0 var(--inner-container);
+  background-color: var(--color-bg-orange-2);
 }

@@ -1,11 +1,5 @@
 .logo {
   display: flex;
-  height: 29px;
-  column-gap: 20px;
-}
-
-@media screen and (max-width: 520px) {
-  .logo {
-    height: 25px;
-  }
+  flex-basis: 294px;
+  flex-shrink: 1;
 }

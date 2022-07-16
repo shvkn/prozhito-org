@@ -10,14 +10,57 @@
 </head>
 <body>
 <div class="site-layout page">
-  <header class="header"></header>
+  <header class="header">
+    <div class="header__navbar">
+      <div class="logo">
+        <a href="/" class="logo__item">
+          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+        </a>
+        <a href="https://eu.spb.ru/" class="logo__item">
+          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-menu__toggle"></button>
+        <ul class="nav-menu__items nav-menu__drop-container">
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">Архив</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">Корпус</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">О проекте</a>
+            <ul class="nav-menu__items nav-menu__submenu">
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">О прожито</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main class="content">
 
     <!-- popup спецпроект блокада-->
     <div class="popup-special-project">
       <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно"></button>
       <div class="popup-special-project-wrapper">
-        <a class="popup-special-project__link" href="#" target="_blank"><h2 class="popup-special-project__title">Спецпроект блокада</h2></a>
+        <a class="popup-special-project__link" href="#" target="_blank"><h2 class="popup-special-project__title">
+          Спецпроект блокада</h2></a>
         <p class="popup-special-project__subtitle">Исследование блокадных дневников</p>
       </div>
     </div>
