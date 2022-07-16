@@ -1,0 +1,21 @@
+.popup-special-project-wrapper {
+  background-color: #A5CDAB;
+  padding: 16px 33px 16px 24px;
+  transition: opacity .2s ease-in-out;
+}
+
+.popup-special-project-wrapper:hover {
+  opacity: .9;
+}
+
+@media screen and (max-width: 1024px) {
+  .popup-special-project-wrapper {
+    padding: 12px 20px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .popup-special-project-wrapper {
+    padding: 12px 16px;
+  }
+}

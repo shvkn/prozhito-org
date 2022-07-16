@@ -4,11 +4,79 @@
 
 @import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
+@import "../blocks/link/link.css";
+@import "../blocks/grid/grid.css";
+
 
 @import "../blocks/header/header.css";
 @import "../blocks/content/content.css";
+
+/* POPUP */
+@import "../blocks/popup-special-project/popup-special-project.css";
+@import "../blocks/popup-special-project/__wrapper/popup-special-project-wrapper.css";
+@import "../blocks/popup-special-project/__link/popup-special-project__link.css";
+@import "../blocks/popup-special-project/__button-close/popup-special-project__button-close.css";
+@import "../blocks/popup-special-project/__title/popup-special-project__title.css";
+@import "../blocks/popup-special-project/__subtitle/popup-special-project__subtitle.css";
+
 @import "../blocks/footer/footer.css";
 
+@import "../blocks/footer/__grid-container/footer__grid-container.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__link/_type/footer__link_type_social.css";
+@import "../blocks/footer/__grid-elem/footer__grid-elem.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_social.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_logo.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_copyright.css";
+@import "../blocks/footer/__social-icon/footer__social-icon.css";
+
+@import "../blocks/sub-menu/sub-menu.css";
+@import "../blocks/sub-menu/__item/sub-menu__item.css";
+@import "../blocks/sub-menu/__items/sub-menu__items.css";
+@import "../blocks/sub-menu/__link/sub-menu__link.css";
+
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__image/logo__image.css";
+@import "../blocks/logo/__item/logo__item.css";
+
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__text/intro__text.css";
+
+@import "../blocks/square-menu/square-menu.css";
+@import "../blocks/square-menu/__items/square-menu__items.css";
+@import "../blocks/square-menu/__item/square-menu__item.css";
+@import "../blocks/square-menu/__item-caption/square-menu__item-caption.css";
+@import "../blocks/square-menu/__item-button/square-menu__item-button.css";
+@import "../blocks/square-menu/__item-text/square-menu__item-text.css";
+@import "../blocks/square-menu/__item-title/square-menu__item-title.css";
+@import "../blocks/square-menu/__item-more/square-menu__item-more.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/nav-menu/nav-menu.css";
+@import "../blocks/nav-menu/__items/nav-menu__items.css";
+@import "../blocks/nav-menu/__item/nav-menu__item.css";
+@import "../blocks/nav-menu/__link/nav-menu__link.css";
+@import "../blocks/nav-menu/__toggle/nav-menu__toggle.css";
+@import "../blocks/nav-menu/__toggle/_expanded/nav-menu__toggle_expanded.css";
+@import "../blocks/nav-menu/__drop-container/nav-menu__drop-container.css";
+@import "../blocks/nav-menu/__link/_type/nav-menu__link_type_submenu-link.css";
+@import "../blocks/nav-menu/__drop-container/_expanded/nav-menu__drop-container_expanded.css";
+
+@import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
+
+/* block btn [@shvkn] start*/
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/_type/btn_type_primary.css";
+@import "../blocks/btn/_type/btn_type_secondary.css";
+@import "../blocks/btn/__inner/btn__inner.css";
+@import "../blocks/btn/__icon/_theme/btn__icon_theme_night.css";
+@import "../blocks/btn/_theme/btn_theme_night.css";
+
+/* block btn [@shvkn] end*/
 /*Блок board*/
 @import "../blocks/board/board.css";
 @import "../blocks/board/__image/board__image.css";
@@ -16,4 +84,3 @@
 @import "../blocks/board/__title/board__title.css";
 @import "../blocks/board/__tools/board__tools.css";
 @import "../blocks/button/_place/button_place_board.css";
-@import "../blocks/grid/grid.css";

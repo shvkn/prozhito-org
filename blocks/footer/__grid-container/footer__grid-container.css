@@ -1,0 +1,17 @@
+.footer__grid-container {
+  align-items: start;
+  grid-row: footer-columns;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__grid-container {
+    grid-template-rows: auto 36px auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__grid-container {
+    grid-template-rows: auto 24px auto 29px auto;
+  }
+}

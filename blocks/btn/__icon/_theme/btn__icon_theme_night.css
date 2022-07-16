@@ -1,0 +1,3 @@
+.btn__icon_theme_night::after {
+  background-image: url("/images/icon-arrow-right-w.svg");
+}

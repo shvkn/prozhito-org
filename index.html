@@ -10,19 +10,162 @@
 </head>
 <body>
 <div class="site-layout page">
-  <header class="header"></header>
+
+  <header class="header">
+    <div class="header__navbar">
+      <div class="logo">
+        <a href="/" class="logo__item">
+          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+        </a>
+        <a href="https://eu.spb.ru/" class="logo__item">
+          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-menu__toggle"></button>
+        <ul class="nav-menu__items nav-menu__drop-container">
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">Архив</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">Корпус</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">О проекте</a>
+            <ul class="nav-menu__items nav-menu__submenu">
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">О прожито</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main class="content">
+
+    <!-- popup спецпроект блокада-->
+    <div class="popup-special-project">
+      <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно"></button>
+      <div class="popup-special-project-wrapper">
+        <a class="popup-special-project__link" href="#" target="_blank"><h2 class="popup-special-project__title">
+          Спецпроект блокада</h2></a>
+        <p class="popup-special-project__subtitle">Исследование блокадных дневников</p>
+      </div>
+    </div>
+
+
+    <section class="grid intro">
+      <p class="intro__text">
+        Центр «Прожито» собирает, описывает и публикует документы личного происхождения и разрабатывает
+        исследовательские инструменты для работы с ними. Материалы публикуются и описываются силами
+        участников-волонтёров, к сообществу которых может присоединиться каждый.
+      </p>
+      <nav class="square-menu">
+        <ul class="square-menu__items">
+          <li class="square-menu__item">
+            <h2 class="square-menu__item-title">Передать документы</h2>
+            <p class="square-menu__item-text">Передайте в «Прожито» копии документов из семейного архива, чтобы сделать
+              их доступнее исследователям и читателям</p>
+            <div class="square-menu__item-more">
+              <p class="square-menu__item-caption">Подробнее</p>
+              <a href="#" class="square-menu__item-button"></a>
+            </div>
+          </li>
+
+          <li class="square-menu__item">
+            <h2 class="square-menu__item-title">Стать волонтёром</h2>
+            <p class="square-menu__item-text">Вы можете помочь нашему делу — для работы с документами нужен компьютер и
+              несколько свободных часов в неделю</p>
+            <div class="square-menu__item-more">
+              <p class="square-menu__item-caption">Узнать больше</p>
+              <a href="#" class="square-menu__item-button"></a>
+            </div>
+          </li>
+
+          <li class="square-menu__item">
+            <h2 class="square-menu__item-title">Дневники и воспоминания</h2>
+            <p class="square-menu__item-text">Мы собрали тексты опубликованных дневников и воспоминаний и сделали по ним
+              расширенный поиск</p>
+            <div class="square-menu__item-more">
+              <p class="square-menu__item-caption">Ознакомиться</p>
+              <a href="#" class="square-menu__item-button"></a>
+            </div>
+          </li>
+
+          <li class="square-menu__item">
+            <h2 class="square-menu__item-title">Работа с архивом</h2>
+            <p class="square-menu__item-text">Мы собрали тексты опубликованных дневников и воспоминаний и сделали по ним
+              расширенный поиск</p>
+            <div class="square-menu__item-more">
+              <p class="square-menu__item-caption">Перейти к архиву</p>
+              <a href="#" class="square-menu__item-button"></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
     <section class="board grid">
       <h2 class="board__title">Ищем редактора для дневника</h2>
       <img src="./images/board-image.png" alt="фотография автора дневника" class="board__image">
-      <p class="board__text">&laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой семьи. У&nbsp;его отца и&nbsp;деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал бакалеей и&nbsp;красным товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у&nbsp;дедушки Василия были все грамотные, и&nbsp;земледелием занимались неохотно&raquo;.</p>
+      <p class="board__text">&laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой семьи. У&nbsp;его отца и&nbsp;деда
+        были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал бакалеей и&nbsp;красным
+        товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у&nbsp;дедушки Василия
+        были все грамотные, и&nbsp;земледелием занимались неохотно&raquo;.</p>
       <div class="board__tools">
         <button class="button button_place_board button1" type="button">Перейти к материалу →</button>
         <button class="button button_place_board button2" type="button">Оставить заявку →</button>
       </div>
     </section>
+
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <nav class="sub-menu">
+      <ul class="sub-menu__items">
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">О команде</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">Благодарности</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">Партнеры</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">FAQ</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">Инструкции</a></li>
+      </ul>
+    </nav>
+
+    <div class="grid footer__grid-container">
+      <div class="footer__grid-elem footer__grid-elem_area_logo logo">
+        <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+        <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+      </div>
+
+      <nav class="footer__grid-elem footer__grid-elem_area_social footer__links">
+        <a href="https://t.me/prozhito" target="_blank" class="link footer__link footer__link_type_social">
+          <img src="./images/icon-telegram.svg" alt="" class="footer__social-icon">Telegram</a>
+
+        <a href="https://vk.com/prozhito" target="_blank" class="link footer__link footer__link_type_social">
+          <img src="./images/icon-vk.svg" alt="" class="footer__social-icon">VK</a>
+      </nav>
+
+      <nav class="footer__grid-elem footer__grid-elem_area_copyright footer__links">
+        <a href="#" class="link footer__link">Юридическая информация</a>
+        <a href="#" class="link footer__link">Политика конфиденциальности</a>
+      </nav>
+
+    </div>
+  </footer>
+  >>>>>>> develop
 </div>
+<script src="./scripts/script.js"></script>
 </body>
 </html>
