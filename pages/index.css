@@ -65,3 +65,14 @@
 @import "../blocks/nav-menu/__drop-container/_expanded/nav-menu__drop-container_expanded.css";
 
 @import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
+
+/* block btn [@shvkn] start*/
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/_type/btn_type_primary.css";
+@import "../blocks/btn/_type/btn_type_secondary.css";
+@import "../blocks/btn/__inner/btn__inner.css";
+@import "../blocks/btn/__icon/_theme/btn__icon_theme_night.css";
+@import "../blocks/btn/_theme/btn_theme_night.css";
+
+/* block btn [@shvkn] end*/
