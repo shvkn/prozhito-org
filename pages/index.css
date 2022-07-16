@@ -20,6 +20,7 @@
 @import "../blocks/popup-special-project/__subtitle/popup-special-project__subtitle.css";
 
 @import "../blocks/footer/footer.css";
+
 @import "../blocks/footer/__grid-container/footer__grid-container.css";
 @import "../blocks/footer/__links/footer__links.css";
 @import "../blocks/footer/__link/footer__link.css";
@@ -76,3 +77,10 @@
 @import "../blocks/btn/_theme/btn_theme_night.css";
 
 /* block btn [@shvkn] end*/
+/*Блок board*/
+@import "../blocks/board/board.css";
+@import "../blocks/board/__image/board__image.css";
+@import "../blocks/board/__text/board__text.css";
+@import "../blocks/board/__title/board__title.css";
+@import "../blocks/board/__tools/board__tools.css";
+@import "../blocks/button/_place/button_place_board.css";

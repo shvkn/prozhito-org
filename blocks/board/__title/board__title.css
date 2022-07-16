@@ -1,0 +1,26 @@
+.board__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  grid-area: 2 / 6 / 2 / 12;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .board__title {
+    font-size: 24px;
+    line-height: 1.25;
+    grid-area: 2 / 5 / 2 / 12;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .board__title {
+    font-size: 26px;
+    line-height: 1;
+    grid-area: 2 / 1 / 2 / 5;
+    text-align: center;
+  }
+}
