@@ -1,13 +1,13 @@
-/*.button_place_board {
- width: 329px;
- height: 60px;
+.button_place_board {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
-/*кнопки не дают блоку с текстом сужаться между брейкпоинтами*/
-/*@media screen and (max-width: 1439px) {
+@media screen and (max-width: 520px) {
   .button_place_board {
-    width: 237px;
-    height: 48px;
-   }
-}*/
-
+    height: 50px;
+  }
+}

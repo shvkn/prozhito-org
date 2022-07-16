@@ -1,10 +1,24 @@
 .board__tools {
-  display: flex;
-  flex-direction: row;
   margin: 0;
   padding: 0;
- /* padding: 0 134px 0 136px;*/
-  justify-content: space-between;
-  max-width: 660px;
-  border: red solid 1px;
+  grid-area: 6 / 6 / 6 / 12;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .board__tools {
+    grid-area: 6 / 5 / 6 / 13;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .board__tools {
+    grid-area: 8 / 1 / 8 / 5;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 16px;
+  }
 }

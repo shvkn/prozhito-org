@@ -11,13 +11,9 @@
 
 /*Блок board*/
 @import "../blocks/board/board.css";
-@import "../blocks/board/__content/board__content.css";
 @import "../blocks/board/__image/board__image.css";
-@import "../blocks/board/__text-content/board__text-content.css";
 @import "../blocks/board/__text/board__text.css";
 @import "../blocks/board/__title/board__title.css";
 @import "../blocks/board/__tools/board__tools.css";
-@import "../blocks/button/_place/button_place_board.css"
-
-
-
+@import "../blocks/button/_place/button_place_board.css";
+@import "../blocks/grid/grid.css";
