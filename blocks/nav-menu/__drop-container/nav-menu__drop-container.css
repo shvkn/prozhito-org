@@ -1,0 +1,12 @@
+@media screen and (max-width: 520px) {
+  .nav-menu__drop-container {
+    position: absolute;
+    top: 50px;
+    right: -12px;
+    left: -12px;
+    z-index: 999;
+    grid-auto-flow: row;
+    height: calc(100vh - 50px);
+    visibility: hidden;
+  }
+}

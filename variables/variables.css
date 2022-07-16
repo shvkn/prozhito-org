@@ -1,0 +1,29 @@
+:root {
+  --color-text-black: #323232;
+  --color-bg-orange-2: #F7F4F0;
+  --color-bg-black-a30: rgba(50, 50, 50, 0.3);
+
+  --font-pt-sans: 'PT Sans', Times, Sans;
+  --font-wt-sans: 'WT', Times, Sans;
+  --inner-container: 32px;
+
+  --grid-desktop-columns: 12;
+  --grid-tablet-columns: 12;
+  --grid-mobile-columns: 4;
+
+  --grid-desktop-gap: 20px;
+  --grid-tablet-gap: 12px;
+  --grid-mobile-gap: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --inner-container: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  :root {
+    --inner-container: 12px;
+  }
+}
