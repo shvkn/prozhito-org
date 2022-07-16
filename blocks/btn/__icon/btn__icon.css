@@ -1,0 +1,8 @@
+.btn__icon::after {
+  display: block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  background: url("/images/icon-arrow-right.svg") center center no-repeat;
+}
