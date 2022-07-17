@@ -1,0 +1,22 @@
+.news__cards {
+    max-width: 951px;
+    margin: 24px 0 0;
+    display: flex;
+    column-gap: 20px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    padding-bottom: 70px;
+}
+@media screen and (max-width: 1287px) {
+    .news__cards {
+        max-width: 765px;
+        padding-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1287px) {
+    .news__cards {
+        max-width: 600px;
+        padding-bottom: 62px;
+        margin: 16px 0 0;
+    }
+  }
