@@ -1,7 +1,7 @@
 .button_place_board {
   width: 100%;
   box-sizing: border-box;
-  border: none;
+  /*border: none;*/
   padding: 0;
   margin: 0;
 }
