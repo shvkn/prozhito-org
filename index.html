@@ -10,8 +10,63 @@
 </head>
 <body>
 <div class="site-layout page">
-  <header class="header"></header>
+
+  <header class="header">
+    <div class="header__navbar">
+      <div class="logo">
+        <a href="/" class="logo__item">
+          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+        </a>
+        <a href="https://eu.spb.ru/" class="logo__item">
+          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-menu__toggle"></button>
+        <ul class="nav-menu__items nav-menu__drop-container">
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">Архив</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">Корпус</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="link nav-menu__link">О проекте</a>
+            <ul class="nav-menu__items nav-menu__submenu">
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">О прожито</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main class="content">
+
+    <!-- popup спецпроект блокада-->
+    <div class="popup-special-project">
+      <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно"></button>
+      <div class="popup-special-project-wrapper">
+        <a class="popup-special-project__link" href="#" target="_blank"><h2 class="popup-special-project__title">
+          Спецпроект блокада</h2></a>
+        <p class="popup-special-project__subtitle">Исследование блокадных дневников</p>
+      </div>
+    </div>
+
+
     <section class="grid intro">
       <p class="intro__text">
         Центр «Прожито» собирает, описывает и публикует документы личного происхождения и разрабатывает
@@ -24,40 +79,53 @@
             <h2 class="square-menu__item-title">Передать документы</h2>
             <p class="square-menu__item-text">Передайте в «Прожито» копии документов из семейного архива, чтобы сделать
               их доступнее исследователям и читателям</p>
-            <div class="square-menu__item-more">
-              <p class="square-menu__item-caption">Подробнее</p>
-              <a href="#" class="square-menu__item-button"></a>
-            </div>
+
+            <a href="#" class="btn square-menu__item-button">
+              Подробнее
+              <span class="btn__icon arrow-control arrow-control_bg_green">
+                <span class="arrow"></span>
+              </span>
+            </a>
           </li>
 
           <li class="square-menu__item">
             <h2 class="square-menu__item-title">Стать волонтёром</h2>
             <p class="square-menu__item-text">Вы можете помочь нашему делу — для работы с документами нужен компьютер и
               несколько свободных часов в неделю</p>
-            <div class="square-menu__item-more">
-              <p class="square-menu__item-caption">Узнать больше</p>
-              <a href="#" class="square-menu__item-button"></a>
-            </div>
+
+            <a href="#" class="btn square-menu__item-button">
+              Узнать больше
+              <span class="btn__icon arrow-control arrow-control_bg_green">
+                <span class="arrow"></span>
+              </span>
+            </a>
           </li>
 
           <li class="square-menu__item">
             <h2 class="square-menu__item-title">Дневники и воспоминания</h2>
             <p class="square-menu__item-text">Мы собрали тексты опубликованных дневников и воспоминаний и сделали по ним
               расширенный поиск</p>
-            <div class="square-menu__item-more">
-              <p class="square-menu__item-caption">Ознакомиться</p>
-              <a href="#" class="square-menu__item-button"></a>
-            </div>
+
+            <a href="#" class="btn square-menu__item-button">
+              Ознакомиться
+              <span class="btn__icon arrow-control arrow-control_bg_green">
+                <span class="arrow"></span>
+              </span>
+            </a>
           </li>
 
           <li class="square-menu__item">
             <h2 class="square-menu__item-title">Работа с архивом</h2>
             <p class="square-menu__item-text">Мы собрали тексты опубликованных дневников и воспоминаний и сделали по ним
               расширенный поиск</p>
-            <div class="square-menu__item-more">
-              <p class="square-menu__item-caption">Перейти к архиву</p>
-              <a href="#" class="square-menu__item-button"></a>
-            </div>
+
+            <a href="#" class="btn square-menu__item-button">
+              Перейти к архиву
+              <span class="btn__icon arrow-control arrow-control_bg_green">
+                <span class="arrow"></span>
+              </span>
+            </a>
+
           </li>
         </ul>
       </nav>
@@ -85,6 +153,28 @@
       </div>
       <!-- место для кнопки -->
     </section>
+
+    <section class="board grid">
+      <h2 class="board__title">Ищем редактора для дневника</h2>
+      <img src="./images/board-image.png" alt="фотография автора дневника" class="board__image">
+      <p class="board__text">&laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой семьи. У&nbsp;его отца и&nbsp;деда
+        были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал бакалеей и&nbsp;красным
+        товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у&nbsp;дедушки Василия
+        были все грамотные, и&nbsp;земледелием занимались неохотно&raquo;.</p>
+      <div class="board__tools">
+      <!--<button class="button button_place_board button1" type="button">Перейти к материалу →</button>
+        <button class="button button_place_board button2" type="button">Оставить заявку →</button>-->
+        <a href="#" class="btn btn_type_secondary button_place_board">
+          Перейти к материалу
+          <span class="btn__icon arrow"></span>
+        </a>
+        <a href="#" class="btn btn_type_primary button_place_board">
+          Оставить заявку
+          <span class="btn__icon arrow"></span>
+        </a>
+      </div>
+    </section>
+
   </main>
   <footer class="footer">
     <nav class="sub-menu">
@@ -119,5 +209,6 @@
     </div>
   </footer>
 </div>
+<script src="./scripts/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,8 @@
+.logo__item {
+  display: block;
+  margin-left: 20px;
+}
+
+.logo__item:first-of-type {
+  margin-left: 0;
+}

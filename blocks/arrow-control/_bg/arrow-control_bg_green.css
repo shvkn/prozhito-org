@@ -1,0 +1,13 @@
+.arrow-control_bg_green {
+  background-color: #A5CDAB;
+}
+
+.arrow-control_bg_green:hover:not([disabled]) {
+  opacity: 1;
+  background-color: #97BA9C;
+}
+
+.arrow-control_bg_green:active:not([disabled]) {
+  opacity: 1;
+  background-color: #7A9F80;
+}

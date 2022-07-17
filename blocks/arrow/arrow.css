@@ -1,0 +1,9 @@
+.arrow {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-image: url("/images/icon-arrow-right.svg");
+}

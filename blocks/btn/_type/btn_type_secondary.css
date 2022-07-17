@@ -1,0 +1,13 @@
+.btn_type_secondary {
+  background-color: #FFFFFF;
+  /*background-color: transparent;*/
+  border-color: #A5CDAB;
+}
+.btn_type_secondary:hover:not([disabled]) {
+  border-color: #97BA9C;
+}
+
+.btn_type_secondary:active:not([disabled]) {
+  border-color: #7A9F80;
+}
+

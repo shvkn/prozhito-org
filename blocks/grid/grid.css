@@ -1,5 +1,6 @@
 .grid {
   display: grid;
+  box-sizing: border-box;
   grid-column-gap: var(--grid-desktop-gap);
   grid-template-columns: repeat(var(--grid-desktop-columns), 1fr);
 }
