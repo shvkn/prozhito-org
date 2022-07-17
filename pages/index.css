@@ -66,7 +66,7 @@
 @import "../blocks/square-menu/__item-button/square-menu__item-button.css";
 @import "../blocks/square-menu/__item-text/square-menu__item-text.css";
 @import "../blocks/square-menu/__item-title/square-menu__item-title.css";
-@import "../blocks/square-menu/__item-more/square-menu__item-more.css";
+/*@import "../blocks/square-menu/__item-more/square-menu__item-more.css";*/
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__navbar/header__navbar.css";

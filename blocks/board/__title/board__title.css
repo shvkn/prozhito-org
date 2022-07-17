@@ -6,6 +6,9 @@
   padding: 0;
   grid-area: 2 / 6 / 2 / 12;
   box-sizing: border-box;
+  font-family: "WF", Times, Sans;
+  /*font-family: var(--font-wt-sans);*/
+
 }
 
 @media screen and (max-width: 1024px) {
