@@ -1,4 +1,4 @@
-.arrow_disabled {
+.arrow-control_disabled {
   cursor: default;
   opacity: 0.3;
   pointer-events: none;

@@ -1,16 +1,20 @@
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 329px;
+  height: 100%;
+  min-width: 0;
   min-height: 50px;
   box-sizing: border-box;
   border: 1px solid transparent;
   border-radius: 8px;
   cursor: pointer;
   color: #323232;
+  text-decoration: none;
   font-family: var(--font-pt-sans);
   font-size: 20px;
   line-height: 1.3;
-  display: inline-block;
-  text-decoration: none;
 }
 
 .btn:disabled {
@@ -32,4 +36,3 @@
     min-height: 50px;
   }
 }
-

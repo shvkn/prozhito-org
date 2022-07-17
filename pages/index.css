@@ -43,6 +43,22 @@
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__text/intro__text.css";
 
+
+/* block arrow [@shvkn] starts */
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_theme/arrow_theme_night.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+/* block arrow [@shvkn] ends */
+
+/* block btn [@shvkn] start*/
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
+@import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/_type/btn_type_primary.css";
+@import "../blocks/btn/_type/btn_type_secondary.css";
+@import "../blocks/btn/_theme/btn_theme_night.css";
+/* block btn [@shvkn] end*/
+
 @import "../blocks/square-menu/square-menu.css";
 @import "../blocks/square-menu/__items/square-menu__items.css";
 @import "../blocks/square-menu/__item/square-menu__item.css";
@@ -50,7 +66,7 @@
 @import "../blocks/square-menu/__item-button/square-menu__item-button.css";
 @import "../blocks/square-menu/__item-text/square-menu__item-text.css";
 @import "../blocks/square-menu/__item-title/square-menu__item-title.css";
-@import "../blocks/square-menu/__item-more/square-menu__item-more.css";
+/*@import "../blocks/square-menu/__item-more/square-menu__item-more.css";*/
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__navbar/header__navbar.css";
@@ -67,17 +83,9 @@
 
 @import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
 
-/* block btn [@shvkn] start*/
-@import "../blocks/btn/btn.css";
-@import "../blocks/btn/_disabled/btn_disabled.css";
-@import "../blocks/btn/__icon/btn__icon.css";
-@import "../blocks/btn/_type/btn_type_primary.css";
-@import "../blocks/btn/_type/btn_type_secondary.css";
-@import "../blocks/btn/__inner/btn__inner.css";
-@import "../blocks/btn/__icon/_theme/btn__icon_theme_night.css";
-@import "../blocks/btn/_theme/btn_theme_night.css";
 
-/* block btn [@shvkn] end*/
+
+
 /*Блок board*/
 @import "../blocks/board/board.css";
 @import "../blocks/board/__image/board__image.css";
@@ -86,13 +94,12 @@
 @import "../blocks/board/__tools/board__tools.css";
 @import "../blocks/button/_place/button_place_board.css";
 
-/* block arrow [@shvkn] starts */
-@import "../blocks/arrow/arrow.css";
-@import "../blocks/arrow/_disabled/arrow_disabled.css";
-@import "../blocks/arrow/_size/arrow_size_s.css";
-@import "../blocks/arrow/_bg/arrow_bg_green.css";
-@import "../blocks/arrow/_bg/arrow_bg_none.css";
-@import "../blocks/arrow/_bg/arrow_bg_stroke.css";
-@import "../blocks/arrow/_way/arrow_way_left.css";
-@import "../blocks/arrow/_way/arrow_way_right.css";
-/* block arrow [@shvkn] ends */
+
+/* block arrow-control [@shvkn] starts */
+@import "../blocks/arrow-control/arrow-control.css";
+@import "../blocks/arrow-control/_disabled/arrow-control.css";
+@import "../blocks/arrow-control/_size/arrow-control_size_s.css";
+@import "../blocks/arrow-control/_bg/arrow-control_bg_green.css";
+@import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";
+@import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
+/* block arrow-control [@shvkn] ends */
