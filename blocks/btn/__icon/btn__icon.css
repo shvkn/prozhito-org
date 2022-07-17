@@ -1,8 +1,12 @@
-.btn__icon::after {
-  display: block;
-  content: '';
-  width: 24px;
-  height: 24px;
+.btn__icon {
   margin-left: 12px;
-  background: url("/images/icon-arrow-right.svg") center center no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (max-width: 520px) {
+  .btn__icon {
+    width: 16px;
+    height: 16px;
+  }
 }
