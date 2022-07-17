@@ -1,0 +1,8 @@
+.news__events-container {
+    max-width: 100%;
+    background: #323232;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}

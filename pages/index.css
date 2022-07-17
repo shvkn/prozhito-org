@@ -41,3 +41,31 @@
 @import "../blocks/square-menu/__item-text/square-menu__item-text.css";
 @import "../blocks/square-menu/__item-title/square-menu__item-title.css";
 @import "../blocks/square-menu/__item-more/square-menu__item-more.css";
+
+@import "../blocks/news/news.css";
+
+
+@import "../blocks/news/__events-container/news__events-container.css";
+@import "../blocks/news/__events-title/news__events-title.css";
+
+@import "../blocks/button/button.css";
+@import "../blocks/button/__content/button__content.css";
+@import "../blocks/button/__image/button__image.css";
+@import "../blocks/button/_type/button_type_black.css";
+@import "../blocks/button/__image/_type/button__image_type_black.css";
+@import "../blocks/button/__content/_type/button__content_type_black.css";
+
+@import "../blocks/news/__cards-container/news__cards-container.css";
+@import "../blocks/news/__cards-container-header/news__cards-container-header.css";
+@import "../blocks/news/__cards-title/news__cards-title.css";
+@import "../blocks/news/__cards-button/news__cards-button.css";
+@import "../blocks/news/__button-left/news__button-left.css";
+@import "../blocks/news/__button-right/news__button-right.css";
+@import "../blocks/news/__cards/news__cards.css";
+
+
+@import "../blocks/news/__card/news__card.css";
+@import "../blocks/news/__card-title/news__card-title.css";
+@import "../blocks/news/__card-text/news__card-text.css";
+@import "../blocks/news/__card-image/news__card-image.css";
+@import "../blocks/news/__card-date/news__card-date.css";

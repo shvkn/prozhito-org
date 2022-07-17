@@ -1,0 +1,21 @@
+.button-content {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'PT Sans';
+    padding: 0;
+    text-decoration: none;
+    margin: 11px 0 11px 0;
+    color: #F5F5F5;
+}
+@media screen and (max-width: 1024px) {
+    .button-content  { 
+        font-size: 14px;
+        line-height: 18px;
+        margin: 7px 20px 7px 0;
+        width: 109px;
+        max-width: 100%; 
+    }
+}
