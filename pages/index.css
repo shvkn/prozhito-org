@@ -84,3 +84,13 @@
 @import "../blocks/board/__title/board__title.css";
 @import "../blocks/board/__tools/board__tools.css";
 @import "../blocks/button/_place/button_place_board.css";
+
+/* block arrow [@shvkn] starts */
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_size/arrow_size_s.css";
+@import "../blocks/arrow/_bg/arrow_bg_green.css";
+@import "../blocks/arrow/_bg/arrow_bg_none.css";
+@import "../blocks/arrow/_bg/arrow_bg_stroke.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+@import "../blocks/arrow/_way/arrow_way_right.css";
+/* block arrow [@shvkn] ends */
