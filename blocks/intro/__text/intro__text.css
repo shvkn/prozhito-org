@@ -1,5 +1,6 @@
 .intro__text {
-  grid-area: 1 / 1 / 1 / 11;
+  grid-row: intro-text-starts / intro-text-ends;
+  grid-column: 1 / -3;
   font-family: var(--font-wt-sans);
   font-size: 46px;
   line-height: 1.2;
@@ -7,14 +8,14 @@
 
 @media screen and (max-width: 1024px) {
   .intro__text {
-    grid-area: 1 / 1 / 1 / 12;
+    grid-column: 1 / -2;
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .intro__text {
-    grid-area: 1 / 1 / 1 / -1;
+    grid-column: 1 / -1;
     font-size: 26px;
     line-height: 1;
   }

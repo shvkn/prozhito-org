@@ -7,7 +7,7 @@
   left: 0;
   outline: none;
   border: none;
-  background: transparent url(../../../images/close.svg) center center no-repeat;
+  background: transparent url(/images/icon-сlose.svg) center center no-repeat;
   object-fit: contain;
   cursor: pointer;
 }
