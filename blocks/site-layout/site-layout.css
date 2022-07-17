@@ -1,19 +1,16 @@
 .site-layout {
   display: grid;
-  /*grid-template-rows: [header] auto [content] auto 72px [footer] auto 94px;*/
-  grid-template-rows: [header] auto 70px [content] auto 72px [footer] auto 94px;
+  grid-template-rows: [header] auto 70px [content] auto [footer] auto;
 }
 
 @media screen and (max-width: 1024px) {
   .site-layout {
-    /*grid-template-rows: [header] auto [content] auto 32px [footer] auto 22px;*/
-    grid-template-rows: [header] auto 40px [content] auto 32px [footer] auto 22px;
+    grid-template-rows: [header] auto 40px [content] auto [footer] auto;
   }
 }
 
 @media screen and (max-width: 520px) {
   .site-layout {
-    /*grid-template-rows: [header] auto [content] auto 28px [footer] auto 16px;*/
-    grid-template-rows: [header] auto 31px [content] auto 28px [footer] auto 16px;
+    grid-template-rows: [header] auto 31px [content] auto [footer] auto;
   }
 }
