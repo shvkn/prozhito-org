@@ -22,6 +22,8 @@
 @import "../blocks/special-projects/__card-title/special-projects__card-title.css";
 @import "../blocks/special-projects/__card-description/special-projects__card-description.css";
 @import "../blocks/special-projects/__card-date/special-projects__card-date.css";
+@import "../blocks/button/_place/button_place_special-projects.css";
+
 /* POPUP */
 @import "../blocks/popup-special-project/popup-special-project.css";
 @import "../blocks/popup-special-project/__wrapper/popup-special-project-wrapper.css";
