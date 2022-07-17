@@ -5,6 +5,11 @@
   width: 100%;
   min-height: 354px;
   position: relative;
+  transition: background-color .3s ease-in-out;
+}
+
+.special-projects__card:hover {
+  background-color: #f9f7f5;
 }
 
 @media screen and (max-width: 1024px) {
