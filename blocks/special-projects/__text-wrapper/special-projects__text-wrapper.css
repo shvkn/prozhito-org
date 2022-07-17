@@ -1,0 +1,19 @@
+.special-projects__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 28px 52px 17px 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .special-projects__text-wrapper {
+    margin: 12px;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .special-projects__text-wrapper {
+    margin: 12px 1px 12px 8px;
+  }
+}

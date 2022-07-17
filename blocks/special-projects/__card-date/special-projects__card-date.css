@@ -1,0 +1,18 @@
+.special-projects__card-date {
+  margin: 92px 0 0 0;
+  font-size: 14px;
+  color: #323232;
+}
+
+@media screen and (max-width: 1024px) {
+  .special-projects__card-date {
+    font-size: 12px;
+    margin-top: 11px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .special-projects__card-date {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,17 @@
+.special-projects__card-description {
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(32, 32, 32, .6);
+  margin: 17px 0 0 0;
+  font-family: 'PT Sans', Times, Sans;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .special-projects__card-description {
+    color: #323232;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+}
