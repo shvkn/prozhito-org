@@ -65,6 +65,7 @@
 
 /* block btn [@shvkn] start*/
 @import "../blocks/btn/btn.css";
+@import "../blocks/btn/__text/btn__text.css";
 @import "../blocks/btn/_disabled/btn_disabled.css";
 @import "../blocks/btn/__icon/btn__icon.css";
 @import "../blocks/btn/_type/btn_type_primary.css";
@@ -102,6 +103,7 @@
 /*Блок board*/
 @import "../blocks/board/board.css";
 @import "../blocks/board/__image/board__image.css";
+@import "../blocks/board/__button/board__button.css";
 @import "../blocks/board/__text/board__text.css";
 @import "../blocks/board/__title/board__title.css";
 @import "../blocks/board/__tools/board__tools.css";
