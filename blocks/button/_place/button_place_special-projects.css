@@ -1,0 +1,9 @@
+.button_place_special-projects {
+  margin: 32px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .button_place_special-projects {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,14 @@
+.special-projects__card-title {
+  margin: 0;
+  font-size: 26px;
+  color: #323232;
+  line-height: 100%;
+  font-family: 'WF', Times, Sans;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .special-projects__card-title {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,22 @@
+.special-projects__wrapper-cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 19.66px;
+  row-gap: 19.66px;
+  margin-top: 41px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .special-projects__wrapper-cards {
+    column-gap: 13px;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .special-projects__wrapper-cards {
+    column-gap: 0;
+    row-gap: 24px;
+  }
+}

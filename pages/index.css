@@ -11,6 +11,19 @@
 @import "../blocks/header/header.css";
 @import "../blocks/content/content.css";
 
+/* Блок спецпроекты */
+@import "../blocks/special-projects/special-projects.css";
+@import "../blocks/special-projects/__title/special-projects__title.css";
+@import "../blocks/special-projects/__wrapper-cards/special-projects__wrapper-cards.css";
+@import "../blocks/special-projects/__card/special-projects__card.css";
+@import "../blocks/special-projects/__card-image/special-projects__card-image.css";
+@import "../blocks/special-projects/__text-wrapper/special-projects__text-wrapper.css";
+@import "../blocks/special-projects/__card-link/special-projects__card-link.css";
+@import "../blocks/special-projects/__card-title/special-projects__card-title.css";
+@import "../blocks/special-projects/__card-description/special-projects__card-description.css";
+@import "../blocks/special-projects/__card-date/special-projects__card-date.css";
+@import "../blocks/button/_place/button_place_special-projects.css";
+
 /* POPUP */
 @import "../blocks/popup-special-project/popup-special-project.css";
 @import "../blocks/popup-special-project/__wrapper/popup-special-project-wrapper.css";

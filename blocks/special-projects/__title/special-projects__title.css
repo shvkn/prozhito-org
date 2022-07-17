@@ -1,0 +1,23 @@
+.special-projects__title {
+  font-size: 46px;
+  line-height: 120%;
+  font-family: 'WF', Times, Sans;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: max-content;
+}
+
+@media screen and (max-width: 1024px) {
+  .special-projects__title {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .special-projects__title {
+    font-size: 32px;
+    line-height: 120%;
+    margin: 0;
+  }
+}
