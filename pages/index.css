@@ -69,6 +69,7 @@
 
 /* block btn [@shvkn] start*/
 @import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
 @import "../blocks/btn/__icon/btn__icon.css";
 @import "../blocks/btn/_type/btn_type_primary.css";
 @import "../blocks/btn/_type/btn_type_secondary.css";
@@ -87,6 +88,7 @@
 
 /* block arrow [@shvkn] starts */
 @import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_disabled/arrow_disabled.css";
 @import "../blocks/arrow/_size/arrow_size_s.css";
 @import "../blocks/arrow/_bg/arrow_bg_green.css";
 @import "../blocks/arrow/_bg/arrow_bg_none.css";
