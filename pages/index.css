@@ -43,6 +43,22 @@
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__text/intro__text.css";
 
+
+/* block arrow [@shvkn] starts */
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_theme/arrow_theme_night.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+/* block arrow [@shvkn] ends */
+
+/* block btn [@shvkn] start*/
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
+@import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/_type/btn_type_primary.css";
+@import "../blocks/btn/_type/btn_type_secondary.css";
+@import "../blocks/btn/_theme/btn_theme_night.css";
+/* block btn [@shvkn] end*/
+
 @import "../blocks/square-menu/square-menu.css";
 @import "../blocks/square-menu/__items/square-menu__items.css";
 @import "../blocks/square-menu/__item/square-menu__item.css";
@@ -67,21 +83,7 @@
 
 @import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
 
-/* block arrow [@shvkn] starts */
-@import "../blocks/arrow/arrow.css";
-@import "../blocks/arrow/_theme/arrow_theme_night.css";
-@import "../blocks/arrow/_way/arrow_way_left.css";
-/* block arrow [@shvkn] ends */
 
-/* block btn [@shvkn] start*/
-@import "../blocks/btn/btn.css";
-@import "../blocks/btn/_disabled/btn_disabled.css";
-@import "../blocks/btn/__icon/btn__icon.css";
-@import "../blocks/btn/_type/btn_type_primary.css";
-@import "../blocks/btn/_type/btn_type_secondary.css";
-@import "../blocks/btn/_theme/btn_theme_night.css";
-
-/* block btn [@shvkn] end*/
 
 
 /*Блок board*/
