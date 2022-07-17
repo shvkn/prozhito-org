@@ -1,29 +1,28 @@
 .board__title {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 100%;
-  margin: 0;
+  grid-column: 6 / 12;
+  grid-row: board-title;
   padding: 0;
-  grid-area: 2 / 6 / 2 / 12;
+  margin: 0;
   box-sizing: border-box;
   font-family: "WF", Times, Sans;
-  /*font-family: var(--font-wt-sans);*/
-
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 @media screen and (max-width: 1024px) {
   .board__title {
+    grid-column: 5 / 12;
     font-size: 24px;
     line-height: 1.25;
-    grid-area: 2 / 5 / 2 / 12;
   }
 }
 
 @media screen and (max-width: 520px) {
   .board__title {
+    grid-column: 1 / -1;
+    text-align: center;
     font-size: 26px;
     line-height: 1;
-    grid-area: 2 / 1 / 2 / 5;
-    text-align: center;
   }
 }

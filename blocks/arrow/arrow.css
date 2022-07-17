@@ -6,4 +6,6 @@
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-image: url("/images/icon-arrow-right.svg");
+  border: none;
+  background-color: transparent;
 }

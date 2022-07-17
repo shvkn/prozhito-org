@@ -5,7 +5,8 @@
   color: rgba(50, 50, 50, 0.7);
   margin: 0;
   padding: 0;
-  grid-area: 4 / 6 / 4 / 12;
+  grid-row: board-text;
+  grid-column: 6 / 12;
   box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@
   .board__text {
     font-size: 14px;
     line-height: 1.28;
-    grid-area: 4 / 5 / 4 / 12;
+    grid-column: 5 / 12;
   }
 }
 
@@ -21,6 +22,6 @@
   .board__text {
     font-size: 14px;
     line-height: 1.28;
-    grid-area: 6 / 1 / 6 / 5;
+    grid-column: 1 / -1;
   }
 }

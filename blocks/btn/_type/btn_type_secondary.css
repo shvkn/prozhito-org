@@ -1,6 +1,4 @@
 .btn_type_secondary {
-  background-color: #FFFFFF;
-  /*background-color: transparent;*/
   border-color: #A5CDAB;
 }
 .btn_type_secondary:hover:not([disabled]) {
