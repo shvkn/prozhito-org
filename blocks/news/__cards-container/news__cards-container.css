@@ -1,0 +1,27 @@
+.news__cards-container {
+    max-width: 1024px;
+    
+}
+.news__cards-container {
+    scrollbar-width: thin;
+    scrollbar-color: #323232 #E7E4DE;
+  }
+.news__cards-container::-webkit-scrollbar {
+    height: 4px;
+    width: 355px;
+
+    margin-top: 20px;
+}
+.news__cards-container::-webkit-scrollbar-track {
+    background: #E7E4DE;
+}
+.news__cards-container::-webkit-scrollbar-thumb {
+    background-color: #323232;
+    border:4px solid #323232;
+}
+
+@media screen and (max-width: 1287px) {
+  .news__cards-container {
+      max-width: 100%
+  }
+}
