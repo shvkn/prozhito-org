@@ -1,5 +1,17 @@
 .intro {
   padding: 0 var(--inner-container);
   background-color: var(--color-bg-orange-2);
-  grid-template-rows: auto 114px auto 164px;
+  grid-template-rows: [intro-text-starts] auto [intro-text-ends] 114px [square-menu-starts] auto [squate-menu-ends] 164px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 28px [square-menu-starts] auto [squate-menu-ends] 36px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .intro {
+    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 93px [square-menu-starts] auto [squate-menu-ends] 98px;
+  }
 }
