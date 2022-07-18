@@ -1,6 +1,8 @@
 .btn {
   display: inline-block;
+  max-width: 335px;
   min-height: 50px;
+  padding: 15px;
   box-sizing: border-box;
   background: none;
   border: 1px solid transparent;
@@ -14,13 +16,6 @@
 .btn:disabled {
   cursor: default;
   opacity: 0.3;
-}
-
-@media screen and (min-width: 320px) {
-  .btn {
-    max-width: 335px;
-    padding: 15px;
-  }
 }
 
 @media screen and (min-width: 768px) {

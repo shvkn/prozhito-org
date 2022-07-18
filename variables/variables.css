@@ -5,7 +5,7 @@
 
   --font-pt-sans: 'PT Sans', Times, Sans;
   --font-wt-sans: 'WF', Times, Sans;
-  --inner-container: 32px;
+  --inner-container: 12px;
 
   --grid-desktop-columns: 12;
   --grid-tablet-columns: 12;
@@ -16,14 +16,15 @@
   --grid-mobile-gap: 8px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   :root {
     --inner-container: 16px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   :root {
-    --inner-container: 12px;
+    --inner-container: 32px;
   }
 }
+

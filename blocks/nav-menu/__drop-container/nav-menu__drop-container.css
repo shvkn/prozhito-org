@@ -1,5 +1,5 @@
 /* TODO переписать анимацию меню*/
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 767px) {
   .nav-menu__drop-container {
     position: absolute;
     top: 50px;

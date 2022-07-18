@@ -1,16 +1,17 @@
 .site-layout {
   display: grid;
-  grid-template-rows: [header] auto 70px [content] auto [footer] auto;
+  grid-template-rows: [header] auto 31px [content] auto [footer] auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .site-layout {
     grid-template-rows: [header] auto 40px [content] auto [footer] auto;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .site-layout {
-    grid-template-rows: [header] auto 31px [content] auto [footer] auto;
+    grid-template-rows: [header] auto 70px [content] auto [footer] auto;
   }
 }
+
