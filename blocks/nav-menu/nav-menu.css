@@ -1,10 +1,9 @@
-/*TODO*/
 .nav-menu {
-  height: 100%;
+  height: auto;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 768px) {
   .nav-menu {
-    height: auto;
+    height: 100%;
   }
 }

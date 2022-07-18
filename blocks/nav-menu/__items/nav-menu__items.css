@@ -8,13 +8,11 @@
   list-style: none;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 767px) {
   .nav-menu__items {
     grid-auto-rows: min-content;
     grid-row-gap: 28px;
     padding: 24px 12px;
-    /*padding: 0 12px;*/
-    /*margin-top: 24px; */
     background-color: #F7F4F0;
     overflow-y: auto;
     grid-auto-flow: row;

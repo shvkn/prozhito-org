@@ -1,17 +1,18 @@
 .intro {
   padding: 0 var(--inner-container);
   background-color: var(--color-bg-orange-2);
-  grid-template-rows: [intro-text-starts] auto [intro-text-ends] 114px [square-menu-starts] auto [squate-menu-ends] 164px;
+  grid-template-rows: [intro-text-starts] auto [intro-text-ends] 93px [square-menu-starts] auto [squate-menu-ends] 98px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .intro {
     grid-template-rows: [intro-text-starts] auto [intro-text-ends] 28px [square-menu-starts] auto [squate-menu-ends] 36px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .intro {
-    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 93px [square-menu-starts] auto [squate-menu-ends] 98px;
+    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 114px [square-menu-starts] auto [squate-menu-ends] 164px;
   }
 }
+
