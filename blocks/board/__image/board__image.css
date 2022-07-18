@@ -1,12 +1,12 @@
 .board__image {
   display: block;
+  grid-column: 2 / 4;
   grid-row: board-image-starts / board-image-ends;
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
   object-fit: cover;
-  grid-column: 2 / 4;
 }
 
 @media screen and (min-width: 768px) {
