@@ -1,10 +1,10 @@
 .button_place_special-projects {
-  margin: 32px auto 0;
+  margin-top: 32px;
+  align-self: center;
 }
 
 @media screen and (max-width: 1024px) {
   .button_place_special-projects {
     margin-top: 24px;
-      width: 100%;
   }
 }
