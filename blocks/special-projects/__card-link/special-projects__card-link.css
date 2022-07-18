@@ -1,6 +1,5 @@
 .special-projects__card-link {
   text-decoration: none;
-  transition: opacity .3s ease-in-out;
 }
 
 .special-projects__card-link::before {
@@ -11,8 +10,4 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-}
-
-.special-projects__card-link:hover {
-  opacity: .8;
 }
