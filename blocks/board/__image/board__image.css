@@ -1,24 +1,24 @@
 .board__image {
   display: block;
-  grid-column: 2 / 5;
   grid-row: board-image-starts / board-image-ends;
   width: 100%;
   height: 100%;
-  max-width: 329px;
-  max-height: 440px;
   padding: 0;
   margin: 0;
-  object-fit: scale-down;
+  object-fit: cover;
+  grid-column: 2 / 4;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .board__image {
     grid-column: 1 / 4;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .board__image {
-    grid-column: 2 / 4;
+    grid-column: 2 / 5;
+    max-width: 329px;
+    max-height: 440px;
   }
 }

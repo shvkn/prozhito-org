@@ -1,9 +1,7 @@
-
 .grid {
   display: grid;
   grid-column-gap: var(--grid-mobile-gap);
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
   box-sizing: border-box;
 }
 
@@ -17,7 +15,7 @@
 @media screen and (min-width: 1200px) {
   .grid {
     grid-column-gap: var(--grid-desktop-gap);
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(var(--grid-desktop-columns), 1fr);
   }
 }
 
