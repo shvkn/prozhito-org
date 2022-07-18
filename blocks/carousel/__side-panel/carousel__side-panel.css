@@ -1,0 +1,25 @@
+.carousel__side-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) {
+  .carousel__side-panel {
+    align-items: flex-start;
+    grid-column: 1 / -1;
+    background-color: #FFFFFF;
+    color: #323232;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__side-panel {
+    align-items: normal;
+    grid-column: 1 / 5;
+    padding: 16px 32px 32px;
+    background-color: #323232;
+    color: #F5F5F5;
+  }
+}
