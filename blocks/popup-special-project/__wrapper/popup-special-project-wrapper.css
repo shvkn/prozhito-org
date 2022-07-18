@@ -1,11 +1,11 @@
 .popup-special-project-wrapper {
   background-color: #A5CDAB;
   padding: 16px 33px 16px 24px;
-  transition: opacity .2s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 
 .popup-special-project-wrapper:hover {
-  opacity: .9;
+  background-color: #c0dcc4;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,15 +1,19 @@
 .popup-special-project__button-close {
   position: absolute;
-  width: 17px;
-  height: 17px;
-  margin: 0 0 0 -16px;
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 -24px;
   top: 0;
   left: 0;
   outline: none;
   border: none;
   background: transparent url(/images/icon-сlose.svg) center center no-repeat;
-  object-fit: contain;
   cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+
+.popup-special-project__button-close:hover {
+  opacity: .6;
 }
 
 @media screen and (max-width: 520px) {
