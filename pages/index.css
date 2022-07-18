@@ -66,8 +66,10 @@
 /* block btn [@shvkn] start*/
 @import "../blocks/btn/btn.css";
 @import "../blocks/btn/__text/btn__text.css";
+@import "../blocks/btn/__text/_theme/btn__text_theme_night.css";
 @import "../blocks/btn/_disabled/btn_disabled.css";
 @import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/__icon/_theme/btn__icon_theme_night.css";
 @import "../blocks/btn/_type/btn_type_primary.css";
 @import "../blocks/btn/_type/btn_type_secondary.css";
 @import "../blocks/btn/_theme/btn_theme_night.css";
@@ -131,19 +133,24 @@
 @import "../blocks/button/__content/_type/button__content_type_black.css";
 
 /* block news starts*/
-@import "../blocks/news/news.css";
-@import "../blocks/news/__events-container/news__events-container.css";
-@import "../blocks/news/__events-title/news__events-title.css";
-@import "../blocks/news/__cards-container/news__cards-container.css";
-@import "../blocks/news/__cards-container-header/news__cards-container-header.css";
-@import "../blocks/news/__cards-title/news__cards-title.css";
-@import "../blocks/news/__cards-button/news__cards-button.css";
-@import "../blocks/news/__button-left/news__button-left.css";
-@import "../blocks/news/__button-right/news__button-right.css";
-@import "../blocks/news/__cards/news__cards.css";
+@import "../blocks/carousel/carousel.css";
+@import "../blocks/carousel/__side-panel/carousel__side-panel.css";
+@import "../blocks/carousel/__title/carousel__title.css";
 @import "../blocks/news/__card/news__card.css";
 @import "../blocks/news/__card-title/news__card-title.css";
 @import "../blocks/news/__card-text/news__card-text.css";
 @import "../blocks/news/__card-image/news__card-image.css";
 @import "../blocks/news/__card-date/news__card-date.css";
 /* block news ends*/
+
+/* block __slider starts */
+@import "../blocks/carousel/__slider/carousel__slider.css";
+@import "../blocks/carousel/__slider-control-bar/carousel__slider-panel.css";
+@import "../blocks/carousel/__heading/slider__heading.css";
+@import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
+@import "../blocks/carousel/__slider-content/carousel__slider-items.css";
+@import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
+@import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
+/* block __slider ends */
+
+@import "../blocks/hidden-tablet/hidden-tablet.css";
