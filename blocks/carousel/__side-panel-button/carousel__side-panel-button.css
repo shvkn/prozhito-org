@@ -1,0 +1,22 @@
+.carousel__side-panel-button {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .carousel__side-panel-button {
+    color: #323232;
+    padding: 0;
+    margin-top: 4px;
+    min-height: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  .carousel__side-panel-button {
+    align-self: flex-end;
+  }
+
+  .carousel__side-panel-button {
+    border: none;
+  }
+}

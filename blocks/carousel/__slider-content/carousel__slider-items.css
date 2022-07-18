@@ -1,0 +1,33 @@
+.carousel__slider-items {
+    margin: 24px 0 0;
+    display: flex;
+    column-gap: 20px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    padding-bottom: 70px;
+}
+
+@media screen and (min-width: 320px) {
+  .carousel__slider-items {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__slider-items {
+    flex-direction: row;
+  }
+}
+
+
+/*@media screen and (max-width: 1287px) {*/
+/*    .carousel__slider-items {*/
+/*        padding-bottom: 20px;*/
+/*    }*/
+/*  }*/
+/*  @media screen and (max-width: 1287px) {*/
+/*    .carousel__slider-items {*/
+/*        padding-bottom: 62px;*/
+/*        margin: 16px 0 0;*/
+/*    }*/
+/*  }*/
