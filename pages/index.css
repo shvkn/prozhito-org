@@ -132,23 +132,24 @@
 @import "../blocks/button/__image/_type/button__image_type_black.css";
 @import "../blocks/button/__content/_type/button__content_type_black.css";
 
-/* block news starts*/
+/* block news-card starts*/
 @import "../blocks/carousel/carousel.css";
 @import "../blocks/carousel/__side-panel/carousel__side-panel.css";
 @import "../blocks/carousel/__title/carousel__title.css";
-@import "../blocks/news/__card/news__card.css";
-@import "../blocks/news/__card-title/news__card-title.css";
-@import "../blocks/news/__card-text/news__card-text.css";
-@import "../blocks/news/__card-image/news__card-image.css";
-@import "../blocks/news/__card-date/news__card-date.css";
-/* block news ends*/
+@import "../blocks/news-card/news-card.css";
+@import "../blocks/news-card/__tag/news-card__tag.css";
+@import "../blocks/news-card/__card-text/news-card__text.css";
+@import "../blocks/news-card/__image/news-card__image.css";
+@import "../blocks/news-card/__date/news-card__date.css";
+@import "../blocks/news-card/__info/news-card__info.css";
+/* block news-card ends*/
 
 /* block __slider starts */
 @import "../blocks/carousel/__slider/carousel__slider.css";
 @import "../blocks/carousel/__slider-control-bar/carousel__slider-panel.css";
 @import "../blocks/carousel/__heading/slider__heading.css";
 @import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
-@import "../blocks/carousel/__slider-content/carousel__slider-items.css";
+@import "../blocks/carousel/__slider-items/carousel__slider-items.css";
 @import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
 @import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
 /* block __slider ends */
