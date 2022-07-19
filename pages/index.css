@@ -147,3 +147,35 @@
 @import "../blocks/news/__card-image/news__card-image.css";
 @import "../blocks/news/__card-date/news__card-date.css";
 /* block news ends*/
+
+
+@import "../blocks/magazine-card/magazine-card.css";
+@import "../blocks/magazine-card/__title/magazine-card__title.css";
+@import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__tag/magazine-card__tag.css";
+@import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
+@import "../blocks/magazine-card/__image/magazine-card__image.css";
+@import "../blocks/magazine-card/__content/magazine-card__content.css";
+@import "../blocks/magazine-card/__about/magazine-card__about.css";
+@import "../blocks/magazine-card//_type/magazine-card_type_experience.css";
+@import "../blocks/magazine-card/__image/_type/magazine-card__image_type_experience.css";
+@import "../blocks/magazine-card/__content/_type/magazine-card__content_type_experience.css";
+@import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+
+
+
+
+
+
+
+
+@import url(../blocks/news/__cards-magazine/news__cards-magazine.css);
+@import url(../blocks/news/__card-magazine/news__card-magazine.css);
+@import url(../blocks/news/__card-magazine-image/news__card-magazine-image.css);
+@import url(../blocks/news/__card-magazine-name/news__card-magazine-name.css);
+@import url(../blocks/news/__card-magazine-content/news__card-magazine-content.css);
+@import url(../blocks/news/__card-magazine-title/news__card-magazine-title.css);
+@import url(../blocks/news/__card-magazine-subtitle/news__card-magazine-subtitle.css);
+@import url(../blocks/news/__card-magazine-text/news__card-magazine-text.css);
+@import url(../blocks/news/__card-magazine-about/news__card-magazine-about.css);
