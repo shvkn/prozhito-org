@@ -1,0 +1,10 @@
+.toc__close-button {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

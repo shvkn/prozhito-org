@@ -2,17 +2,18 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 100%;
+  align-items: stretch;
+  min-height: 50px;
   box-sizing: border-box;
+  background-color: inherit;
 }
 
-.header__navbar::before {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+.header__navbar:after {
   content: '';
+  display: block;
+  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

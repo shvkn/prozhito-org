@@ -1,0 +1,14 @@
+.news-card__date {
+  font-size: 12px;
+  line-height: 1.3;
+  color: #323232;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .news-card__date {
+    font-size: 14px;
+  }
+}
+

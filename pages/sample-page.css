@@ -2,4 +2,58 @@
 @import "../variables/variables.css";
 @import "../fonts/fonts.css";
 
+@import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
+@import "../blocks/no-scroll/no-scroll.css";
+@import "../blocks/link/link.css";
+@import "../blocks/grid/grid.css";
+
+@import "../blocks/icon/icon.css";
+@import "../blocks/icon/_type/icon_type_cross.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+@import "../blocks/header/_page/header_page_sample-page.css";
+
+@import "../blocks/content/content.css";
+
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__grid-container/footer__grid-container.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__link/_type/footer__link_type_social.css";
+@import "../blocks/footer/__grid-elem/footer__grid-elem.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_social.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_logo.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_copyright.css";
+@import "../blocks/footer/__social-icon/footer__social-icon.css";
+
+@import "../blocks/sub-menu/sub-menu.css";
+@import "../blocks/sub-menu/__item/sub-menu__item.css";
+@import "../blocks/sub-menu/__items/sub-menu__items.css";
+@import "../blocks/sub-menu/__link/sub-menu__link.css";
+
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__image/logo__image.css";
+@import "../blocks/logo/__item/logo__item.css";
+
+@import "../blocks/nav-menu/nav-menu.css";
+@import "../blocks/nav-menu/__items/nav-menu__items.css";
+@import "../blocks/nav-menu/__item/nav-menu__item.css";
+@import "../blocks/nav-menu/__link/nav-menu__link.css";
+@import "../blocks/nav-menu/__toggle/nav-menu__toggle.css";
+@import "../blocks/nav-menu/__toggle/_expanded/nav-menu__toggle_expanded.css";
+@import "../blocks/nav-menu/__drop-container/nav-menu__drop-container.css";
+@import "../blocks/nav-menu/__link/_type/nav-menu__link_type_submenu-link.css";
+@import "../blocks/nav-menu/__drop-container/_expanded/nav-menu__drop-container_expanded.css";
+@import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
+
+@import "../blocks/screen-overlay/screen-overlay.css";
+
+@import "../blocks/toc/toc.css";
+@import "../blocks/toc/__item/toc__item.css";
+@import "../blocks/toc/__items/toc__items.css";
+@import "../blocks/toc/__open-button/toc__open-button.css";
+@import "../blocks/toc/__nav/toc__nav.css";
+@import "../blocks/toc/__link/toc__link.css";
+@import "../blocks/toc/__close-button/toc__close-button.css";
