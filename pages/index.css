@@ -125,9 +125,6 @@
 @import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
 /* block arrow-control [@shvkn] ends */
 
-
-
-
 @import "../blocks/button/button.css";
 @import "../blocks/button/__content/button__content.css";
 @import "../blocks/button/__image/button__image.css";
@@ -158,3 +155,19 @@
 /* block __slider ends */
 
 @import "../blocks/hidden-tablet/hidden-tablet.css";
+
+/* block MAGAZINE-CARD starts */
+@import "../blocks/magazine-card/magazine-card.css";
+@import "../blocks/magazine-card/__title/magazine-card__title.css";
+@import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__tag/magazine-card__tag.css";
+@import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
+@import "../blocks/magazine-card/__image/magazine-card__image.css";
+@import "../blocks/magazine-card/__content/magazine-card__content.css";
+@import "../blocks/magazine-card/__about/magazine-card__about.css";
+@import "../blocks/magazine-card/_type/magazine-card_type_experience.css";
+@import "../blocks/magazine-card/__image/_type/magazine-card__image_type_experience.css";
+@import "../blocks/magazine-card/__content/_type/magazine-card__content_type_experience.css";
+@import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+/* block MAGAZINE-CARD ends */

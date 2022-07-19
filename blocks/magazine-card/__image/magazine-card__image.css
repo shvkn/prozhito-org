@@ -1,0 +1,5 @@
+.magazine-card__image {
+    position: absolute;
+    z-index: 2;
+    border-radius: 8px;
+}

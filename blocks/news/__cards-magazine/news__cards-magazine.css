@@ -1,0 +1,5 @@
+.news__cards-magazine {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}

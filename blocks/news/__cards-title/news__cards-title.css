@@ -1,0 +1,13 @@
+.news__cards-title {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    margin: 16px 0 0;
+    font-family: var(--font-wt-sans);
+}
+@media screen and (max-width: 1024px) {
+    .news__cards-title { 
+        font-size: 30px;
+        line-height: 37px; 
+    }
+}
