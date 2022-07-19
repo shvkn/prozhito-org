@@ -1,0 +1,32 @@
+.sort__item-link {
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid transparent;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color: #323232;
+}
+
+.sort__item-link:hover {
+  border-color: #323232;
+}
+
+@media screen and (min-width: 768px) {
+  .sort__item-link {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sort__item-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
