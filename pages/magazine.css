@@ -3,3 +3,13 @@
 @import "../fonts/fonts.css";
 
 @import "../blocks/page/page.css";
+
+/*блок sort*/
+@import "../blocks/sort/sort.css";
+@import "../blocks/sort/__container/sort__container.css";
+@import "../blocks/sort/__item-link/sort__item-link.css";
+@import "../blocks/sort/__item/sort__item.css";
+@import "../blocks/sort/__title/sort__title.css";
+
+/*блок link*/
+@import "../blocks/link/link.css";
