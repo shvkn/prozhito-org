@@ -5,6 +5,15 @@
   align-items: stretch;
   min-height: 50px;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
   background-color: inherit;
+}
+
+.header__navbar:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
