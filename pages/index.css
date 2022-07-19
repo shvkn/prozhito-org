@@ -4,11 +4,14 @@
 
 @import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
+@import "../blocks/page/page.css";
+@import "../blocks/no-scroll/no-scroll.css";
 @import "../blocks/link/link.css";
 @import "../blocks/grid/grid.css";
 
 
 @import "../blocks/header/header.css";
+@import "../blocks/header/_page/header_page_index.css";
 @import "../blocks/content/content.css";
 
 /* Блок спецпроекты */

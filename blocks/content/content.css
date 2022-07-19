@@ -1,4 +1,9 @@
 .content {
   grid-row: content;
   background-color: #FFFFFF;
+  position: relative;
+}
+
+.content_page_sample-page {
+  padding: 0 20px;
 }
