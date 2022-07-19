@@ -1,9 +1,11 @@
 .nav-menu {
-  height: auto;
+  display: flex;
+  background-color: inherit;
+  align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-  .nav-menu {
-    height: 100%;
-  }
-}
+/*@media screen and (min-width: 768px) {*/
+/*  .nav-menu {*/
+/*    height: 100%;*/
+/*  }*/
+/*}*/

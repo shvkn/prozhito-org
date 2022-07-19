@@ -1,4 +1,3 @@
 .nav-menu__drop-container_expanded {
-  clip: auto;
   height: calc(100vh - 50px);
 }

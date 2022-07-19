@@ -1,0 +1,8 @@
+.toc__items {
+  height: calc(100vh - 268px);
+  padding: 0;
+  margin: 134px 257px;
+  text-align: center;
+  overflow-y: scroll;
+  list-style: none;
+}
