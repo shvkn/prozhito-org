@@ -160,6 +160,7 @@
 @import "../blocks/magazine-card/magazine-card.css";
 @import "../blocks/magazine-card/__title/magazine-card__title.css";
 @import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__content-text/magazine-card__content-text.css";
 @import "../blocks/magazine-card/__tag/magazine-card__tag.css";
 @import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
 @import "../blocks/magazine-card/__image/magazine-card__image.css";
@@ -170,4 +171,5 @@
 @import "../blocks/magazine-card/__content/_type/magazine-card__content_type_experience.css";
 @import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+
 /* block MAGAZINE-CARD ends */
