@@ -1,0 +1,17 @@
+.audio-player {
+  /*width: 280px;*/
+  display: inline-block;
+  align-items: center;
+  background-color: #BFE9D5;
+  border-radius: 35px;
+  padding: 30px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .audio-player {
+    width: 678px;
+    grid-template-areas:
+    "play . ccw . cw . progress . time-left . volume";
+    grid-template-columns: auto 24px auto 12px auto 20px auto 7px 1fr 15px auto;
+  }
+}

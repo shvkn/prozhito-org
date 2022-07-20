@@ -1,0 +1,6 @@
+.audio-player__time-left {
+  font-size: 20px;
+  line-height: 1.3;
+  grid-area: time-left;
+  text-align: center;
+}

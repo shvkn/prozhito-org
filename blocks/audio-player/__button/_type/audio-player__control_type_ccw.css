@@ -1,0 +1,4 @@
+.audio-player__control_type_ccw {
+  background-image: url("/images/icon-audio-player-ccw.svg");
+  grid-area: ccw;
+}
