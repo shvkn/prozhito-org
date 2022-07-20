@@ -68,7 +68,6 @@
 @import "../blocks/audio-player/__progress/audio-player__progress.css";
 @import "../blocks/audio-player/__time/audio-player__time-left.css";
 @import "../blocks/audio-player/__current-progress/audio-player__current-progress.css";
-@import "../blocks/audio-player/__volume-range/audio-player__volume-range.css";
 @import "../blocks/audio-player/__inner/audio-player__inner.css";
-@import "../blocks/audio-player/__volume-range/audio-player__volume-range.css";
-@import "../blocks/audio-player/__volume-range-wrapper/audio-player__volume-range-wrapper.css";
+
+@import "../blocks/caption/caption.css";
