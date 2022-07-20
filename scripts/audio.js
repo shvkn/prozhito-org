@@ -27,7 +27,7 @@ const initPlayer = (player) => {
   const ccwButton = player.querySelector('.audio-player__control_type_ccw');
   const progress = player.querySelector('.audio-player__progress');
   const timeLeft = player.querySelector('.audio-player__time-left');
-
+  console.log('duration', audio.duration);
   updateTimer(timeLeft, formatTime(audio.duration));
 
   cwButton.direction = 'cw';
@@ -73,7 +73,8 @@ const rewind = (e) => {
       audio.currentTime -= delta;
   }
 }
-
-document.querySelectorAll('.audio-player').forEach(player => {
-  initPlayer(player);
+window.addEventListener('load', (event) => {
+  document.querySelectorAll('.audio-player').forEach(player => {
+    initPlayer(player);
+  });
 });
