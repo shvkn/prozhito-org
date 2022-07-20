@@ -1,0 +1,13 @@
+.materials__card-status-description {
+  font-family: 'PT sans', Times, Sans;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__card-status-description {
+    font-size: 12px;
+  }
+}

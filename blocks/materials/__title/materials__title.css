@@ -1,0 +1,18 @@
+.materials__title {
+  font-family: 'WF', Times, Sans;
+  font-size: 46px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .materials__title {
+    font-size: 32px;
+  }
+}

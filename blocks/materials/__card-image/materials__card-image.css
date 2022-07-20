@@ -1,0 +1,20 @@
+.materials__card-image {
+  width: 200px;
+  height: 224px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__card-image {
+    height: 180px;
+    width: 173px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .materials__card-image {
+    width: 160px;
+  }
+}

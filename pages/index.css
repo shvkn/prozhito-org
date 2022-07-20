@@ -11,6 +11,18 @@
 @import "../blocks/header/header.css";
 @import "../blocks/content/content.css";
 
+/* Блок материалы */
+@import "../blocks/materials/materials.css";
+@import "../blocks/materials/__title/materials__title.css";
+@import "../blocks/materials/__wrapper-cards/materials__wrapper-cards.css";
+@import "../blocks/materials/__card/materials__card.css";
+@import "../blocks/materials/__wrapper-content-card/materials__wrapper-content-card.css";
+@import "../blocks/materials/__card-status/materials__status.css";
+@import "../blocks/materials/__card-status-description/materials__status-description.css";
+@import "../blocks/materials/__card-name/materials__card-name.css";
+@import "../blocks/materials/__card-image/materials__card-image.css";
+@import "../blocks/materials/__card-description/materials__card-description.css";
+
 /* Блок спецпроекты */
 @import "../blocks/special-projects/special-projects.css";
 @import "../blocks/special-projects/__title/special-projects__title.css";

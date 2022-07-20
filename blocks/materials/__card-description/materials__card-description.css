@@ -1,0 +1,18 @@
+.materials__card-description {
+  font-family: 'PT sans', Times, Sans;
+  font-size: 16px;
+  color: #707070;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__card-description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .materials__card-description {
+    font-size: 12px;
+  }
+}
