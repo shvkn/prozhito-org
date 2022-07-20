@@ -1,0 +1,16 @@
+.audio-player__inner {
+  align-items: center;
+  display: grid;
+  justify-content: left;
+  grid-template-columns: auto 24px auto 10px 75px 10px auto;
+  grid-template-areas:
+      "play . ccw . time-left . cw"
+}
+
+@media screen and (min-width: 768px) {
+  .audio-player__inner {
+    grid-template-areas:
+    "play . ccw . cw . progress . time-left . volume";
+    grid-template-columns: auto 24px auto 12px auto 20px auto 20px 75px 16px auto;
+  }
+}

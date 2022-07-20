@@ -1,0 +1,14 @@
+.audio-player__control {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  /*flex-shrink: 0;*/
+}
