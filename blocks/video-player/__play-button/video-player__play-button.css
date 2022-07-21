@@ -1,0 +1,19 @@
+.video-player__play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 112px;
+  height: 112px;
+  background: transparent url("/images/video-play.svg") center center no-repeat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  transition: opacity .5s ease-in-out;
+}
+
+.video-player__play-button:hover {
+  opacity: .5;
+}
