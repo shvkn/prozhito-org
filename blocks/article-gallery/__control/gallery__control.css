@@ -1,0 +1,8 @@
+article .article-gallery .article-gallery__control {
+  position: absolute;
+  top: 74%;
+  z-index: 2;
+  background: transparent;
+  border: none;
+  transform: translateY(-50%);
+}
