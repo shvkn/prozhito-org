@@ -171,5 +171,6 @@
 @import "../blocks/magazine-card/__content/_type/magazine-card__content_type_experience.css";
 @import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+@import "../blocks/magazine-card//__content-text/_type/magazine-card__content-text_type_experience.css";
 
 /* block MAGAZINE-CARD ends */
