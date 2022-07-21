@@ -75,3 +75,14 @@
 @import "../blocks/article/article.css";
 @import "../blocks/atricle-image/atricle-image.css";
 @import "../blocks/article-audio/article-audio.css";
+
+@import "../blocks/article-gallery/article-gallery.css";
+@import "../blocks/article-gallery/__control/gallery__control.css";
+@import "../blocks/article-gallery/__control/_type/gallery__control_type_left.css";
+@import "../blocks/article-gallery/__control/_type/gallery__control_type_right.css";
+@import "../blocks/article-gallery/__counter/article-gallery__counter.css";
+
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+
+@import "../blocks/arrow-control/arrow-control.css";

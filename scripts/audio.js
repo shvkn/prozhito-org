@@ -85,6 +85,7 @@ const rewind = (e) => {
 }
 window.addEventListener('load', (event) => {
   document.querySelectorAll('.audio').forEach(audio => {
-    initPlayer(audio);
+    const audioElement = audio.querySelector('audio');
+    (audioElement.readyState > 0) ? initPlayer(audio) : audioElement.onloadedmetadata = () => initPlayer(audio);
   });
 });
