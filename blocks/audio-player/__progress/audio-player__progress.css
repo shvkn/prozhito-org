@@ -6,6 +6,7 @@
   grid-area: progress;
   object-fit: contain;
   display: none;
+  cursor: pointer;
 }
 
 .audio-player__progress:before {
@@ -18,6 +19,7 @@
   background-image: url("/images/icon-audio-player-progress.svg");
   opacity: 0.5;
   content: "";
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
