@@ -1,7 +1,7 @@
 @import "../vendor/normalize.css";
 @import "../variables/variables.css";
 @import "../fonts/fonts.css";
-
+@import "../pages/index.css";
 @import "../blocks/page/page.css";
 
 /*блок sort*/
@@ -13,3 +13,12 @@
 
 /*блок link*/
 @import "../blocks/link/link.css";
+
+/*блок paginator*/
+@import "../blocks/paginator/paginator.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__container/paginator__container.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__link/paginator__link.css";
+@import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
+

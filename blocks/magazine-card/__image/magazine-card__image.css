@@ -1,5 +1,7 @@
 .magazine-card__image {
-    position: absolute;
-    z-index: 2;
-    border-radius: 8px;
+   object-fit: cover;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   border-radius: 8px;
 }

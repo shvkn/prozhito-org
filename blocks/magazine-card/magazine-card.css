@@ -1,10 +1,13 @@
 .magazine-card {
     min-width: 328px;
-    height: 526px;
+    max-height: 526px;
     position: relative;
-    margin: 24px 20px 56px 0;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 .magazine-card:hover {
     opacity: .8;
-    transition: .2s ease-in-out;
+    background: #C4C4C4;
 }

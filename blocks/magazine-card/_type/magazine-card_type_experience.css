@@ -1,3 +1,12 @@
 .magazine-card_type_experience {
     background: #E7E4DE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    align-items: center;
+}
+.magazine-card_type_experience:hover {
+    background: #E7E4DE;
+    opacity: 0.8;
 }

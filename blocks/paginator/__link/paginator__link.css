@@ -1,0 +1,13 @@
+.paginator__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'PT Sans';
+    padding: 8px 12px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color: #323232;
+}
+.paginator__link:hover {
+    border-bottom: 1px solid #323232
+}
