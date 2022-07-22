@@ -1,0 +1,9 @@
+.carousel__slider-items_type_news {
+ flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__slider-items_type_news {
+    flex-direction: row;
+  }
+}

@@ -132,7 +132,7 @@
 @import "../blocks/button/__image/_type/button__image_type_black.css";
 @import "../blocks/button/__content/_type/button__content_type_black.css";
 
-/* block news-card starts*/
+/* block news_-card starts*/
 @import "../blocks/carousel/carousel.css";
 @import "../blocks/carousel/__side-panel/carousel__side-panel.css";
 @import "../blocks/carousel/__title/carousel__title.css";
@@ -142,7 +142,7 @@
 @import "../blocks/news-card/__image/news-card__image.css";
 @import "../blocks/news-card/__date/news-card__date.css";
 @import "../blocks/news-card/__info/news-card__info.css";
-/* block news-card ends*/
+/* block news_-card ends*/
 
 /* block __slider starts */
 @import "../blocks/carousel/__slider/carousel__slider.css";
@@ -150,8 +150,12 @@
 @import "../blocks/carousel/__heading/slider__heading.css";
 @import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
 @import "../blocks/carousel/__slider-items/carousel__slider-items.css";
+@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_news.css";
+@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_magazine.css";
 @import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
 @import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
+@import "../blocks/carousel/__scroll/carousel__scroll.css";
+@import "../blocks/carousel/__scroll-drag/carousel__drag.css";
 /* block __slider ends */
 
 @import "../blocks/hidden-tablet/hidden-tablet.css";

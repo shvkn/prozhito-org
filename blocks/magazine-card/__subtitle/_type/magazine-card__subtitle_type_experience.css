@@ -1,4 +1,16 @@
 .magazine-card__subtitle_type_experience {
-    padding: 0 0 28px;
-    color: black;
+  /*margin-top: 16px;*/
+  align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__subtitle_type_experience {
+    /*margin-top: 4px;*/
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card__subtitle_type_experience {
+    /*margin-top: 52px;*/
+  }
 }

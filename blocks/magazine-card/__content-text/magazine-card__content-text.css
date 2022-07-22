@@ -1,6 +1,12 @@
 .magazine-card__content-text {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 295px;
+  display: flex;
+  flex-direction: column;
+  /*max-width: 295px;*/
+  row-gap: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__content-text {
+    row-gap: 12px;
+  }
 }

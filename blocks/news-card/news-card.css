@@ -1,6 +1,6 @@
 .news-card {
   display: grid;
-  max-width: 100%;
+  /*max-width: 100%;*/
   grid-row-gap: 8px;
   grid-template-rows: 160px auto auto;
   grid-template-columns: 1fr;
@@ -22,13 +22,21 @@
     grid-template-areas:
     "nc-info nc-img"
     "nc-text nc-text";
+          width: 328px;
+
   }
 }
-
+@media screen and (min-width: 768px) {
+  .news-card {
+    width: 180px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .news-card {
     grid-column-gap: 28px;
     grid-template-columns: 89px auto;
+          width: 328px;
+
     /*grid-template-rows: minmax(223px, min-content) minmax(130px, min-content);*/
   }
 }
