@@ -2,11 +2,11 @@ let mobile = window.matchMedia('(min-width: 320px)');
 let tablet = window.matchMedia('(min-width: 768px)');
 
 const initSliders = () => {
-  if (newsSlider.swiper === undefined) newsSlider.init();
   if (tablet.matches) {
     console.log('tablet');
     if (magazineSliderMobile.swiper instanceof Swiper) magazineSliderMobile.destroy()
     if (magazineSliderTablet.swiper === undefined) magazineSliderTablet.init();
+    if (newsSlider.swiper === undefined) newsSlider.init();
   } else if (mobile.matches) {
     console.log('mobile');
     if (magazineSliderTablet.swiper instanceof Swiper) magazineSliderTablet.destroy();
