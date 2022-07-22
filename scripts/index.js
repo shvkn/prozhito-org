@@ -91,7 +91,16 @@ const magazineSliderTablet = {
     this.swiper = undefined;
   }
 };
-
+new Swiper(".swiper.materials", {
+  slidesPerView: 'auto',
+  pagination: {
+    // el: '.materials .swiper-pagination',
+    el: '.materials .materials__slider-dots',
+    click: true,
+    bulletClass: 'materials__slider-dot',
+    bulletActiveClass: 'materials__slider-dot_type_active',
+  }
+});
 window.addEventListener('load', function () {
   initSliders();
 });

@@ -1,19 +1,31 @@
 .materials__card {
-  width: 328px;
-  height: 428px;
-  background-color: #E7E4DE;
   position: relative;
+  flex-basis: 276px;
+  min-height: 360px;
+  padding: 24px 12px 16px;
+  background-color: #E7E4DE;
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: none;
+  transition: opacity .5s ease-in-out;
+  row-gap: 12px;
 }
 
-@media screen and (max-width: 1024px) {
+.materials__card:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
   .materials__card {
-    width: 238px;
-    height: 360px;
+    flex-shrink: 1;
+    flex-basis: 238px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1200px) {
   .materials__card {
-    width: 276px;
+    flex-basis: 328px;
+    min-height: 428px;
+    padding: 28px 16px;
   }
 }

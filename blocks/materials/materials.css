@@ -3,20 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 56px 10px 75px;
+  padding: 32px 0 64px 41px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .materials {
-    min-height: 421px;
     padding: 32px 17px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1200px) {
   .materials {
-    padding: 32px 0 32px 0;
-    max-width: 100vw;
-    overflow: hidden;
+    padding: 0;
   }
 }

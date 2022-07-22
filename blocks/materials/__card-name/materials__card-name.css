@@ -1,13 +1,18 @@
 .materials__card-name {
-  font-family: 'WF', Times, Sans;
-  line-height: 100%;
-  font-weight: 400;
-  font-size: 26px;
+  padding: 0;
   margin: 0;
+  color: #323232;
+  text-align: center;
+  font-family: 'WF', Times, serif;
+  font-size: 18px;
+  line-height: 1.25;
+  min-height: 44px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .materials__card-name {
-    font-size: 18px;
+    min-height: 52px;
+    font-size: 26px;
+    line-height: 1;
   }
 }

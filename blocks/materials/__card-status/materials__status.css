@@ -1,22 +1,12 @@
 .materials__card-status {
   position: absolute;
-  height: 38px;
-  width: 170px;
-  border-radius: 8px;
+  top: 0;
+  padding: 8px 32px;
+  margin: 0;
   background-color: #A5CDAB;
-  top: -19px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .materials__card-status {
-    width: 130px;
-    height: 24px;
-    top: -12px;
-  }
+  border-radius: 8px;
+  color: #323232;
+  text-transform: uppercase;
+  font-size: 14px;
+  transform: translateY(-50%);
 }

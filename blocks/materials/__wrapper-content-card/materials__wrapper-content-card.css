@@ -1,16 +1,7 @@
 .materials__wrapper-content-card {
-  margin: 28px 16px;
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
   align-items: center;
-  text-align: center;
   row-gap: 12px;
-  min-height: 372px;
-}
-
-@media screen and (max-width: 1024px) {
-  .materials__wrapper-content-card {
-    margin: 24px 12px 16px;
-    min-height: 320px;
-  }
 }
