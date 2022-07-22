@@ -1,22 +1,22 @@
 .materials {
   box-sizing: border-box;
-  min-height: 654px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 56px 0 75px 0;
-  margin: 0 17px;
+  padding: 56px 10px 75px;
 }
 
 @media screen and (max-width: 1024px) {
   .materials {
     min-height: 421px;
-    padding: 32px 0;
+    padding: 32px 17px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .materials {
-    min-height: 454px;
+    padding: 32px 0 32px 0;
+    max-width: 100vw;
+    overflow: hidden;
   }
 }

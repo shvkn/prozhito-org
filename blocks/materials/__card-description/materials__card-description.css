@@ -1,13 +1,14 @@
 .materials__card-description {
   font-family: 'PT sans', Times, Sans;
   font-size: 16px;
-  color: #707070;
+  color: rgba(32, 32, 32, .7);
   margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .materials__card-description {
     font-size: 14px;
+    color: #323232;
   }
 }
 

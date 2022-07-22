@@ -22,6 +22,9 @@
 @import "../blocks/materials/__card-name/materials__card-name.css";
 @import "../blocks/materials/__card-image/materials__card-image.css";
 @import "../blocks/materials/__card-description/materials__card-description.css";
+@import "../blocks/materials/__slider-dots/materials__slider-dots.css";
+@import "../blocks/materials/__slider-dot/materials__slider-dot.css";
+@import "../blocks/materials/__slider-dot/_type_active/materials__slider-dot_type_active.css";
 
 /* Блок спецпроекты */
 @import "../blocks/special-projects/special-projects.css";

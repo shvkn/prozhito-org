@@ -1,5 +1,6 @@
 .materials__card-image {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 224px;
   object-fit: cover;
   object-position: center;
@@ -9,12 +10,12 @@
 @media screen and (max-width: 1024px) {
   .materials__card-image {
     height: 180px;
-    width: 173px;
+    max-width: 173px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .materials__card-image {
-    width: 160px;
+    max-width: 160px;
   }
 }
