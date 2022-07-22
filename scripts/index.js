@@ -1,6 +1,5 @@
-let mobile = window.matchMedia('(min-width: 0px) and (min-width: 320px)');
-let tablet = window.matchMedia('(min-width: 769px) and (min-width: 768px)');
-// let desktop = window.matchMedia('(min-width: 1200px)');
+let mobile = window.matchMedia('(min-width: 320px)');
+let tablet = window.matchMedia('(min-width: 768px)');
 
 const initSliders = () => {
   if (newsSlider.swiper === undefined) newsSlider.init();
