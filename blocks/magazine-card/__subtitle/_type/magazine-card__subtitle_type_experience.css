@@ -2,3 +2,10 @@
     padding: 0 0 28px;
     color: black;
 }
+@media screen and (max-width: 768px) {
+    .magazine-card__subtitle_type_experience {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 4px 0 8px
+    }
+ }

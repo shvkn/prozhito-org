@@ -5,4 +5,12 @@
     font-size: 16px;
     line-height: 21px;
     margin: 0;
+    min-width: 295px;
 }
+@media screen and (max-width: 768px) {
+    .magazine-card__tag {
+        font-size: 12px;
+        line-height: 16px;
+        min-width: 100%;
+    }
+ }

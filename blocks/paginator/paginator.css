@@ -3,4 +3,10 @@
     align-items: center;
     gap: 366px;
     justify-content: center;
+    margin-bottom: 62px;
 }
+@media screen and (max-width: 768px) {
+    .paginator {
+        display: none;
+    }
+ }

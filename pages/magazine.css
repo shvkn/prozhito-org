@@ -22,3 +22,7 @@
 @import "../blocks/paginator/__link/paginator__link.css";
 @import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
 
+/*блок с карточками card-container*/
+@import "../blocks/card-container/card-container.css";
+
+

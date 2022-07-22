@@ -7,3 +7,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+@media screen and (max-width: 768px) {
+    .magazine-card__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

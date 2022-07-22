@@ -3,4 +3,13 @@
    row-gap: 20px;
    color: #323232;;
    text-align: center;
+
+   min-height: 376px;
+}
+@media screen and (max-width: 768px) {
+   .magazine-card__about_type_experience {
+      padding: 12px 0 0;
+      min-height: 238px;
+      max-width: 100%;   
+   }
 }

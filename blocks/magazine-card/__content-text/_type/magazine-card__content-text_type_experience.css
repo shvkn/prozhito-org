@@ -1,3 +1,7 @@
-.magazine-card__content-text_type_experience {
-    position: absolute;
-}
+@media screen and (max-width: 768px) {
+    .magazine-card__content-text_type_experience {
+        gap:0;
+        padding: 0 8px;
+        max-width: 100%;
+    }
+ }

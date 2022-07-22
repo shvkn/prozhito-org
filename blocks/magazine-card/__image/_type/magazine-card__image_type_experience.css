@@ -2,5 +2,13 @@
     position: static;
     border-radius: 50%;
     width: 204px;
+    height: 204px;
     align-self: center;
 }    
+@media screen and (max-width: 768px) {
+    .magazine-card__image_type_experience {
+        width: 86px;
+        height: 86px;
+        padding: 4px 0;
+    }
+ }

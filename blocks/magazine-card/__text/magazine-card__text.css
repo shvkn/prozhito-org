@@ -6,4 +6,13 @@
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: block;    
 }
+@media screen and (max-width: 768px) {
+    .magazine-card__text {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 12px;
+        display: none;
+    }
+ }

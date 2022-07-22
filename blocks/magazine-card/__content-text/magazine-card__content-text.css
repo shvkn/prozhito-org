@@ -2,5 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    max-width: 295px;
+    max-width:297px;
 }
+@media screen and (max-width: 768px) {
+    .magazine-card__content-text {
+        row-gap: 12px;
+        padding: 0 8px;
+        max-width: 100%;
+    }
+ }

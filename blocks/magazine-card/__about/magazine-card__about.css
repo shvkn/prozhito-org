@@ -11,3 +11,10 @@
     box-sizing: border-box;
     justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+    .magazine-card__about  {
+        padding: 12px 8px;
+        min-height: 277px;
+        max-width: 100%;
+    }
+ }
