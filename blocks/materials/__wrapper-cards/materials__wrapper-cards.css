@@ -1,0 +1,24 @@
+.materials__wrapper-cards {
+  margin-top: 40px;
+  max-width: 1144px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__wrapper-cards {
+    max-width: 800px;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .materials__wrapper-cards {
+    width: 840px;
+    max-width: 840px;
+    align-self: flex-start;
+    margin-left: 41px;
+  }
+}

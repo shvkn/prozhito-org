@@ -1,0 +1,19 @@
+.materials__card {
+  width: 328px;
+  height: 428px;
+  background-color: #E7E4DE;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__card {
+    width: 238px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .materials__card {
+    width: 276px;
+  }
+}

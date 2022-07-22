@@ -1,0 +1,13 @@
+.materials__card-name {
+  font-family: 'WF', Times, Sans;
+  line-height: 100%;
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__card-name {
+    font-size: 18px;
+  }
+}
