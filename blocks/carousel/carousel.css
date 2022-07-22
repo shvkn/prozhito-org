@@ -1,0 +1,21 @@
+.carousel {
+
+}
+
+@media screen and (min-width: 320px) {
+  .carousel {
+    padding: 0 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel {
+    grid-auto-flow: row;
+  }
+}

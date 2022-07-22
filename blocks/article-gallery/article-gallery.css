@@ -1,0 +1,30 @@
+article .article-gallery {
+  position: relative;
+  overflow: hidden;
+}
+
+article .article-gallery .content {
+  position: relative;
+  left: 0;
+  display: flex;
+  transition: left .5s ease-in-out;
+
+}
+
+article .article-gallery .content .image {
+  min-width: 100%;
+}
+
+article .article-gallery .content .image figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0;
+}
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+article .audio {
+  padding: 0;
+  margin: 32px auto;
+}
+
+article .audio figcaption {
+  text-align: left;
+}

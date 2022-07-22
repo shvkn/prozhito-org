@@ -4,11 +4,14 @@
 
 @import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
+@import "../blocks/page/page.css";
+@import "../blocks/no-scroll/no-scroll.css";
 @import "../blocks/link/link.css";
 @import "../blocks/grid/grid.css";
 
 
 @import "../blocks/header/header.css";
+@import "../blocks/header/_page/header_page_index.css";
 @import "../blocks/content/content.css";
 
 /* Блок материалы */
@@ -81,8 +84,10 @@
 /* block btn [@shvkn] start*/
 @import "../blocks/btn/btn.css";
 @import "../blocks/btn/__text/btn__text.css";
+@import "../blocks/btn/__text/_theme/btn__text_theme_night.css";
 @import "../blocks/btn/_disabled/btn_disabled.css";
 @import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/__icon/_theme/btn__icon_theme_night.css";
 @import "../blocks/btn/_type/btn_type_primary.css";
 @import "../blocks/btn/_type/btn_type_secondary.css";
 @import "../blocks/btn/_theme/btn_theme_night.css";
@@ -95,6 +100,7 @@
 @import "../blocks/square-menu/__item-button/square-menu__item-button.css";
 @import "../blocks/square-menu/__item-text/square-menu__item-text.css";
 @import "../blocks/square-menu/__item-title/square-menu__item-title.css";
+/*<<<<<<< HEAD*/
 /*@import "../blocks/square-menu/__item-more/square-menu__item-more.css";*/
 
 @import "../blocks/header/header.css";
@@ -133,3 +139,57 @@
 @import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
 /* block arrow-control [@shvkn] ends */
+
+@import "../blocks/button/button.css";
+@import "../blocks/button/__content/button__content.css";
+@import "../blocks/button/__image/button__image.css";
+@import "../blocks/button/_type/button_type_black.css";
+@import "../blocks/button/__image/_type/button__image_type_black.css";
+@import "../blocks/button/__content/_type/button__content_type_black.css";
+
+/* block news_-card starts*/
+@import "../blocks/carousel/carousel.css";
+@import "../blocks/carousel/__side-panel/carousel__side-panel.css";
+@import "../blocks/carousel/__title/carousel__title.css";
+@import "../blocks/news-card/news-card.css";
+@import "../blocks/news-card/__tag/news-card__tag.css";
+@import "../blocks/news-card/__card-text/news-card__text.css";
+@import "../blocks/news-card/__image/news-card__image.css";
+@import "../blocks/news-card/__date/news-card__date.css";
+@import "../blocks/news-card/__info/news-card__info.css";
+/* block news_-card ends*/
+
+/* block __slider starts */
+@import "../blocks/carousel/__slider/carousel__slider.css";
+@import "../blocks/carousel/__slider-control-bar/carousel__slider-panel.css";
+@import "../blocks/carousel/__heading/slider__heading.css";
+@import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
+@import "../blocks/carousel/__slider-items/carousel__slider-items.css";
+@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_news.css";
+@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_magazine.css";
+@import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
+@import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
+@import "../blocks/carousel/__scroll/carousel__scroll.css";
+@import "../blocks/carousel/__scroll-drag/carousel__drag.css";
+/* block __slider ends */
+
+@import "../blocks/hidden-tablet/hidden-tablet.css";
+
+/* block MAGAZINE-CARD starts */
+@import "../blocks/magazine-card/magazine-card.css";
+@import "../blocks/magazine-card/__title/magazine-card__title.css";
+@import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__content-text/magazine-card__content-text.css";
+@import "../blocks/magazine-card/__tag/magazine-card__tag.css";
+@import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
+@import "../blocks/magazine-card/__image/magazine-card__image.css";
+@import "../blocks/magazine-card/__content/magazine-card__content.css";
+@import "../blocks/magazine-card/__about/magazine-card__about.css";
+@import "../blocks/magazine-card/_type/magazine-card_type_experience.css";
+@import "../blocks/magazine-card/__image/_type/magazine-card__image_type_experience.css";
+@import "../blocks/magazine-card/__content/_type/magazine-card__content_type_experience.css";
+@import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+@import "../blocks/magazine-card//__content-text/_type/magazine-card__content-text_type_experience.css";
+
+/* block MAGAZINE-CARD ends */

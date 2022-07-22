@@ -1,0 +1,14 @@
+article .article-gallery .article-gallery__control {
+  position: absolute;
+  top: 74%;
+  z-index: 2;
+  background: transparent;
+  border: none;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+article .article-gallery .article-gallery__control:disabled {
+  opacity: 0;
+}

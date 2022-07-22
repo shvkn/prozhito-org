@@ -1,18 +1,18 @@
 .square-menu__item {
   display: grid;
-  padding: 32px;
   box-sizing: border-box;
   border: 1px solid rgba(50, 50, 50, 0.3);
+  padding: 12px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .square-menu__item {
     padding: 28px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .square-menu__item {
-    padding: 12px;
+    padding: 32px;
   }
 }

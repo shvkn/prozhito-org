@@ -1,0 +1,7 @@
+.audio-player {
+  display: inline-block;
+  align-items: center;
+  background-color: #BFE9D5;
+  border-radius: 35px;
+  padding: 30px 20px;
+}

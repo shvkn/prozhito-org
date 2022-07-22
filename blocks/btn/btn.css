@@ -1,13 +1,14 @@
 .btn {
   display: inline-block;
-  min-width: 329px;
+  max-width: 335px;
   min-height: 50px;
-  padding: 11px 15px;
+  padding: 15px;
   box-sizing: border-box;
   background: none;
   border: 1px solid transparent;
   border-radius: 8px;
   cursor: pointer;
+  color: #323232;
   text-align: center;
   text-decoration: none;
 }
@@ -17,14 +18,17 @@
   opacity: 0.3;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .btn {
-    min-width: 237px;
+    max-width: 237px;
+    padding: 11px 15px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .btn {
-    min-width: 335px;
+    max-width: 329px;
   }
 }
+
+

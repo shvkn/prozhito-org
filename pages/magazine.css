@@ -1,5 +1,24 @@
 @import "../vendor/normalize.css";
 @import "../variables/variables.css";
 @import "../fonts/fonts.css";
-
+@import "../pages/index.css";
 @import "../blocks/page/page.css";
+
+/*блок sort*/
+@import "../blocks/sort/sort.css";
+@import "../blocks/sort/__container/sort__container.css";
+@import "../blocks/sort/__item-link/sort__item-link.css";
+@import "../blocks/sort/__item/sort__item.css";
+@import "../blocks/sort/__title/sort__title.css";
+
+/*блок link*/
+@import "../blocks/link/link.css";
+
+/*блок paginator*/
+@import "../blocks/paginator/paginator.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__container/paginator__container.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__link/paginator__link.css";
+@import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
+

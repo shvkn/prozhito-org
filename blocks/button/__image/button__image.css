@@ -1,0 +1,21 @@
+.button__image {
+    width: 24px;
+    height: 24px;
+    margin: 1px 0 1px 16px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-image: url(../../../images/arrow-white-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (max-width: 1024px) {
+    .button__image { 
+        width: 32px;
+        height: 32px;
+        background: #A5CDAB;
+        background-image: url(../../../images/arrow-black-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+    }
+}

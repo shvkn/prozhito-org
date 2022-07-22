@@ -1,0 +1,22 @@
+.sort__container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2, 20px);
+  column-gap: 20px;
+  max-width: min-content;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .sort__container {
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sort__container {
+    column-gap: 32px;
+  }
+}

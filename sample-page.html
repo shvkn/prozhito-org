@@ -5,12 +5,151 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
   <link rel="stylesheet" href="./pages/sample-page.css">
   <title>Типовая страница</title>
 </head>
 <body>
-<div class="page">
+<div class="site-layout page">
+  <header class="header header_page_sample-page">
+    <div class="header__navbar">
+      <div class="logo">
+        <a href="/" class="logo__item">
+          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+        </a>
+        <a href="https://eu.spb.ru/" class="logo__item">
+          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+        </a>
+      </div>
 
+      <nav class="nav-menu">
+        <button class="nav-menu__toggle"></button>
+        <div class="nav-menu__drop-container">
+          <ul class="nav-menu__items">
+            <li class="nav-menu__item">
+              <a href="#" class="link nav-menu__link">Архив</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="link nav-menu__link">Корпус</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="link nav-menu__link">О&nbsp;проекте</a>
+              <ul class="nav-menu__items nav-menu__submenu">
+                <li class="nav-menu__item">
+                  <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">О&nbsp;прожито</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="link nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="content content_page_sample-page">
+
+    <div class="toc">
+      <button class="link toc__open-button">оглавление</button>
+      <nav class="toc__nav">
+        <ul class="toc__items">
+          <li class="toc__item"><a href="#" class="link toc__link">Часть 1</a></li>
+          <li class="toc__item"><a href="#" class="link toc__link">Часть 2</a></li>
+          <li class="toc__item"><a href="#" class="link toc__link">Часть 3</a></li>
+        </ul>
+        <button class="toc__close-button">
+          <span class="icon icon_type_cross"></span>
+        </button>
+      </nav>
+    </div>
+    <article>
+      <h2>Video</h2>
+        <video controls src="https://file-examples.com/storage/fefbfe84f862d721699d168/2017/04/file_example_MP4_640_3MG.mp4"></video>
+      <h2>img</h2>
+      <figure class="image">
+        <img src="/images/sample-page-photo1.jpg" alt="" width="235px" height="461px">
+        <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+      </figure>
+      <h2>gallery</h2>
+      <div class="article-gallery">
+        <div class="content">
+          <figure class="image">
+            <img src="/images/sample-page-photo1.jpg" alt="" width="235px" height="461px">
+            <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+          </figure>
+          <figure class="image">
+            <img src="/images/sample-page-photo2.jpg" alt="" width="569px" height="397px">
+            <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+          </figure>
+          <figure class="image">
+            <img src="/images/sample-page-photo1.jpg" alt="" width="235px" height="461px">
+            <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <h2>Audio</h2>
+      <figure class="audio">
+        <audio src="https://oralhistory.ru/audio/1564_Rodoman.mp3" preload="metadata"></audio>
+        <figcaption>Запись разговора Юры и&nbsp;Вени Аронвальда, 1937 год</figcaption>
+      </figure>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi.</p>
+
+
+    </article>
+  </main>
+  <footer class="footer">
+    <nav class="sub-menu">
+      <ul class="sub-menu__items">
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">О&nbsp;команде</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">Благодарности</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">Партнеры</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">FAQ</a></li>
+        <li class="sub-menu__item"><a href="#" class="link sub-menu__link">Инструкции</a></li>
+      </ul>
+    </nav>
+
+    <div class="grid footer__grid-container">
+
+      <div class="logo footer__grid-elem footer__grid-elem_area_logo ">
+        <a href="/" class="logo__item">
+          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+        </a>
+        <a href="https://eu.spb.ru/" class="logo__item">
+          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+        </a>
+      </div>
+
+      <nav class="footer__grid-elem footer__grid-elem_area_social footer__links">
+        <a href="https://t.me/prozhito" target="_blank" class="link footer__link footer__link_type_social">
+          <img src="./images/icon-telegram.svg" alt="" class="footer__social-icon">Telegram</a>
+
+        <a href="https://vk.com/prozhito" target="_blank" class="link footer__link footer__link_type_social">
+          <img src="./images/icon-vk.svg" alt="" class="footer__social-icon">VK</a>
+      </nav>
+
+      <nav class="footer__grid-elem footer__grid-elem_area_copyright footer__links">
+        <a href="#" class="link footer__link">Юридическая информация</a>
+        <a href="#" class="link footer__link">Политика конфиденциальности</a>
+      </nav>
+
+    </div>
+  </footer>
 </div>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="scripts/header.js"></script>
+<script src="scripts/sample-page.js"></script>
+<script src="scripts/audio-player.js"></script>
+<script src="scripts/video-player.js"></script>
+<script src="scripts/article-gallery-swiper.js"></script>
 </body>
 </html>

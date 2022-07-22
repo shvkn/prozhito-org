@@ -1,15 +1,16 @@
 .footer__links {
-  grid-row-gap: 12px;
+  grid-row-gap: 4px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .footer__links {
     grid-row-gap: 8px;
+
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .footer__links {
-    grid-row-gap: 4px;
+    grid-row-gap: 12px;
   }
 }

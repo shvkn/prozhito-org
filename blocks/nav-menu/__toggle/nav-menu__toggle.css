@@ -1,15 +1,15 @@
 .nav-menu__toggle {
+  display: block;
   width: 24px;
   height: 24px;
   padding: 5px 4px;
   background: url("/images/icon-burger.svg") center center no-repeat;
   border: none;
   cursor: pointer;
-  display: none;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 768px) {
   .nav-menu__toggle {
-    display: block;
+      display: none;
   }
 }
