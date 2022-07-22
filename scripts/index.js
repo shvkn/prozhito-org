@@ -1,7 +1,7 @@
 let mobile = window.matchMedia('(min-width: 320px)');
 let tablet = window.matchMedia('(min-width: 768px)');
 
-const initSliders = () => {
+const updateSlidersByMQ = () => {
   if (tablet.matches) {
     console.log('tablet');
     if (magazineSliderMobile.swiper instanceof Swiper) magazineSliderMobile.destroy()
@@ -91,20 +91,22 @@ const magazineSliderTablet = {
     this.swiper = undefined;
   }
 };
-new Swiper(".swiper.materials", {
+
+const materialsSlider = () => new Swiper(".swiper.materials", {
   slidesPerView: 'auto',
   pagination: {
-    // el: '.materials .swiper-pagination',
     el: '.materials .materials__slider-dots',
     click: true,
     bulletClass: 'materials__slider-dot',
     bulletActiveClass: 'materials__slider-dot_type_active',
   }
 });
+
 window.addEventListener('load', function () {
-  initSliders();
+  updateSlidersByMQ();
+  materialsSlider();
 });
 
 window.addEventListener('resize', function () {
-  initSliders();
+  updateSlidersByMQ();
 });
