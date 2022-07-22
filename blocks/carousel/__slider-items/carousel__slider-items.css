@@ -2,8 +2,8 @@
   margin: 24px 0 0;
   padding: 0;
   display: flex;
-  overflow-x: auto;
-  flex-direction: column;
+  /*overflow-x: auto;*/
+  /*flex-direction: column;*/
   grid-row-gap: 16px;
 }
 

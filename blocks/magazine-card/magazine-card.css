@@ -1,13 +1,30 @@
 .magazine-card {
-    min-width: 328px;
-    max-height: 526px;
-    position: relative;
-    border-radius: 8px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  width: 252px;
+  min-height: 352px;
+  display: flex;
+  /*height: auto;*/
+  position: relative;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
+
 .magazine-card:hover {
-    opacity: .8;
-    background: #C4C4C4;
+  opacity: .8;
+  background: #C4C4C4;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card {
+    width: 180px;
+    min-height: 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card {
+    width: 328px;
+    min-height: 526px;
+  }
 }

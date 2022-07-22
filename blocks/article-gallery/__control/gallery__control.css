@@ -5,4 +5,10 @@ article .article-gallery .article-gallery__control {
   background: transparent;
   border: none;
   transform: translateY(-50%);
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+article .article-gallery .article-gallery__control:disabled {
+  opacity: 0;
 }

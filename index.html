@@ -5,7 +5,9 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
   <link rel="stylesheet" href="./pages/index.css">
+
   <title>Проект "Прожито"</title>
 </head>
 <body>
@@ -73,8 +75,8 @@
     <section class="grid intro">
       <p class="intro__text">
         Центр &laquo;Прожито&raquo; собирает, описывает и&nbsp;публикует документы личного происхождения и&nbsp;разрабатывает
-исследовательские инструменты для работы с&nbsp;ними. Материалы публикуются и&nbsp;описываются силами
-участников-волонтёров, к&nbsp;сообществу которых может присоединиться каждый.
+        исследовательские инструменты для работы с&nbsp;ними. Материалы публикуются и&nbsp;описываются силами
+        участников-волонтёров, к&nbsp;сообществу которых может присоединиться каждый.
       </p>
       <nav class="square-menu">
         <ul class="square-menu__items">
@@ -93,7 +95,8 @@
 
           <li class="square-menu__item">
             <h2 class="square-menu__item-title">Стать волонтёром</h2>
-            <p class="square-menu__item-text">Вы&nbsp;можете помочь нашему делу&nbsp;&mdash; для работы с&nbsp;документами нужен компьютер и&nbsp;несколько свободных часов в&nbsp;неделю</p>
+            <p class="square-menu__item-text">Вы&nbsp;можете помочь нашему делу&nbsp;&mdash; для работы с&nbsp;документами
+              нужен компьютер и&nbsp;несколько свободных часов в&nbsp;неделю</p>
 
             <a href="#" class="btn square-menu__item-button">
               Узнать больше
@@ -105,7 +108,8 @@
 
           <li class="square-menu__item">
             <h2 class="square-menu__item-title">Дневники и&nbsp;воспоминания</h2>
-            <p class="square-menu__item-text">Мы&nbsp;собрали тексты опубликованных дневников и&nbsp;воспоминаний и&nbsp;сделали по&nbsp;ним расширенный поиск</p>
+            <p class="square-menu__item-text">Мы&nbsp;собрали тексты опубликованных дневников и&nbsp;воспоминаний и&nbsp;сделали
+              по&nbsp;ним расширенный поиск</p>
 
             <a href="#" class="btn square-menu__item-button">
               Ознакомиться
@@ -117,7 +121,8 @@
 
           <li class="square-menu__item">
             <h2 class="square-menu__item-title">Работа с&nbsp;архивом</h2>
-            <p class="square-menu__item-text">Мы&nbsp;собрали тексты опубликованных дневников и&nbsp;воспоминаний и&nbsp;сделали по&nbsp;ним расширенный поиск</p>
+            <p class="square-menu__item-text">Мы&nbsp;собрали тексты опубликованных дневников и&nbsp;воспоминаний и&nbsp;сделали
+              по&nbsp;ним расширенный поиск</p>
 
             <a href="#" class="btn square-menu__item-button">
               Перейти к&nbsp;архиву
@@ -131,79 +136,105 @@
       </nav>
     </section>
 
-    <section class="carousel grid">
+
+    <section class="carousel grid magazine">
 
       <div class="carousel__side-panel">
         <h2 class="carousel__title">Журнал «Прожито»</h2>
-
         <button class="btn btn_theme_night carousel__side-panel-button">
-          <span class="btn__text">
-            Перейти к&nbsp;журналу
-              <span class="arrow carousel__side-panel-button-icon hidden-tablet hidden-desktop"></span>
-              <span class="arrow arrow_theme_night carousel__side-panel-button-icon hidden-mobile hidden-tablet"></span>
-              <span
-                class="arrow-control arrow-control_size_s arrow-control_bg_green carousel__side-panel-button-icon hidden-mobile hidden-desktop">
-                <span class="arrow"></span>
-              </span>
+           <span class="btn__text">
+             Перейти к&nbsp;журналу
+               <span class="arrow carousel__side-panel-button-icon hidden-tablet hidden-desktop"></span>
+               <span
+                 class="arrow arrow_theme_night carousel__side-panel-button-icon hidden-mobile hidden-tablet"></span>
+               <span
+                 class="arrow-control arrow-control_size_s arrow-control_bg_green carousel__side-panel-button-icon hidden-mobile hidden-desktop">
+                 <span class="arrow"></span>
+               </span>
         </button>
       </div>
 
       <div class="carousel__slider">
+
         <div class="carousel__slider-panel">
           <h2 class="slider__heading">Новые материалы</h2>
           <div class="carousel__slider-controls">
-            <button class="arrow-control arrow-control_size_s arrow-control_bg_stroke arrow-control_disabled">
+            <button
+              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-prev">
               <span class="arrow arrow_way_left"></span>
             </button>
-            <button class="arrow-control arrow-control_size_s arrow-control_bg_stroke">
+            <button
+              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-next">
               <span class="arrow"></span>
             </button>
           </div>
         </div>
 
-        <div class="carousel__slider-items">
-          <a class="magazine-card" href="#">
-            <span class="magazine-card__about">
-              <p class="magazine-card__tag">Тематическая подборка</p>
-              <span class="magazine-card__content-text">
-                <h2 class="magazine-card__title">Сталин умер</h2>
-                <p class="magazine-card__subtitle">Что теперь будет?! Как нам жить без него</p>
-                <p class="magazine-card__text">Все газеты впервые опубликовали портреты т.Сталина и многочисленные статьи. В них т.Сталин именуется вождём мирового пролетариата.</p>
-              </span>   
-            </span>
-            <span class="magazine-card__content">
-              <img class="magazine-card__image"  src="./images/stalin.png" alt="Сталин">
-            </span>
-          </a>
-          <a class="magazine-card" href="#">
-            <span class="magazine-card__about">
-              <p class="magazine-card__tag">Спецпроект</p>
-              <span class="magazine-card__content-text">
-                <h2 class="magazine-card__title">Блокада</h2>
-                <p class="magazine-card__subtitle">Исследование блокадных дневников</p>
-                <p class="magazine-card__text">В условиях катастрофического голода, холода, вражеских бомбардировок и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</p>
-              </span>   
-            </span>
-            <span class="magazine-card__content">
-              <img class="magazine-card__image"  src="./images/blokada.png" alt="Блокада">
-            </span>
-          </a>
-          <a class="magazine-card magazine-card_type_experience" href="#">
-              <span class="magazine-card__about magazine-card__about_type_experience">
-                <span class="magazine-card__content-text">
-                  <h2 class="magazine-card__title magazine-card__title">Галина Зеленина о дневниках Леонида Липкина</h3>
-                  <img class="magazine-card__image magazine-card__image_type_experience"  src="./images/scientist.png" alt="Галина Зеленина">
-                  <p class="magazine-card__text">историк, доцент кафедры теологии иудаизма, библеистики и иудаики РГГУ и ст. н. с. ШАГИ РАНХиГС</p> 
-                </span>
-              </span>
-              <span class="magazine-card__content-text magazine-card__content-text_type_experience">
-                <p class="magazine-card__subtitle magazine-card__subtitle_type_experience">Опыт читателя</p>
-              </span>
-               
-          </a>
-        </div>
-      </div>
+        <div class="swiper">
+          <div class="swiper-wrapper carousel__slider-items carousel__slider-items_type_magazine">
 
+            <a class="swiper-slide magazine-card" href="#">
+            <span class="magazine-card__about">
+              <span class="magazine-card__tag">Тематическая подборка</span>
+              <span class="magazine-card__content-text">
+                <span class="magazine-card__title">Сталин умер</span>
+                <span class="magazine-card__subtitle">Что теперь будет?! Как нам жить без него</span>
+                <span class="magazine-card__text">Все газеты впервые опубликовали портреты т.Сталина и многочисленные статьи. В них т.Сталин именуется вождём мирового пролетариата.</span>
+              </span>
+            </span>
+              <span class="magazine-card__content">
+              <img class="magazine-card__image" src="./images/stalin.png" alt="Сталин">
+            </span>
+            </a>
+            <a class="swiper-slide magazine-card" href="#">
+            <span class="magazine-card__about">
+              <span class="magazine-card__tag">Спецпроект</span>
+              <span class="magazine-card__content-text">
+                <span class="magazine-card__title">Блокада</span>
+                <span class="magazine-card__subtitle">Исследование блокадных дневников</span>
+                <span class="magazine-card__text">В условиях катастрофического голода, холода, вражеских бомбардировок и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</span>
+              </span>
+            </span>
+              <span class="magazine-card__content">
+              <img class="magazine-card__image" src="./images/blokada.png" alt="Блокада">
+            </span>
+            </a>
+            <a class="swiper-slide magazine-card" href="#">
+            <span class="magazine-card__about">
+              <span class="magazine-card__tag">Тематическая подборка</span>
+              <span class="magazine-card__content-text">
+                <span class="magazine-card__title">Сталин умер</span>
+                <span class="magazine-card__subtitle">Что теперь будет?! Как нам жить без него</span>
+                <span class="magazine-card__text">Все газеты впервые опубликовали портреты т.Сталина и многочисленные статьи. В них т.Сталин именуется вождём мирового пролетариата.</span>
+              </span>
+            </span>
+              <span class="magazine-card__content">
+              <img class="magazine-card__image" src="./images/stalin.png" alt="Сталин">
+            </span>
+            </a>
+            <a class="swiper-slide magazine-card" href="#">
+            <span class="magazine-card__about">
+              <span class="magazine-card__tag">Спецпроект</span>
+              <span class="magazine-card__content-text">
+                <span class="magazine-card__title">Блокада</span>
+                <span class="magazine-card__subtitle">Исследование блокадных дневников</span>
+                <span class="magazine-card__text">В условиях катастрофического голода, холода, вражеских бомбардировок и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</span>
+              </span>
+            </span>
+              <span class="magazine-card__content">
+              <img class="magazine-card__image" src="./images/blokada.png" alt="Блокада">
+            </span>
+            </a>
+
+          </div>
+
+          <div class="carousel__scroll">
+            <div class="carousel__scroll-bar"></div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
     <!-- Блок спецпроекты -->
     <section class="special-projects">
@@ -234,9 +265,9 @@
         </div>
       </div>
       <a href="#" class="btn btn_type_primary button_place_special-projects">
-        <span class="btn__text">
-          Все спецпроекты<span class="btn__icon arrow"></span>
-        </span>
+         <span class="btn__text">
+           Все спецпроекты<span class="btn__icon arrow"></span>
+         </span>
       </a>
     </section>
 
@@ -249,35 +280,35 @@
         были все грамотные, и&nbsp;земледелием занимались неохотно&raquo;.</p>
       <div class="board__tools">
         <a href="#" class="btn btn_type_secondary board__button">
-          <span class="btn__text">
-            Перейти к&nbsp;материалу
-           <span class="btn__icon arrow"></span>
-          </span>
+            <span class="btn__text">
+              Перейти к&nbsp;материалу
+             <span class="btn__icon arrow"></span>
+            </span>
         </a>
         <a href="#" class="btn btn_type_primary board__button">
-          <span class="btn__text">
-            Оставить заявку
-          <span class="btn__icon arrow"></span>
-          </span>
+            <span class="btn__text">
+              Оставить заявку
+            <span class="btn__icon arrow"></span>
+            </span>
         </a>
       </div>
     </section>
 
 
-    <section class="carousel grid">
+    <section class="carousel grid news">
 
       <div class="carousel__side-panel">
         <h2 class="carousel__title">Новости и&nbsp;события</h2>
-
         <button class="btn btn_theme_night carousel__side-panel-button">
-          <span class="btn__text">
-            Ко&nbsp;всем новостям
-              <span class="arrow carousel__side-panel-button-icon hidden-tablet hidden-desktop"></span>
-              <span class="arrow arrow_theme_night carousel__side-panel-button-icon hidden-mobile hidden-tablet"></span>
-              <span
-                class="arrow-control arrow-control_size_s arrow-control_bg_green carousel__side-panel-button-icon hidden-mobile hidden-desktop">
-                <span class="arrow"></span>
-              </span>
+           <span class="btn__text">
+             Ко&nbsp;всем новостям
+               <span class="arrow carousel__side-panel-button-icon hidden-tablet hidden-desktop"></span>
+               <span
+                 class="arrow arrow_theme_night carousel__side-panel-button-icon hidden-mobile hidden-tablet"></span>
+               <span
+                 class="arrow-control arrow-control_size_s arrow-control_bg_green carousel__side-panel-button-icon hidden-mobile hidden-desktop">
+                 <span class="arrow"></span>
+               </span>
         </button>
       </div>
 
@@ -286,77 +317,92 @@
         <div class="carousel__slider-panel">
           <h2 class="slider__heading">Свежее</h2>
           <div class="carousel__slider-controls">
-            <button class="arrow-control arrow-control_size_s arrow-control_bg_stroke arrow-control_disabled">
+            <button
+              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-prev">
               <span class="arrow arrow_way_left"></span>
             </button>
-            <button class="arrow-control arrow-control_size_s arrow-control_bg_stroke">
+            <button
+              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-next">
               <span class="arrow"></span>
             </button>
           </div>
         </div>
 
-        <div class="carousel__slider-items">
-          <article class="news-card carousel__slider-item">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Спецпроект</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-1.jpg">
-            <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга
-              из серии «Библиотека Прожито. Блокада»</p>
-          </article>
+        <div class="swiper">
+          <div class="swiper-wrapper carousel__slider-items carousel__slider-items_type_news">
 
-          <article class="news-card carousel__slider-item">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Спецпроект</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-2.jpg">
-            <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию,
-              посвящённую работе с дембельскими альбомами.</p>
-          </article>
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-1.jpg">
+              <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+                книга
+                из серии «Библиотека Прожито. Блокада»</p>
+            </article>
 
-          <article class="news-card carousel__slider-item">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Лекция</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-3.jpg">
-            <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк,
-              директор Центра «Прожито» ЕУСПб</p>
-          </article>
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-2.jpg">
+              <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+                лабораторию,
+                посвящённую работе с дембельскими альбомами.</p>
+            </article>
 
-          <article class="news-card carousel__slider-item">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Спецпроект</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-1.jpg">
-            <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга
-              из серии «Библиотека Прожито. Блокада»</p>
-          </article>
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Лекция</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-3.jpg">
+              <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+                историк,
+                директор Центра «Прожито» ЕУСПб</p>
+            </article>
 
-          <article class="news-card carousel__slider-item">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag"></p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-2.jpg">
-            <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию,
-              посвящённую работе с дембельскими альбомами.</p>
-          </article>
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-1.jpg">
+              <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+                книга
+                из серии «Библиотека Прожито. Блокада»</p>
+            </article>
 
-          <article class="news-card carousel__slider-item">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Лекция</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-3.jpg">
-            <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк,
-              директор Центра «Прожито» ЕУСПб</p>
-          </article>
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag"></p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-2.jpg">
+              <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+                лабораторию,
+                посвящённую работе с дембельскими альбомами.</p>
+            </article>
 
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Лекция</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-3.jpg">
+              <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+                историк,
+                директор Центра «Прожито» ЕУСПб</p>
+            </article>
+
+          </div>
+          <div class="carousel__scroll">
+            <div class="carousel__scroll-bar"></div>
+          </div>
         </div>
+
       </div>
     </section>
   </main>
@@ -398,6 +444,11 @@
     </div>
   </footer>
 </div>
-<script src="./scripts/script.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="scripts/header.js"></script>
+<script src="scripts/index.js"></script>
+<script>
+
+</script>
 </body>
 </html>
