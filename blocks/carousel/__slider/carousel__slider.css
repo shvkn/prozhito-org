@@ -7,14 +7,16 @@
   .carousel__slider {
     width: calc(100% - 253px);
     padding: 16px 0 12px 23px;
-
   }
 }
 
 @media screen and (min-width: 1200px) {
   .carousel__slider {
+    /*flex-basis: 943px;*/
+    /*max-width: 943px;*/
     width: calc(100% - 477px);
-    padding: 16px 0 20px 20px;
+
+    padding: 16px 0 0 20px;
   }
 }
 

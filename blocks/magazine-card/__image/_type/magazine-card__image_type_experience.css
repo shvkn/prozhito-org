@@ -1,8 +1,9 @@
 .magazine-card__image_type_experience {
-    position: static;
-    border-radius: 50%;
-    width: 160px;
-    align-self: center;
+  position: static;
+  align-self: center;
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {

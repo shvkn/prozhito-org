@@ -3,14 +3,11 @@
   display: none;
   width: 100%;
   background-color: #E7E4DE;
-  bottom: 0;
-
 }
 
 @media screen and (min-width: 768px) {
   .carousel__scroll {
     height: 4px;
-    bottom: 23px;
     display: block;
     right: 16px;
   }

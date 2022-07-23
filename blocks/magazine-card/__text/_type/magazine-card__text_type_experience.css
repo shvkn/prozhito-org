@@ -1,3 +1,9 @@
 .magazine-card__text_type_experience {
-    display: block;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__text_type_experience {
+    font-size: 12px;
+  }
 }
