@@ -62,11 +62,8 @@ const magazineSliderMobile = {
     this.swiper = new Swiper(".magazine .swiper", {
       scrollbar: false,
       slidesPerView: 'auto',
-      // autoHeight: true,
       grabCursor: true,
       effect: 'cards',
-      centeredSlides: true,
-      // centeredSlidesBounds: true,
       cardsEffect: {
         rotate: false,
       }
