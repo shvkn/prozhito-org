@@ -6,6 +6,7 @@
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity .3s ease-in-out, background-color .3s ease-in-out, .3s border-color ease-in-out;
 }
 
 .arrow-control:hover:not([disabled]) {

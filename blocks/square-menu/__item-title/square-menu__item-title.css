@@ -1,7 +1,8 @@
 .square-menu__item-title {
   padding: 0;
   margin: 0;
-  font-family: var(--font-wt-sans);
+  font-family: "WF", Times, sans-serif;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1;
 }

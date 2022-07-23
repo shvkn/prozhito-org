@@ -2,7 +2,7 @@
   position: absolute;
   width: 1px;
   height: 1px;
-  background-color: var(--color-bg-orange-2);
+  background-color: #F7F4F0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
 }
@@ -11,8 +11,8 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   width: 100%;
   height: 100vh;
   clip: auto;
-  z-index: 10;
 }

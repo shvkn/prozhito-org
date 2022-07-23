@@ -3,7 +3,7 @@
   padding: 20px 12px;
   box-sizing: border-box;
   background-color: #f7f4f0;
-  margin: 0;
+  margin: 0 0 32px 0;
 }
 
 @media screen and (min-width: 768px) {

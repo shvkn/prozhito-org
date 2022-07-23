@@ -1,12 +1,10 @@
 @import "../vendor/normalize.css";
-@import "../variables/variables.css";
 @import "../fonts/fonts.css";
 
-@import "../blocks/site-layout/site-layout.css";
 @import "../blocks/page/page.css";
 @import "../blocks/page/page.css";
 @import "../blocks/no-scroll/no-scroll.css";
-@import "../blocks/link/link.css";
+@import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
 

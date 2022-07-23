@@ -8,6 +8,7 @@
   color: #323232;
   font-family: "WF", Times, sans-serif;
   font-size: 26px;
+  font-weight: 400;
   transform: rotate(270deg);
   transform-origin: top left;
 }

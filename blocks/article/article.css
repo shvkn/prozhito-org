@@ -6,7 +6,7 @@ article {
   text-align: center;
 }
 article h1 {
-  font-family: var(--font-wt-sans);
+  font-family: "WF", Times, sans-serif;
   font-weight: 400;
   font-size: 46px;
   line-height: 55px;
@@ -16,7 +16,7 @@ article h1 {
   padding-bottom: 16px;
 }
 article h3 {
-  font-family: var(--font-wt-sans);
+  font-family: "WF", Times, sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 26px;
@@ -60,7 +60,7 @@ article figcaption {
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   article {
     padding: 0 118px;
   }

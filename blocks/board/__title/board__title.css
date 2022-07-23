@@ -5,8 +5,9 @@
   margin: 0;
   box-sizing: border-box;
   text-align: center;
-  font-family: "WF", Times, Sans;
+  font-family: "WF", Times, sans-serif;
   font-size: 26px;
+  font-weight: 400;
   line-height: 1;
 }
 
@@ -23,7 +24,6 @@
   .board__title {
     grid-column: 6 / 12;
     font-size: 36px;
-    font-weight: 400;
     line-height: 1;
   }
 }

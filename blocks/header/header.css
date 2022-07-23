@@ -1,24 +1,14 @@
 .header {
   grid-row: header;
   min-height: 50px;
-  padding: 0 var(--inner-container) 30px;
+  padding: 0 12px 32px;
   z-index: 9;
   position: relative;
 }
 
-/*.header::after {*/
-/*  display: block;*/
-/*  content: '';*/
-/*  border-bottom: 1px solid rgba(50, 50, 50, 0.3);*/
-/*  !*position: absolute;*!*/
-/*  !*bottom: 0;*!*/
-/*  !*left: 0;*!*/
-/*  width: 100%;*/
-/*}*/
-
 @media screen and (min-width: 768px) {
   .header {
-    padding-bottom: 40px;
+    padding: 0 20px 40px;
   }
 }
 

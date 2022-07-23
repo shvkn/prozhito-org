@@ -1,5 +1,4 @@
 @import "../vendor/normalize.css";
-@import "../variables/variables.css";
 @import "../fonts/fonts.css";
 /*@import "../pages/index.css";*/
 @import "../blocks/page/page.css";
@@ -11,8 +10,8 @@
 @import "../blocks/sort/__item/sort__item.css";
 @import "../blocks/sort/__title/sort__title.css";
 
-/*блок link*/
-@import "../blocks/link/link.css";
+/*блок hover-transition*/
+@import "../blocks/hover-transition/hover-transition.css";
 
 /*блок paginator*/
 @import "../blocks/paginator/paginator.css";

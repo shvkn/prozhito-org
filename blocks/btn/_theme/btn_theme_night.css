@@ -1,21 +1,21 @@
 .btn_theme_night {
-  background-color: transparent;
-  border-color: #FFFFFF;
+  /*background-color: transparent;*/
+  /*border-color: #FFFFFF;*/
   color: #F5F5F5;
 }
 
-.btn_theme_night:hover:not([disabled]) {
-  background-color: transparent;
-  border-color: #FFFFFF;
-  color: #F5F5F5;
-}
+/*.btn_theme_night:hover:not([disabled]) {*/
+/*  !*background-color: transparent;*!*/
+/*  !*border-color: #FFFFFF;*!*/
+/*  !*color: #F5F5F5;*!*/
+/*}*/
 
-.btn_theme_night:active:not([disabled]) {
-  background-color: transparent;
-  border-color: #FFFFFF;
-  color: #F5F5F5;
-}
+/*.btn_theme_night:active:not([disabled]) {*/
+/*  !*background-color: transparent;*!*/
+/*  !*border-color: #FFFFFF;*!*/
+/*  !*color: #F5F5F5;*!*/
+/*}*/
 
-.btn_theme_night:disabled {
-  opacity: .6;
-}
+/*.btn_theme_night:disabled {*/
+/*  opacity: .6;*/
+/*}*/
