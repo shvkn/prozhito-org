@@ -14,6 +14,21 @@
 @import "../blocks/header/_page/header_page_index.css";
 @import "../blocks/content/content.css";
 
+/* Блок материалы */
+@import "../blocks/materials/materials.css";
+@import "../blocks/materials/__title/materials__title.css";
+@import "../blocks/materials/__wrapper-cards/materials__wrapper-cards.css";
+@import "../blocks/materials/__card/materials__card.css";
+@import "../blocks/materials/__wrapper-content-card/materials__wrapper-content-card.css";
+@import "../blocks/materials/__card-status/materials__status.css";
+@import "../blocks/materials/__card-status-description/materials__status-description.css";
+@import "../blocks/materials/__card-name/materials__card-name.css";
+@import "../blocks/materials/__card-image/materials__card-image.css";
+@import "../blocks/materials/__card-description/materials__card-description.css";
+@import "../blocks/materials/__slider-dots/materials__slider-dots.css";
+@import "../blocks/materials/__slider-dot/materials__slider-dot.css";
+@import "../blocks/materials/__slider-dot/_type_active/materials__slider-dot_type_active.css";
+
 /* Блок спецпроекты */
 @import "../blocks/special-projects/special-projects.css";
 @import "../blocks/special-projects/__title/special-projects__title.css";
@@ -132,7 +147,7 @@
 @import "../blocks/button/__image/_type/button__image_type_black.css";
 @import "../blocks/button/__content/_type/button__content_type_black.css";
 
-/* block news-card starts*/
+/* block news_-card starts*/
 @import "../blocks/carousel/carousel.css";
 @import "../blocks/carousel/__side-panel/carousel__side-panel.css";
 @import "../blocks/carousel/__title/carousel__title.css";
@@ -142,7 +157,7 @@
 @import "../blocks/news-card/__image/news-card__image.css";
 @import "../blocks/news-card/__date/news-card__date.css";
 @import "../blocks/news-card/__info/news-card__info.css";
-/* block news-card ends*/
+/* block news_-card ends*/
 
 /* block __slider starts */
 @import "../blocks/carousel/__slider/carousel__slider.css";
@@ -150,8 +165,12 @@
 @import "../blocks/carousel/__heading/slider__heading.css";
 @import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
 @import "../blocks/carousel/__slider-items/carousel__slider-items.css";
+@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_news.css";
+@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_magazine.css";
 @import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
 @import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
+@import "../blocks/carousel/__scroll/carousel__scroll.css";
+@import "../blocks/carousel/__scroll-drag/carousel__drag.css";
 /* block __slider ends */
 
 @import "../blocks/hidden-tablet/hidden-tablet.css";
@@ -160,7 +179,6 @@
 @import "../blocks/magazine-card/magazine-card.css";
 @import "../blocks/magazine-card/__title/magazine-card__title.css";
 @import "../blocks/magazine-card/__text/magazine-card__text.css";
-@import "../blocks/magazine-card/__text/_type/magazine-card__text_type_experience.css";
 @import "../blocks/magazine-card/__content-text/magazine-card__content-text.css";
 @import "../blocks/magazine-card/__tag/magazine-card__tag.css";
 @import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
@@ -173,6 +191,4 @@
 @import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
 @import "../blocks/magazine-card/__content-text/_type/magazine-card__content-text_type_experience.css";
-
-
 /* block MAGAZINE-CARD ends */
