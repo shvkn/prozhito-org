@@ -11,6 +11,7 @@
   color: #323232;
   text-align: center;
   text-decoration: none;
+  transition: background-color .3s, border-color .3s ease-in-out;
 }
 
 .btn:disabled {

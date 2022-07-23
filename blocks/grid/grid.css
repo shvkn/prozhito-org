@@ -1,21 +1,21 @@
 .grid {
   display: grid;
-  grid-column-gap: var(--grid-mobile-gap);
+  grid-column-gap: 8px;
   grid-template-columns: repeat(4, 1fr);
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
   .grid {
-    grid-column-gap: var(--grid-tablet-gap);
-    grid-template-columns: repeat(var(--grid-tablet-columns), 1fr);
+    grid-column-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .grid {
-    grid-column-gap: var(--grid-desktop-gap);
-    grid-template-columns: repeat(var(--grid-desktop-columns), 1fr);
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 

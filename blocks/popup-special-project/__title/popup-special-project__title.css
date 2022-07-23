@@ -1,8 +1,11 @@
 .popup-special-project__title {
-  font-size: 26px;
   margin: 0;
-  font-family: var(--font-pt-sans);
   color: #323232;
+  font-family: "WF", Times, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
