@@ -9,12 +9,14 @@
 @media screen and (min-width: 768px) {
   .materials__wrapper-cards {
       justify-content: center;
+        margin-top: 40px;
+    /*column-gap: 40px;*/
   }
 }
 
 @media screen and (min-width: 1200px) {
   .materials__wrapper-cards {
-    margin-top: 40px;
-    column-gap: 40px;
+    column-gap: 80px;
+
   }
 }

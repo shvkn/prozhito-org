@@ -1,19 +1,19 @@
 .intro {
-  padding: 0 12px;
+  padding: 0 12px 96px;
   background-color: #F7F4F0;
   grid-template-rows: [intro-text-starts] auto [intro-text-ends] 93px [square-menu-starts] auto [squate-menu-ends] 98px;
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    padding: 16px;
+    padding: 0 16px 32px;
     grid-template-rows: [intro-text-starts] auto [intro-text-ends] 28px [square-menu-starts] auto [squate-menu-ends] 36px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .intro {
-    padding: 0 32px;
+    padding: 0 32px 164px;
     grid-template-rows: [intro-text-starts] auto [intro-text-ends] 114px [square-menu-starts] auto [squate-menu-ends] 164px;
   }
 }

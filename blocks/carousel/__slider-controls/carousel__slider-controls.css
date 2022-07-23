@@ -1,9 +1,4 @@
 .carousel__slider-controls {
-  /*margin-left: 12px;*/
   display: flex;
   column-gap: 12px;
-}
-
-.carousel__slider-controls:first-of-type {
-  /*margin-left: 0;*/
 }
