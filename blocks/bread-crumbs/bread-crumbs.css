@@ -1,0 +1,29 @@
+.bread-crumbs {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .bread-crumbs {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 568px) {
+  .bread-crumbs {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bread-crumbs {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bread-crumbs {
+    display: none;
+  }
+}

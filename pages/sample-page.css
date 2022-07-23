@@ -58,6 +58,12 @@
 @import "../blocks/toc/__link/toc__link.css";
 @import "../blocks/toc/__close-button/toc__close-button.css";
 
+/* bread-crumbs */
+@import "../blocks/bread-crumbs/bread-crumbs.css";
+@import "../blocks/bread-crumbs/__list/bread-crumbs__list.css";
+@import "../blocks/bread-crumbs/__item/bread-crumbs__item.css";
+@import "../blocks/bread-crumbs/__link/bread-crumbs__link.css";
+
 @import "../blocks/audio-player/audio-player.css";
 @import "../blocks/audio-player/__button/audio-player__control.css";
 @import "../blocks/audio-player/__button/_type/audio-player__control_type_cw.css";
