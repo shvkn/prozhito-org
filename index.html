@@ -136,6 +136,116 @@
       </nav>
     </section>
 
+    <section class="carousel news">
+
+      <div class="carousel__side-panel">
+        <h2 class="carousel__title">Новости и&nbsp;события</h2>
+        <button class="btn btn_theme_night carousel__side-panel-button">
+           <span class="btn__text">
+             Ко&nbsp;всем новостям
+               <span class="arrow carousel__side-panel-button-icon hidden-tablet hidden-desktop"></span>
+               <span
+                 class="arrow arrow_theme_night carousel__side-panel-button-icon hidden-mobile hidden-tablet"></span>
+               <span
+                 class="arrow-control arrow-control_size_s arrow-control_bg_green carousel__side-panel-button-icon hidden-mobile hidden-desktop">
+                 <span class="arrow"></span>
+               </span>
+        </button>
+      </div>
+
+      <div class="carousel__slider">
+
+        <div class="carousel__slider-panel">
+          <h2 class="slider__heading">Свежее</h2>
+          <div class="carousel__slider-controls">
+            <button
+              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-prev">
+              <span class="arrow arrow_way_left"></span>
+            </button>
+            <button
+              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-next">
+              <span class="arrow"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper">
+          <div class="swiper-wrapper carousel__slider-items carousel__slider-items_type_news">
+
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-1.jpg">
+              <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+                книга
+                из серии «Библиотека Прожито. Блокада»</p>
+            </article>
+
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-2.jpg">
+              <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+                лабораторию,
+                посвящённую работе с дембельскими альбомами.</p>
+            </article>
+
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Лекция</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-3.jpg">
+              <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+                историк,
+                директор Центра «Прожито» ЕУСПб</p>
+            </article>
+
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-1.jpg">
+              <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+                книга
+                из серии «Библиотека Прожито. Блокада»</p>
+            </article>
+
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag"></p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-2.jpg">
+              <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+                лабораторию,
+                посвящённую работе с дембельскими альбомами.</p>
+            </article>
+
+            <article class="swiper-slide news-card carousel__slider-item ">
+              <div class="news-card__info">
+                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+                <p class="news-card__tag">Лекция</p>
+              </div>
+              <img class="news-card__image" src="./images/news-card-3.jpg">
+              <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+                историк,
+                директор Центра «Прожито» ЕУСПб</p>
+            </article>
+
+          </div>
+          <div class="carousel__scroll">
+            <div class="carousel__scroll-bar"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
     <!-- Блок материалы -->
     <section class="swiper materials">
       <h2 class="materials__title">Материалы</h2>
@@ -178,7 +288,30 @@
       <div class="materials__slider-dots"></div>
     </section>
 
-    <section class="carousel grid magazine">
+    <section class="board grid">
+      <h2 class="board__title">Ищем редактора для дневника</h2>
+      <img src="./images/board-image.png" alt="фотография автора дневника" class="board__image">
+      <p class="board__text">&laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой семьи. У&nbsp;его отца и&nbsp;деда
+        были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал бакалеей и&nbsp;красным
+        товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у&nbsp;дедушки Василия
+        были все грамотные, и&nbsp;земледелием занимались неохотно&raquo;.</p>
+      <div class="board__tools">
+        <a href="#" class="btn btn_type_secondary board__button">
+            <span class="btn__text">
+              Перейти к&nbsp;материалу
+             <span class="btn__icon arrow"></span>
+            </span>
+        </a>
+        <a href="#" class="btn btn_type_primary board__button">
+            <span class="btn__text">
+              Оставить заявку
+            <span class="btn__icon arrow"></span>
+            </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="carousel magazine">
 
       <div class="carousel__side-panel">
         <h2 class="carousel__title">Журнал «Прожито»</h2>
@@ -311,140 +444,10 @@
       </a>
     </section>
 
-    <section class="board grid">
-      <h2 class="board__title">Ищем редактора для дневника</h2>
-      <img src="./images/board-image.png" alt="фотография автора дневника" class="board__image">
-      <p class="board__text">&laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой семьи. У&nbsp;его отца и&nbsp;деда
-        были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал бакалеей и&nbsp;красным
-        товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у&nbsp;дедушки Василия
-        были все грамотные, и&nbsp;земледелием занимались неохотно&raquo;.</p>
-      <div class="board__tools">
-        <a href="#" class="btn btn_type_secondary board__button">
-            <span class="btn__text">
-              Перейти к&nbsp;материалу
-             <span class="btn__icon arrow"></span>
-            </span>
-        </a>
-        <a href="#" class="btn btn_type_primary board__button">
-            <span class="btn__text">
-              Оставить заявку
-            <span class="btn__icon arrow"></span>
-            </span>
-        </a>
-      </div>
-    </section>
 
 
-    <section class="carousel grid news">
 
-      <div class="carousel__side-panel">
-        <h2 class="carousel__title">Новости и&nbsp;события</h2>
-        <button class="btn btn_theme_night carousel__side-panel-button">
-           <span class="btn__text">
-             Ко&nbsp;всем новостям
-               <span class="arrow carousel__side-panel-button-icon hidden-tablet hidden-desktop"></span>
-               <span
-                 class="arrow arrow_theme_night carousel__side-panel-button-icon hidden-mobile hidden-tablet"></span>
-               <span
-                 class="arrow-control arrow-control_size_s arrow-control_bg_green carousel__side-panel-button-icon hidden-mobile hidden-desktop">
-                 <span class="arrow"></span>
-               </span>
-        </button>
-      </div>
 
-      <div class="carousel__slider">
-
-        <div class="carousel__slider-panel">
-          <h2 class="slider__heading">Свежее</h2>
-          <div class="carousel__slider-controls">
-            <button
-              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-prev">
-              <span class="arrow arrow_way_left"></span>
-            </button>
-            <button
-              class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-next">
-              <span class="arrow"></span>
-            </button>
-          </div>
-        </div>
-
-        <div class="swiper">
-          <div class="swiper-wrapper carousel__slider-items carousel__slider-items_type_news">
-
-            <article class="swiper-slide news-card carousel__slider-item ">
-              <div class="news-card__info">
-                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-                <p class="news-card__tag">Спецпроект</p>
-              </div>
-              <img class="news-card__image" src="./images/news-card-1.jpg">
-              <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
-                книга
-                из серии «Библиотека Прожито. Блокада»</p>
-            </article>
-
-            <article class="swiper-slide news-card carousel__slider-item ">
-              <div class="news-card__info">
-                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-                <p class="news-card__tag">Спецпроект</p>
-              </div>
-              <img class="news-card__image" src="./images/news-card-2.jpg">
-              <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
-                лабораторию,
-                посвящённую работе с дембельскими альбомами.</p>
-            </article>
-
-            <article class="swiper-slide news-card carousel__slider-item ">
-              <div class="news-card__info">
-                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-                <p class="news-card__tag">Лекция</p>
-              </div>
-              <img class="news-card__image" src="./images/news-card-3.jpg">
-              <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
-                историк,
-                директор Центра «Прожито» ЕУСПб</p>
-            </article>
-
-            <article class="swiper-slide news-card carousel__slider-item ">
-              <div class="news-card__info">
-                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-                <p class="news-card__tag">Спецпроект</p>
-              </div>
-              <img class="news-card__image" src="./images/news-card-1.jpg">
-              <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
-                книга
-                из серии «Библиотека Прожито. Блокада»</p>
-            </article>
-
-            <article class="swiper-slide news-card carousel__slider-item ">
-              <div class="news-card__info">
-                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-                <p class="news-card__tag"></p>
-              </div>
-              <img class="news-card__image" src="./images/news-card-2.jpg">
-              <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
-                лабораторию,
-                посвящённую работе с дембельскими альбомами.</p>
-            </article>
-
-            <article class="swiper-slide news-card carousel__slider-item ">
-              <div class="news-card__info">
-                <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-                <p class="news-card__tag">Лекция</p>
-              </div>
-              <img class="news-card__image" src="./images/news-card-3.jpg">
-              <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
-                историк,
-                директор Центра «Прожито» ЕУСПб</p>
-            </article>
-
-          </div>
-          <div class="carousel__scroll">
-            <div class="carousel__scroll-bar"></div>
-          </div>
-        </div>
-
-      </div>
-    </section>
   </main>
   <footer class="footer">
     <nav class="sub-menu">
