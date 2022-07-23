@@ -1,0 +1,7 @@
+.magazine-card__image-overlay_type_experience {
+  z-index: 0;
+}
+
+.magazine-card__image-overlay_type_experience::before {
+  content: none;
+}

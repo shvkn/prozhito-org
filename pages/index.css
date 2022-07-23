@@ -170,6 +170,8 @@
 @import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
 @import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
 @import "../blocks/carousel/__scroll/carousel__scroll.css";
+@import "../blocks/carousel/__scroll/_type/carousel__scroll_type_magazine.css";
+@import "../blocks/carousel/__scroll/_type/carousel__scroll_type_news.css";
 @import "../blocks/carousel/__scroll-drag/carousel__drag.css";
 /* block __slider ends */
 
@@ -178,17 +180,20 @@
 /* block MAGAZINE-CARD starts */
 @import "../blocks/magazine-card/magazine-card.css";
 @import "../blocks/magazine-card/__title/magazine-card__title.css";
+@import "../blocks/magazine-card/__title/_type_experience/magazine-card__title_type_experience.css";
 @import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__text/_type/magazine-card__text_type_experience.css";
 @import "../blocks/magazine-card/__content-text/magazine-card__content-text.css";
 @import "../blocks/magazine-card/__tag/magazine-card__tag.css";
+@import "../blocks/magazine-card/__tag/_type/magazine-card__tag_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
 @import "../blocks/magazine-card/__image/magazine-card__image.css";
-@import "../blocks/magazine-card/__content/magazine-card__content.css";
-@import "../blocks/magazine-card/__about/magazine-card__about.css";
+@import "../blocks/magazine-card/__image-overlay/magazine-card__image-overlay.css";
+@import "../blocks/magazine-card/__inner/magazine-card__inner.css";
 @import "../blocks/magazine-card/_type/magazine-card_type_experience.css";
 @import "../blocks/magazine-card/__image/_type/magazine-card__image_type_experience.css";
-@import "../blocks/magazine-card/__content/_type/magazine-card__content_type_experience.css";
-@import "../blocks/magazine-card/__about/_type/magazine-card__about_type_experience.css";
+@import "../blocks/magazine-card/__image-overlay/_type/magazine-card__image-overlay_type_experience.css";
+@import "../blocks/magazine-card/__inner/_type/magazine-card__about_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
 @import "../blocks/magazine-card/__content-text/_type/magazine-card__content-text_type_experience.css";
 /* block MAGAZINE-CARD ends */

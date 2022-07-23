@@ -13,6 +13,7 @@
 @media screen and (min-width: 768px) {
   .carousel__side-panel {
     flex: 0 0 253px;
+    /*min-height: 380px;*/
     align-items: normal;
     padding: 16px 32px 32px;
     background-color: #323232;
@@ -23,5 +24,6 @@
 @media screen and (min-width: 1200px) {
   .carousel__side-panel {
     flex: 0 0 477px;
+    /*min-height: 560px;*/
   }
 }

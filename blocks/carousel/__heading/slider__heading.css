@@ -1,5 +1,6 @@
 .slider__heading {
-  font-family: var(--font-wt-sans);
+  font-family: "WF", Times, sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -13,6 +14,6 @@
 
 @media screen and (min-width: 1200px) {
     .slider__heading {
-        font-size: 42px;
+        font-size: 46px;
     }
 }

@@ -5,6 +5,7 @@ const updateSlidersByMQ = () => {
   if (tablet.matches) {
     console.log('tablet');
     if (magazineSliderMobile.swiper instanceof Swiper) magazineSliderMobile.destroy()
+    if (materialsSlider.swiper instanceof Swiper) materialsSlider.destroy()
     if (magazineSliderTablet.swiper === undefined) magazineSliderTablet.init();
     if (newsSlider.swiper === undefined) newsSlider.init();
   } else if (mobile.matches) {
@@ -12,6 +13,7 @@ const updateSlidersByMQ = () => {
     if (magazineSliderTablet.swiper instanceof Swiper) magazineSliderTablet.destroy();
     if (newsSlider.swiper instanceof Swiper) newsSlider.destroy();
     if (magazineSliderMobile.swiper === undefined) magazineSliderMobile.init();
+    if (materialsSlider.swiper === undefined) materialsSlider.init();
   }
 }
 
@@ -36,6 +38,14 @@ const newsSlider = {
           }
         }
       },
+      on: {
+        snapGridLengthChange: function () {
+          if (this.snapGrid.length != this.slidesGrid.length) {
+            this.snapGrid = this.slidesGrid.slice(0);
+          }
+        }
+
+      }
 
     });
   },
@@ -52,11 +62,11 @@ const magazineSliderMobile = {
     this.swiper = new Swiper(".magazine .swiper", {
       scrollbar: false,
       slidesPerView: 'auto',
-      autoHeight: true,
+      // autoHeight: true,
       grabCursor: true,
       effect: 'cards',
       centeredSlides: true,
-      centeredSlidesBounds: true,
+      // centeredSlidesBounds: true,
       cardsEffect: {
         rotate: false,
       }
@@ -74,7 +84,7 @@ const magazineSliderTablet = {
   init: function () {
     this.swiper = new Swiper(".magazine .swiper", {
       slidesPerView: 'auto',
-      autoHeight: true,
+      // autoHeight: true,
       scrollbar: {
         el: ".magazine .carousel__scroll",
         dragClass: "carousel__scroll-drag",
@@ -84,6 +94,14 @@ const magazineSliderTablet = {
         nextEl: '.magazine .carousel__slider-navigation-next',
         prevEl: '.magazine .carousel__slider-navigation-prev',
       },
+
+      on: {
+        snapGridLengthChange: function () {
+          if (this.snapGrid.length != this.slidesGrid.length) {
+            this.snapGrid = this.slidesGrid.slice(0);
+          }
+        }
+      }
     });
   },
   destroy: function () {
@@ -92,15 +110,26 @@ const magazineSliderTablet = {
   }
 };
 
-const materialsSlider = () => new Swiper(".swiper.materials", {
-  slidesPerView: 'auto',
-  pagination: {
-    el: '.materials .materials__slider-dots',
-    click: true,
-    bulletClass: 'materials__slider-dot',
-    bulletActiveClass: 'materials__slider-dot_type_active',
+const materialsSlider = {
+  swiper: undefined,
+  init: function () {
+    this.swiper = new Swiper(".swiper.materials", {
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      // centeredSlidesBounds: true,
+      pagination: {
+        el: '.materials .materials__slider-dots',
+        click: true,
+        bulletClass: 'materials__slider-dot',
+        bulletActiveClass: 'materials__slider-dot_type_active',
+      }
+    });
+  },
+  destroy: function () {
+    if (this.swiper instanceof Swiper) this.swiper.destroy(true, true);
+    this.swiper = undefined;
   }
-});
+}
 
 window.addEventListener('load', function () {
   updateSlidersByMQ();

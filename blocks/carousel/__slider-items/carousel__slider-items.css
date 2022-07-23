@@ -11,13 +11,14 @@
   .carousel__slider-items {
     flex-direction: row;
     column-gap: 20px;
-    padding-bottom: 50px;
+    /*padding-bottom: 30px;*/
+    /*padding-right: 50px;*/
   }
 }
 
 @media screen and (min-width: 1200px) {
   .carousel__slider-items {
-    padding-bottom: 70px;
+    /*padding-bottom: 59px;*/
   }
 }
 
