@@ -1,8 +1,9 @@
 .intro__text {
   grid-column: 1 / -1;
   grid-row: intro-text-starts / intro-text-ends;
-  font-family: var(--font-wt-sans);
+  font-family: "WF", Times, sans-serif;
   font-size: 26px;
+  font-weight: 400;
   line-height: 1;
 }
 
