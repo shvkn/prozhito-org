@@ -5,6 +5,42 @@ article {
   margin: 0 auto;
   text-align: center;
 }
+article h1 {
+  font-family: var(--font-wt-sans);
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 55px;
+  max-width: 674px;
+  border-bottom: 1px solid #3A543E;
+  margin: 0 auto 32px;
+  padding-bottom: 16px;
+}
+article h3 {
+  font-family: var(--font-wt-sans);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  margin: 0 auto;
+}
+article h3:nth-of-type(2) {
+  color: #3A543E;
+  max-width: 659px;
+  text-align: initial;
+  border-left: 2px solid #3A543E;
+  padding-left: 16px;
+}
+article p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 678px;
+  margin: 32px auto 32px;
+  text-align: initial;
+}
+article p:first-of-type{
+  max-width: 676px;
+  margin: 28px auto 32px;
+}
 
 article figcaption {
   width: 100%;
