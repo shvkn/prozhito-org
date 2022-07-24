@@ -1,6 +1,7 @@
 .carousel__slider {
   background-color: #FFFFFF;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,10 +13,7 @@
 
 @media screen and (min-width: 1200px) {
   .carousel__slider {
-    /*flex-basis: 943px;*/
-    /*max-width: 943px;*/
     width: calc(100% - 477px);
-
     padding: 16px 0 0 20px;
   }
 }
