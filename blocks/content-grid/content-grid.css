@@ -1,0 +1,22 @@
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 252px);
+  grid-gap: 31px 40px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-grid {
+    grid-template-columns: repeat(auto-fill, 180px);
+      grid-gap: 31px 40px;
+
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-grid {
+    grid-template-columns: repeat(auto-fill, 328px);
+    grid-gap: 62px 80px;
+  }
+}
