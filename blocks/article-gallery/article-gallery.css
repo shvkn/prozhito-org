@@ -1,6 +1,8 @@
 article .article-gallery {
   position: relative;
   overflow: hidden;
+  grid-column: 2 / -2;
+  margin: 0 0 32px;
 }
 
 article .article-gallery .content {
@@ -19,8 +21,6 @@ article .article-gallery .content .image figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 100%;
-  margin: 0;
 }
 
 

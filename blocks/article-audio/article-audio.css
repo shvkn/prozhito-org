@@ -1,8 +1,14 @@
 article .audio {
-  padding: 0;
-  margin: 32px auto;
+  grid-column: 3 / -3;
 }
 
 article .audio figcaption {
-  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  article .audio figcaption {
+    width: 62%;
+    margin: 0 0 0 auto;
+  }
 }

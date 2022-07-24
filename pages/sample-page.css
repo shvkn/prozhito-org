@@ -91,3 +91,7 @@
 @import "../blocks/article-video/article-video.css";
 @import "../blocks/video-player/video-player.css";
 @import "../blocks/video-player/__play-button/video-player__play-button.css";
+
+@import "../blocks/tag-list/tag-list.css";
+@import "../blocks/tag-list/__item/tag-list__item.css";
+@import "../blocks/tag-list/_place/tag-list_place_sample-page.css";
