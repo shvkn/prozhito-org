@@ -11,6 +11,7 @@
 @import "../blocks/header/_page/header_page_sample-page.css";
 
 @import "../blocks/content/content.css";
+@import "../blocks/content/_page/content_page_sample-page.css";
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__grid-container/footer__grid-container.css";

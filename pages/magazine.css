@@ -75,7 +75,7 @@
 @import "../blocks/arrow/arrow.css";
 @import "../blocks/arrow/_way/arrow_way_left.css";
 /*блок с карточками card-container*/
-@import "../blocks/card-container/card-container.css";
+@import "../blocks/content-grid/content-grid.css";
 
 
 /* block MAGAZINE-CARD starts */
