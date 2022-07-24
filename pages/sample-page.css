@@ -96,3 +96,9 @@
 @import "../blocks/tag-list/tag-list.css";
 @import "../blocks/tag-list/__item/tag-list__item.css";
 @import "../blocks/tag-list/_place/tag-list_place_sample-page.css";
+
+@import "../blocks/sticker/sticker.css";
+@import "../blocks/sticker/__text/sticker__text.css";
+@import "../blocks/sticker/__title/sticker__title.css";
+@import "../blocks/sticker/__close-button/sticker__close-button.css";
+@import "../blocks/sticker/_visible/sticker_visible.css";
