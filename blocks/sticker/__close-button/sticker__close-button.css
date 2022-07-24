@@ -8,6 +8,7 @@
   border: none;
   opacity: 1;
   transition: opacity .3s ease-in-out;
+  cursor: pointer;
 }
 
 .sticker__close-button:hover {
