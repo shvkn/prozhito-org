@@ -15,40 +15,40 @@
 <header class="header header_page_index">
   <div class="header__navbar">
     <div class="logo">
-      <a href="/" class="logo__item">
+      <a href="/" class="logo__item" aria-label="переход на главную страницу сайта" role="link">
         <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
       </a>
-      <a href="https://eu.spb.ru/" class="logo__item">
+      <a href="https://eu.spb.ru/" class="logo__item" aria-label="переход на сайт Европейского университета в Санкт-Петербурге" role="link">
         <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
       </a>
     </div>
 
-    <nav class="nav-menu">
+    <nav class="nav-menu" aria-label="меню сайта" role="menubar">
       <button class="nav-menu__toggle"></button>
       <div class="nav-menu__drop-container">
         <ul class="nav-menu__items">
           <li class="nav-menu__item">
-            <a href="#" class="hover-transition nav-menu__link">Архив</a>
+            <a href="#" class="hover-transition nav-menu__link" role="menuitem">Архив</a>
           </li>
           <li class="nav-menu__item">
-            <a href="#" class="hover-transition nav-menu__link">Корпус</a>
+            <a href="#" class="hover-transition nav-menu__link" role="menuitem">Корпус</a>
           </li>
           <li class="nav-menu__item">
-            <a href="#" class="hover-transition nav-menu__link">О&nbsp;проекте</a>
-            <ul class="nav-menu__items nav-menu__submenu">
-              <li class="nav-menu__item">
+            <a href="#" class="hover-transition nav-menu__link" role="menuitem">О&nbsp;проекте</a>
+            <ul class="nav-menu__items nav-menu__submenu" aria-label="меню ссылок на страницы рассказывающие о проекте Прожито" role="menubar">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">О&nbsp;прожито</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
               </li>
             </ul>
@@ -62,9 +62,9 @@
 
   <!-- popup спецпроект блокада-->
   <div class="popup-special-project">
-    <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно"></button>
+    <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно" role="button"></button>
     <div class="popup-special-project-wrapper">
-      <a class="popup-special-project__link" href="#" target="_blank"><h2 class="popup-special-project__title">
+      <a class="popup-special-project__link" href="#" target="_blank" aria-label="ссылка на спецпроект Блокада" role="link"><h2 class="popup-special-project__title">
         Спецпроект блокада</h2></a>
       <p class="popup-special-project__subtitle">Исследование блокадных дневников</p>
     </div>
@@ -77,14 +77,14 @@
       исследовательские инструменты для работы с&nbsp;ними. Материалы публикуются и&nbsp;описываются силами
       участников-волонтёров, к&nbsp;сообществу которых может присоединиться каждый.
     </p>
-    <nav class="square-menu">
+    <nav class="square-menu" aria-label="меню полезных разделов сайта" role="menu">
       <ul class="square-menu__items">
-        <li class="square-menu__item">
+        <li class="square-menu__item" role="menuitem">
           <h2 class="square-menu__item-title">Передать документы</h2>
           <p class="square-menu__item-text">Передайте в «Прожито» копии документов из семейного архива, чтобы сделать
             их доступнее исследователям и читателям</p>
 
-          <a href="#" class="btn square-menu__item-button">
+          <a href="#" class="btn square-menu__item-button" role="link">
             Подробнее
             <span class="btn__icon arrow-control arrow-control_bg_green">
                 <span class="arrow"></span>
@@ -92,12 +92,12 @@
           </a>
         </li>
 
-        <li class="square-menu__item">
+        <li class="square-menu__item" role="menuitem">
           <h2 class="square-menu__item-title">Стать волонтёром</h2>
           <p class="square-menu__item-text">Вы&nbsp;можете помочь нашему делу&nbsp;&mdash; для работы с&nbsp;документами
             нужен компьютер и&nbsp;несколько свободных часов в&nbsp;неделю</p>
 
-          <a href="#" class="btn square-menu__item-button">
+          <a href="#" class="btn square-menu__item-button" role="link">
             Узнать больше
             <span class="btn__icon arrow-control arrow-control_bg_green">
                 <span class="arrow"></span>
@@ -105,12 +105,12 @@
           </a>
         </li>
 
-        <li class="square-menu__item">
+        <li class="square-menu__item" role="menuitem">
           <h2 class="square-menu__item-title">Дневники и&nbsp;воспоминания</h2>
           <p class="square-menu__item-text">Мы&nbsp;собрали тексты опубликованных дневников и&nbsp;воспоминаний и&nbsp;сделали
             по&nbsp;ним расширенный поиск</p>
 
-          <a href="#" class="btn square-menu__item-button">
+          <a href="#" class="btn square-menu__item-button" role="link">
             Ознакомиться
             <span class="btn__icon arrow-control arrow-control_bg_green">
                 <span class="arrow"></span>
@@ -118,12 +118,12 @@
           </a>
         </li>
 
-        <li class="square-menu__item">
+        <li class="square-menu__item" role="menuitem">
           <h2 class="square-menu__item-title">Работа с&nbsp;архивом</h2>
           <p class="square-menu__item-text">Мы&nbsp;собрали тексты опубликованных дневников и&nbsp;воспоминаний и&nbsp;сделали
             по&nbsp;ним расширенный поиск</p>
 
-          <a href="#" class="btn square-menu__item-button">
+          <a href="#" class="btn square-menu__item-button" role="link">
             Перейти к&nbsp;архиву
             <span class="btn__icon arrow-control arrow-control_bg_green">
                 <span class="arrow"></span>
@@ -147,7 +147,7 @@
       </a>
     </div>
 
-    <div class="carousel__slider">
+    <div class="carousel__slider" aria-label="лента новостей" role="feed">
 
       <div class="carousel__slider-panel">
         <h2 class="slider__heading">Свежее</h2>
@@ -165,12 +165,12 @@
 
       <div class="swiper">
         <div class="swiper-wrapper carousel__slider-items carousel__slider-items_type_news">
-          <article class="swiper-slide news-card carousel__slider-item ">
+          <article class="swiper-slide news-card carousel__slider-item">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
             </div>
-            <img class="news-card__image" src="./images/news-card-1.jpg">
+            <img class="news-card__image" src="./images/news-card-1.jpg" alt="#">
             <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
               книга
               из серии «Библиотека Прожито. Блокада»</p>
@@ -181,7 +181,7 @@
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
             </div>
-            <img class="news-card__image" src="./images/news-card-2.jpg">
+            <img class="news-card__image" src="./images/news-card-2.jpg" alt="#">
             <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
               лабораторию,
               посвящённую работе с дембельскими альбомами.</p>
@@ -192,7 +192,7 @@
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Лекция</p>
             </div>
-            <img class="news-card__image" src="./images/news-card-3.jpg">
+            <img class="news-card__image" src="./images/news-card-3.jpg" alt="#">
             <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
               историк,
               директор Центра «Прожито» ЕУСПб</p>
@@ -203,7 +203,7 @@
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
             </div>
-            <img class="news-card__image" src="./images/news-card-1.jpg">
+            <img class="news-card__image" src="./images/news-card-1.jpg" alt="#">
             <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
               книга
               из серии «Библиотека Прожито. Блокада»</p>
@@ -214,7 +214,7 @@
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag"></p>
             </div>
-            <img class="news-card__image" src="./images/news-card-2.jpg">
+            <img class="news-card__image" src="./images/news-card-2.jpg" alt="#">
             <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
               лабораторию,
               посвящённую работе с дембельскими альбомами.</p>
@@ -225,7 +225,7 @@
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Лекция</p>
             </div>
-            <img class="news-card__image" src="./images/news-card-3.jpg">
+            <img class="news-card__image" src="./images/news-card-3.jpg" alt="#">
             <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
               историк,
               директор Центра «Прожито» ЕУСПб</p>
