@@ -21,27 +21,25 @@ const newsSlider = {
   swiper: undefined,
   init: function () {
     this.swiper = new Swiper(".news .swiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 16,
+      scrollbar: {
+        el: ".news .carousel__scroll",
+        dragClass: "carousel__scroll-drag",
+      },
+      navigation: {
+        nextEl: '.news .carousel__slider-navigation-next',
+        prevEl: '.news .carousel__slider-navigation-prev',
+      },
       breakpoints: {
-        320: {
-          enabled: false
-        },
-        768: {
-          enabled: true,
-          slidesPerView: 'auto',
-          scrollbar: {
-            el: ".news .carousel__scroll",
-            dragClass: "carousel__scroll-drag",
-          },
-          navigation: {
-            nextEl: '.news .carousel__slider-navigation-next',
-            prevEl: '.news .carousel__slider-navigation-prev',
-          }
+        1200: {
+          spaceBetween: 20,
         }
       },
       on: {
         snapGridLengthChange: function () {
           if (this.snapGrid.length != this.slidesGrid.length) {
-            this.snapGrid = this.slidesGrid.slice(0);
+            // this.snapGrid = this.slidesGrid.slice(0);
           }
         }
 
@@ -64,6 +62,7 @@ const magazineSliderMobile = {
       slidesPerView: 'auto',
       grabCursor: true,
       effect: 'cards',
+      centeredSlides: true,
       cardsEffect: {
         rotate: false,
       }
@@ -81,7 +80,7 @@ const magazineSliderTablet = {
   init: function () {
     this.swiper = new Swiper(".magazine .swiper", {
       slidesPerView: 'auto',
-      // autoHeight: true,
+      spaceBetween: 16,
       scrollbar: {
         el: ".magazine .carousel__scroll",
         dragClass: "carousel__scroll-drag",
@@ -91,14 +90,11 @@ const magazineSliderTablet = {
         nextEl: '.magazine .carousel__slider-navigation-next',
         prevEl: '.magazine .carousel__slider-navigation-prev',
       },
-
-      on: {
-        snapGridLengthChange: function () {
-          if (this.snapGrid.length != this.slidesGrid.length) {
-            this.snapGrid = this.slidesGrid.slice(0);
-          }
+      breakpoints: {
+        1200: {
+          spaceBetween: 20,
         }
-      }
+      },
     });
   },
   destroy: function () {
@@ -113,7 +109,6 @@ const materialsSlider = {
     this.swiper = new Swiper(".swiper.materials", {
       slidesPerView: 'auto',
       centeredSlides: true,
-      // centeredSlidesBounds: true,
       pagination: {
         el: '.materials .materials__slider-dots',
         click: true,
@@ -130,7 +125,6 @@ const materialsSlider = {
 
 window.addEventListener('load', function () {
   updateSlidersByMQ();
-  materialsSlider();
 });
 
 window.addEventListener('resize', function () {
