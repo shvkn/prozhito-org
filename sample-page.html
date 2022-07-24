@@ -10,182 +10,228 @@
   <title>Типовая страница</title>
 </head>
 <body class="page">
-  <header class="header header_page_sample-page">
-    <div class="header__navbar">
-      <div class="logo">
-        <a href="/" class="logo__item">
-          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
-        </a>
-        <a href="https://eu.spb.ru/" class="logo__item">
-          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
-        </a>
-      </div>
-
-      <nav class="nav-menu">
-        <button class="nav-menu__toggle"></button>
-        <div class="nav-menu__drop-container">
-          <ul class="nav-menu__items">
-            <li class="nav-menu__item">
-              <a href="#" class="hover-transition nav-menu__link">Архив</a>
-            </li>
-            <li class="nav-menu__item">
-              <a href="#" class="hover-transition nav-menu__link">Корпус</a>
-            </li>
-            <li class="nav-menu__item">
-              <a href="#" class="hover-transition nav-menu__link">О&nbsp;проекте</a>
-              <ul class="nav-menu__items nav-menu__submenu">
-                <li class="nav-menu__item">
-                  <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">О&nbsp;прожито</a>
-                </li>
-                <li class="nav-menu__item">
-                  <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
-                </li>
-                <li class="nav-menu__item">
-                  <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
-                </li>
-                <li class="nav-menu__item">
-                  <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
-                </li>
-                <li class="nav-menu__item">
-                  <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<header class="header header_page_sample-page">
+  <div class="header__navbar">
+    <div class="logo">
+      <a href="/" class="logo__item">
+        <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+      </a>
+      <a href="https://eu.spb.ru/" class="logo__item">
+        <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+      </a>
     </div>
-  </header>
-  <main class="content content_page_sample-page">
 
-    <div class="toc">
-      <button class="hover-transition toc__open-button">оглавление</button>
-      <nav class="toc__nav">
-        <ul class="toc__items">
-          <li class="toc__item"><a href="#" class="hover-transition toc__link">Часть 1</a></li>
-          <li class="toc__item"><a href="#" class="hover-transition toc__link">Часть 2</a></li>
-          <li class="toc__item"><a href="#" class="hover-transition toc__link">Часть 3</a></li>
+    <nav class="nav-menu">
+      <button class="nav-menu__toggle"></button>
+      <div class="nav-menu__drop-container">
+        <ul class="nav-menu__items">
+          <li class="nav-menu__item">
+            <a href="#" class="hover-transition nav-menu__link">Архив</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="hover-transition nav-menu__link">Корпус</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="hover-transition nav-menu__link">О&nbsp;проекте</a>
+            <ul class="nav-menu__items nav-menu__submenu">
+              <li class="nav-menu__item">
+                <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">О&nbsp;прожито</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
+              </li>
+            </ul>
+          </li>
         </ul>
-        <button class="toc__close-button"></button>
-      </nav>
-    </div>
-
-    <!-- Хлебные крошки -->
-    <nav aria-label="Breadcrumb" aria-current="page" class="bread-crumbs">
-      <ol class="bread-crumbs__list">
-        <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Главная страница</a></li>
-        <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Журнал &laquo;Прожито&raquo;</a></li>
-        <li class="bread-crumbs__item bread-crumbs__item_current"><a href="#" class="bread-crumbs__link">Опыт прочтения одного дневника</a></li>
-      </ol>
-    </nav>
-    <ul class="tag-list tag-list_place_sample-page">
-      <li class="tag-list__item">детство</li>
-      <li class="tag-list__item">опыт читателя</li>
-    </ul>
-
-    <article>
-      <h1>Опыт прочтения одного дневника</h1>
-      <h2>Часть один</h2>
-      <p>В детстве я любила слушать радио. Проводное у нас почему-то не работало, но была радиола, которая пластинки уже не проигрывала, зато ловила 3-ю программу. Ту самую, где новостей не было совсем, а передачи повторялись неисчислимое количество раз. Приходишь из школы, дома — никого, в Петропавловске-Камчатском полночь, а по радио идёт «Театр у микрофона». Все спектакли я знала почти наизусть: классические постановки МХАТа и Малого, авангардного «Мартина Идена» с Высоцким в заглавной роли, тончайшие спектакли Алексея Баталова по Толстому и Куприну. И когда на «Радио Арзамас» услышала курс лекций об Александре Афиногенове, мне не надо было объяснять: кто это — его пьесу «Машенька» я хорошо помнила. Лекции понравились. Минимальные поиски в интернете привели на сайт «Прожито». А потом я попала на Лабораторию (был такой доковидный формат, когда волонтёры одновременно работали каждый над своим фрагментом неизвестного дневника, а потом обсуждали прочитанное). На столе лежала общая тетрадь в коленкоровом переплёте, купленная у букиниста. Это был второй, после моего, дневник, который я держала в руках. И вот, читая страницу за страницей, мы узнавали этого человек:
-        старший таксатор Далматовского лесничества, бывший офицер эстонской армии, строгий глава семьи Клавдий Васильевич Попов.
-        Так я стала волонтёром, который помогает расшифровывать рукописные дневники</p>
-      <blockquote>Дневник, о котором дальше пойдет речь, вел сначала подросток, потом юноша, который дал себе слово честно записывать все, что с ним происходило.</blockquote>
-      <p>Начавшись почти черновиком к сочинению на всем знакомую тему «Как я провел это лето», дневник очень скоро становится инструментом осмысления.
-        Записи ведутся четыре года, с августа 1937 года по июль 41-го, и заканчиваются школьным выпускным, ожиданием повестки и проводами любимой девушки в эвакуацию.
-        Юра Беневольский погиб в 1944 году. Ему был 21 год. Перед отправкой на фронт он отдал тетради Сергею Михайловичу Вяземскому, отцу своей одноклассницы, с пожеланием дневник не читать до возвращения, а в случае гибели - распорядиться по своему усмотрению. В 1974 году Сергей Михайлович – известный ленинградский историк - все свое выдающееся собрание документов и автографов передал в ЦГАЛИ.
-        Дневник Беневольского был переплетен, получил свой инвентарный номер и место на полке архива.</p>
-
-      <figure class="image">
-        <img src="/images/sample-page-photo1.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г." width="235px" height="461px">
-        <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
-      </figure>
-      <p>Эти школьные тетради в 12 листов исписаны аккуратным, даже красивым почерком. Юра выбрал форму ведения: даты выделены красными чернилами, отчерчены широкие поля, которые он заполнял рисунками, сносками и фотографиями – и выдерживал ее до конца.
-        Большинство фотографий были сделаны аппаратом, который Юра собрал сам.
-        Он с увлечением занимался в фотокружке при Доме пионеров. В какой-то момент его пришлось оставить, т.к. по мнению мамы страдали уроки. Но благодаря этим снимкам мы видим их домашнюю елку, маму за шитьем, Юриного друга, ледоход на Неве. Есть и профессиональные фотокарточки: одноклассники, артистки кино, сам Юра.</p>
-
-      <video controls src="https://file-examples.com/storage/fefbfe84f862d721699d168/2017/04/file_example_MP4_640_3MG.mp4"></video>
-
-      <p>Первая дневниковая запись датирована 30 августа 1937 года. Юра узнает, что его друг, Веня Аронвальд, во-первых, остается на второй год, и, во-вторых, ведет дневник.<br>
-        «- Дай посмотрю.<br>
-        Засмеялся:<br>
-        - Нет, смотреть можно только одному человеку!<br>
-        - Кому-же?<br>
-        - Мне.</p>
-
-      <figure class="audio">
-        <audio src="https://oralhistory.ru/audio/1564_Rodoman.mp3" preload="metadata"></audio>
-        <figcaption>Запись разговора Юры и&nbsp;Вени Аронвальда, 1937 год</figcaption>
-      </figure>
-
-      <p>Но вскоре подростки дают читать друг другу свои дневники. Дружба продлиться до самой войны, становясь то теснее, то прохладней.<br>
-        Юра хорошо учится и это видно не по отметкам (их он не приводит), а потому, как растет его грамотность. Много читает.
-        Но есть предмет, который дается ему с трудом – немецкий язык. В старших классах он увлечен героями Джека Лондона. Любит кино и мечтает стать кинооператором. А еще влюблен в заслуженную артистку республики Любовь Орлову: собирает ее фотографии и не пропускает ни одного фильма.
-        Много и домашних дел: маме помочь, распилить с отцом дрова.
-        Вот только атмосфера в доме становится все более напряженной. Однажды Юра, зачитавшись, забыл купить хлеба. «Он кричал что я нарочно ему врежу́ и т.д..
-        Наконец он приказал купить мне горячей булки. Я ушел. </p>
-
-      <div class="article-gallery">
-        <div class="content">
-          <figure class="image">
-            <img src="/images/sample-page-photo1.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г." width="235px" height="461px">
-            <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
-          </figure>
-          <figure class="image">
-            <img src="/images/sample-page-photo2.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г." width="569px" height="397px">
-            <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
-          </figure>
-          <figure class="image">
-            <img src="/images/sample-page-photo1.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г." width="235px" height="461px">
-            <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
-          </figure>
-        </div>
       </div>
+    </nav>
+  </div>
+</header>
+<main class="content content_page_sample-page">
 
-      <p>Да, днем! А ночью Петербург!!»<br>
-        Многое объясняет фраза, написанная Юрой ранее: «Когда приехал (вернее пришел) домой Ната сообщила: А папа пьяный! – Это не новость, отец за последние дни часто пьет, и мне опротивел». Вскоре любое упоминание об отце исчезает.
-        Теперь на Юре не только домашние заботы: «Сейчас я имею свои деньги. Я их самым настоящим образом заработал. Мама мне подыскала урок. И я теперь должен каждый 2-ой и 3-ий день шестидневки ездить и давать частные уроки одному шалопаю из 5-го класса. 1 час – 4 руб. Мама начинает относится ко мне как к юноше, а не ребенку старшего возраста. Я теперь довольно свободно могу уйти из дому в любое время».
-        </p>
-
-
-    </article>
-  </main>
-  <footer class="footer">
-    <nav class="sub-menu">
-      <ul class="sub-menu__items">
-        <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">О&nbsp;команде</a></li>
-        <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Благодарности</a></li>
-        <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Партнеры</a></li>
-        <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">FAQ</a></li>
-        <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Инструкции</a></li>
+  <div class="toc">
+    <button class="hover-transition toc__open-button">оглавление</button>
+    <nav class="toc__nav">
+      <ul class="toc__items">
+        <li class="toc__item"><a href="#" class="hover-transition toc__link">Часть 1</a></li>
+        <li class="toc__item"><a href="#" class="hover-transition toc__link">Часть 2</a></li>
+        <li class="toc__item"><a href="#" class="hover-transition toc__link">Часть 3</a></li>
       </ul>
+      <button class="toc__close-button"></button>
+    </nav>
+  </div>
+
+  <!-- Хлебные крошки -->
+  <nav aria-label="Breadcrumb" aria-current="page" class="bread-crumbs">
+    <ol class="bread-crumbs__list">
+      <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Главная страница</a></li>
+      <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Журнал &laquo;Прожито&raquo;</a></li>
+      <li class="bread-crumbs__item bread-crumbs__item_current"><a href="" class="bread-crumbs__link">Опыт прочтения
+        одного дневника</a></li>
+    </ol>
+  </nav>
+  <ul class="tag-list tag-list_place_sample-page">
+    <li class="tag-list__item">детство</li>
+    <li class="tag-list__item">опыт читателя</li>
+  </ul>
+
+  <article>
+    <h1>Опыт прочтения одного дневника</h1>
+    <h2>Часть один</h2>
+    <p>В детстве я любила слушать радио. Проводное у нас почему-то не работало, но была радиола, которая пластинки
+      уже не проигрывала, зато ловила 3-ю программу. Ту самую, где новостей не было совсем, а передачи повторялись
+      неисчислимое количество раз. Приходишь из школы, дома — никого, в Петропавловске-Камчатском полночь, а по радио
+      идёт «Театр у микрофона». Все спектакли я знала почти наизусть: классические постановки МХАТа и Малого,
+      авангардного «Мартина Идена» с Высоцким в заглавной роли, тончайшие спектакли Алексея Баталова по Толстому
+      и Куприну. И когда на «Радио Арзамас» услышала курс лекций об Александре Афиногенове, мне не надо было объяснять:
+      кто это — его пьесу «Машенька» я хорошо помнила. Лекции понравились. Минимальные поиски в интернете привели
+      на сайт «Прожито». А потом я попала на Лабораторию (был такой доковидный формат, когда волонтёры одновременно
+      работали каждый над своим фрагментом неизвестного дневника, а потом обсуждали прочитанное). На столе лежала общая
+      тетрадь в коленкоровом переплёте, купленная у букиниста. Это был второй, после моего, дневник, который я держала
+      в руках. И вот, читая страницу за страницей, мы узнавали этого человек:
+      старший таксатор Далматовского лесничества, бывший офицер эстонской армии, строгий глава семьи Клавдий Васильевич
+      Попов.
+      Так я стала волонтёром, который помогает расшифровывать рукописные дневники <a href="#" data-sticker="1">«обыкновенных
+        людей»</a>
+    </p>
+
+    <blockquote>Дневник, о котором дальше пойдет речь, вел сначала подросток, потом юноша, который дал себе слово честно
+      записывать все, что с ним происходило.
+    </blockquote>
+    <p>Начавшись почти черновиком к сочинению на всем знакомую тему «Как я провел это лето», дневник очень скоро
+      становится инструментом осмысления.
+      Записи ведутся четыре года, с августа 1937 года по июль 41-го, и заканчиваются школьным выпускным, ожиданием
+      повестки и проводами любимой девушки в эвакуацию.
+      Юра Беневольский погиб в 1944 году. Ему был 21 год. Перед отправкой на фронт он отдал тетради Сергею Михайловичу
+      Вяземскому, отцу своей одноклассницы, с пожеланием дневник не читать до возвращения, а в случае гибели -
+      распорядиться по своему усмотрению. В 1974 году Сергей Михайлович – известный ленинградский историк - все свое
+      выдающееся собрание документов и автографов передал в ЦГАЛИ.
+      Дневник Беневольского был переплетен, получил свой инвентарный номер и место на полке архива.</p>
+
+    <figure class="image">
+      <img src="/images/sample-page-photo1.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г."
+           width="235px" height="461px">
+      <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+    </figure>
+    <p>Эти школьные тетради в 12 листов исписаны аккуратным, даже красивым почерком. Юра выбрал форму ведения: даты
+      выделены красными чернилами, отчерчены широкие поля, которые он заполнял рисунками, сносками и фотографиями – и
+      выдерживал ее до конца.
+      Большинство фотографий были сделаны аппаратом, который Юра собрал сам.
+      Он с увлечением занимался в фотокружке при Доме пионеров. В какой-то момент его пришлось оставить, т.к. по мнению
+      мамы страдали уроки. Но благодаря этим снимкам мы видим их домашнюю елку, маму за шитьем, Юриного друга, ледоход
+      на Неве. Есть и профессиональные фотокарточки: одноклассники, артистки кино, сам Юра.</p>
+
+    <video controls
+           src="https://file-examples.com/storage/fefbfe84f862d721699d168/2017/04/file_example_MP4_640_3MG.mp4"></video>
+
+    <p>Первая дневниковая запись датирована 30 августа 1937 года. Юра узнает, что его друг, Веня Аронвальд, во-первых,
+      остается на второй год, и, во-вторых, ведет дневник.<br>
+      «- Дай посмотрю.<br>
+      Засмеялся:<br>
+      - Нет, смотреть можно только одному человеку!<br>
+      - Кому-же?<br>
+      - Мне.</p>
+
+    <figure class="audio">
+      <audio src="https://oralhistory.ru/audio/1564_Rodoman.mp3" preload="metadata"></audio>
+      <figcaption>Запись разговора Юры и&nbsp;Вени Аронвальда, 1937 год</figcaption>
+    </figure>
+
+    <p>Но вскоре подростки дают читать друг другу свои дневники. Дружба продлиться до самой войны, становясь то теснее,
+      то прохладней.<br>
+      Юра хорошо учится и это видно не по отметкам (их он не приводит), а потому, как растет его грамотность. Много
+      читает.
+      Но есть предмет, который дается ему с трудом – немецкий язык. В старших классах он увлечен героями Джека Лондона.
+      Любит кино и мечтает стать кинооператором. А еще влюблен в заслуженную артистку республики Любовь Орлову: собирает
+      ее фотографии и не пропускает ни одного фильма.
+      Много и домашних дел: маме помочь, распилить с отцом дрова.
+      Вот только атмосфера в доме становится все более напряженной. Однажды Юра, зачитавшись, забыл купить хлеба. «Он
+      кричал что я нарочно ему врежу́ и т.д..
+      Наконец он приказал купить мне горячей булки. Я ушел. </p>
+
+    <div class="article-gallery">
+      <div class="content">
+        <figure class="image">
+          <img src="/images/sample-page-photo1.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г."
+               width="235px" height="461px">
+          <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+        </figure>
+        <figure class="image">
+          <img src="/images/sample-page-photo2.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г."
+               width="569px" height="397px">
+          <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+        </figure>
+        <figure class="image">
+          <img src="/images/sample-page-photo1.jpg" alt="Фото из дневника Юры Беневольского. Балашов. Лето 1938 г."
+               width="235px" height="461px">
+          <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <p>Да, днем! А ночью Петербург!!»<br>
+      Многое объясняет фраза, написанная Юрой ранее: «Когда приехал (вернее пришел) домой Ната сообщила: А папа пьяный!
+      – Это не новость, отец за последние дни часто пьет, и мне опротивел». Вскоре любое упоминание об отце исчезает.
+      Теперь на Юре не только домашние заботы: «Сейчас я имею свои деньги. Я их самым настоящим образом заработал. Мама
+      мне подыскала урок. И я теперь должен каждый 2-ой и 3-ий день шестидневки ездить и давать частные уроки одному
+      шалопаю из 5-го класса. 1 час – 4 руб. Мама начинает относится ко мне как к юноше, а не ребенку старшего возраста.
+      Я теперь довольно свободно могу уйти из дому в любое время».
+    </p>
+
+
+  </article>
+</main>
+<footer class="footer">
+  <nav class="sub-menu">
+    <ul class="sub-menu__items">
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">О&nbsp;команде</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Благодарности</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Партнеры</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">FAQ</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Инструкции</a></li>
+    </ul>
+  </nav>
+
+  <div class="grid footer__grid-container">
+
+    <div class="logo footer__grid-elem footer__grid-elem_area_logo ">
+      <a href="/" class="logo__item">
+        <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
+      </a>
+      <a href="https://eu.spb.ru/" class="logo__item">
+        <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
+      </a>
+    </div>
+
+    <nav class="footer__grid-elem footer__grid-elem_area_social footer__links">
+      <a href="https://t.me/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social">
+        <img src="./images/icon-telegram.svg" alt="" class="footer__social-icon">Telegram</a>
+
+      <a href="https://vk.com/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social">
+        <img src="./images/icon-vk.svg" alt="" class="footer__social-icon">VK</a>
     </nav>
 
-    <div class="grid footer__grid-container">
+    <nav class="footer__grid-elem footer__grid-elem_area_copyright footer__links">
+      <a href="#" class="hover-transition footer__link">Юридическая информация</a>
+      <a href="#" class="hover-transition footer__link">Политика конфиденциальности</a>
+    </nav>
 
-      <div class="logo footer__grid-elem footer__grid-elem_area_logo ">
-        <a href="/" class="logo__item">
-          <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
-        </a>
-        <a href="https://eu.spb.ru/" class="logo__item">
-          <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
-        </a>
-      </div>
-
-      <nav class="footer__grid-elem footer__grid-elem_area_social footer__links">
-        <a href="https://t.me/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social">
-          <img src="./images/icon-telegram.svg" alt="" class="footer__social-icon">Telegram</a>
-
-        <a href="https://vk.com/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social">
-          <img src="./images/icon-vk.svg" alt="" class="footer__social-icon">VK</a>
-      </nav>
-
-      <nav class="footer__grid-elem footer__grid-elem_area_copyright footer__links">
-        <a href="#" class="hover-transition footer__link">Юридическая информация</a>
-        <a href="#" class="hover-transition footer__link">Политика конфиденциальности</a>
-      </nav>
-
-    </div>
-  </footer>
+  </div>
+</footer>
+<div class="sticker" data-sticker="1">
+  <p class="sticker__title">Это верно</p>
+  <p class="sticker__text">Информация достоверна</p>
+  <button class="sticker__close-button"></button>
+</div>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/sample-page.js"></script>
