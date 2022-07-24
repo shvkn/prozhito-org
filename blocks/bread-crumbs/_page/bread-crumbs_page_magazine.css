@@ -1,0 +1,10 @@
+.bread-crumbs_page_magazine {
+    margin-bottom: 27px;
+
+}
+
+@media screen and (min-width: 1200px) {
+  .bread-crumbs_page_magazine {
+      margin-bottom: 42px;
+  }
+}
