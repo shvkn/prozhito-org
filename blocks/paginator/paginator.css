@@ -1,8 +1,10 @@
 .paginator {
     display: flex;
     align-items: center;
-    gap: 366px;
-    justify-content: center;
+  max-width: 678px;
+
+    /*gap: 366px;*/
+    justify-content: space-between;
     margin-bottom: 62px;
 }
 @media screen and (max-width: 768px) {
