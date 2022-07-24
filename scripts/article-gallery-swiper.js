@@ -24,14 +24,13 @@ const initGallery = (gallery) => {
 
   new Swiper(gallery, {
     slidesPerView: 1,
+    autoHeight: true,
     navigation: {
       nextEl: gallery.querySelector('.article-gallery__control_type_right'),
       prevEl: gallery.querySelector('.article-gallery__control_type_left'),
     },
   });
-
 }
-
 
 window.addEventListener('load', () => {
   document.querySelectorAll('.article-gallery').forEach((gallery) => {
