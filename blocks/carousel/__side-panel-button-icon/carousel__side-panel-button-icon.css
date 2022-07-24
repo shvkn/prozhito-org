@@ -1,21 +1,22 @@
 .carousel__side-panel-button-icon {
-
-}
-
-@media screen and (min-width: 320px) {
-  .carousel__side-panel-button-icon {
-    margin-left: 18px;
-  }
+  width: auto;
+  height: auto;
+  background: none;
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .carousel__side-panel-button-icon {
-    margin-left: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #A5CDAB;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .carousel__side-panel-button-icon {
-    margin-left: 12px;
+    height: 50px;
+    width: 50px;
   }
 }
