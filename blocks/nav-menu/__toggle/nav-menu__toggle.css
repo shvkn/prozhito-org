@@ -6,10 +6,12 @@
   background: url("/images/icon-burger.svg") center center no-repeat;
   border: none;
   cursor: pointer;
+  position: static;
 }
 
 @media screen and (min-width: 768px) {
   .nav-menu__toggle {
       display: none;
+      position: absolute;
   }
 }

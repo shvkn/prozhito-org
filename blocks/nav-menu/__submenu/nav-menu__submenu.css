@@ -15,10 +15,6 @@
   list-style: none;
 }
 
-.nav-menu__item:hover .nav-menu__submenu {
-  visibility: visible;
-}
-
 @media screen and (min-width: 768px) {
   .nav-menu__submenu {
     position: absolute;
