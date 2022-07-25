@@ -1,4 +1,4 @@
 article .article-gallery .article-gallery__counter {
-  min-width: fit-content;
+  width: auto;
   margin-left: auto;
 }
