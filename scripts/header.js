@@ -59,7 +59,13 @@ const togglePreventPageScroll = () =>
   page.classList.toggle('no-scroll')
 
 const isMobileMenuDropped = () =>
-  toggleHeaderMenuButton.classList.contains('nav-menu__toggle_expanded');
+  headerDropContainer.classList.contains('nav-menu__drop-container_expanded');
+
+const closeDropMenu = () => {
+  if(isMobileMenuDropped()) {
+    toggleMenu();
+  }
+}
 
 const toggleMenu = (e) => {
   togglePreventPageScroll();
@@ -78,7 +84,7 @@ const toggleMenu = (e) => {
           isolateFocusInContext(e, header);
         });
       });
-  } else {
+  } else{
     toggleHeaderMenuButton.setAttribute('aria-expanded', 'false');
     header
       .querySelectorAll(SELECTOR_FOCUSABLE)
