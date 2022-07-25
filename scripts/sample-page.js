@@ -22,10 +22,14 @@ const toggleTableOfContents = () => {
 tocOpenButton.addEventListener('click', toggleTableOfContents);
 tocCloseButton.addEventListener('click', toggleTableOfContents);
 
-const closeSticker = (e) =>
-  e.target.closest('.sticker').classList.remove('sticker_visible')
+const closeSticker = (e) => {
+  e.target.closest('.sticker').classList.remove('sticker_visible');
+  prevActiveEl.focus();
+}
 
-const toggleSticker = (e) => {
+let prevActiveEl = null;
+
+const openSticker = (e) => {
   e.preventDefault();
   const stickerId = e.target.dataset.sticker;
   const sticker = Array.from(stickers)
@@ -35,8 +39,11 @@ const toggleSticker = (e) => {
 
   sticker.style.top = `${window.scrollY + e.target.getBoundingClientRect().top}px`;
   sticker.style.transform = 'translateY(-50%)';
-  sticker.classList.toggle('sticker_visible');
+  sticker.classList.add('sticker_visible');
+  prevActiveEl = document.activeElement;
+  sticker.querySelector('.sticker__close-button').focus();
 }
+
 
 const initSticker = (sticker) =>
   sticker
@@ -45,7 +52,7 @@ const initSticker = (sticker) =>
 
 const initStickerLink = (link) => {
   if (link.dataset.sticker)
-    link.addEventListener('click', toggleSticker);
+    link.addEventListener('click', openSticker);
 }
 
 window.addEventListener('load', () => {

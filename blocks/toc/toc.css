@@ -1,12 +1,7 @@
 .toc {
-  position: fixed;
-  top: 295px;
-  z-index: 2;
-  left: 0;
+  /*position: fixed;*/
+  /*top: 295px;*/
+  /*z-index: 2;*/
+  /*left: 0;*/
 }
 
-@media screen and (min-width: 768px) {
-  .toc {
-    left: auto;
-  }
-}

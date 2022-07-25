@@ -1,5 +1,9 @@
 .toc__open-button {
+  position: fixed;
+  top: 295px;
+  left: 0;
   display: inline-block;
+  z-index: 2;
   padding: 0;
   margin: 0;
   background-color: #FFFFFF;
@@ -11,4 +15,10 @@
   font-weight: 400;
   transform: rotate(270deg);
   transform-origin: top left;
+}
+
+@media screen and (min-width: 768px) {
+  .toc__open-button {
+    left: auto;
+  }
 }

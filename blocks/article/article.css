@@ -2,7 +2,7 @@
 article {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: 0 12px auto 12px auto;
+  grid-template-columns: 0 36px auto 36px auto;
 }
 
 article h1 {
