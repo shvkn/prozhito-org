@@ -1,12 +1,13 @@
 const updateSlidersByMQ = () => {
   if (tablet.matches) {
-    // console.log('tablet');
+
     if (magazineSliderMobile.swiper instanceof Swiper) magazineSliderMobile.destroy()
     if (materialsSlider.swiper instanceof Swiper) materialsSlider.destroy()
     if (magazineSliderTablet.swiper === undefined) magazineSliderTablet.init();
     if (newsSlider.swiper === undefined) newsSlider.init();
+
   } else if (mobile.matches) {
-    // console.log('mobile');
+
     if (magazineSliderTablet.swiper instanceof Swiper) magazineSliderTablet.destroy();
     if (newsSlider.swiper instanceof Swiper) newsSlider.destroy();
     if (magazineSliderMobile.swiper === undefined) magazineSliderMobile.init();
