@@ -3,7 +3,6 @@
   justify-content: center;
   margin: 24px 0;
   row-gap: 24px;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -18,7 +17,6 @@
   .special-projects__wrapper-cards {
     column-gap: 20px;
     row-gap: 20px;
-    flex-wrap: nowrap;
     margin: 41px 0 31px;
   }
 }
