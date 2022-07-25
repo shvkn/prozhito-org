@@ -27,17 +27,7 @@
 @import "../blocks/materials/__slider-dot/materials__slider-dot.css";
 @import "../blocks/materials/__slider-dot/_type_active/materials__slider-dot_type_active.css";
 
-/* Блок спецпроекты */
-@import "../blocks/special-projects/special-projects.css";
-@import "../blocks/special-projects/__title/special-projects__title.css";
-@import "../blocks/special-projects/__wrapper-cards/special-projects__wrapper-cards.css";
-@import "../blocks/special-projects/__card/special-projects__card.css";
-@import "../blocks/special-projects/__card-image/special-projects__card-image.css";
-@import "../blocks/special-projects/__text-wrapper/special-projects__text-wrapper.css";
-@import "../blocks/special-projects/__card-link/special-projects__card-link.css";
-@import "../blocks/special-projects/__card-title/special-projects__card-title.css";
-@import "../blocks/special-projects/__card-description/special-projects__card-description.css";
-@import "../blocks/special-projects/__card-date/special-projects__card-date.css";
+
 
 /* POPUP */
 @import "../blocks/popup-special-project/popup-special-project.css";
@@ -137,6 +127,18 @@
 @import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
 /* block arrow-control [@shvkn] ends */
 
+/* Блок спецпроекты */
+@import "../blocks/special-projects/special-projects.css";
+@import "../blocks/special-projects/__title/special-projects__title.css";
+@import "../blocks/special-projects/__wrapper-cards/special-projects__wrapper-cards.css";
+@import "../blocks/special-projects/__card/special-projects__card.css";
+@import "../blocks/special-projects/__card-image/special-projects__card-image.css";
+@import "../blocks/special-projects/__text-wrapper/special-projects__text-wrapper.css";
+@import "../blocks/special-projects/__card-link/special-projects__card-link.css";
+@import "../blocks/special-projects/__card-title/special-projects__card-title.css";
+@import "../blocks/special-projects/__card-description/special-projects__card-description.css";
+@import "../blocks/special-projects/__card-date/special-projects__card-date.css";
+@import "../blocks/special-projects/__button/special-projects__button.css";
 
 /* block news_-card starts*/
 @import "../blocks/carousel/carousel.css";
