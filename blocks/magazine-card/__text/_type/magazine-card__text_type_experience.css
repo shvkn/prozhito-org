@@ -1,8 +1,9 @@
 .magazine-card__text_type_experience {
+  font-size: 14px;
   order: 1;
+  line-height: 1.3;
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .magazine-card__text_type_experience {
     font-size: 12px;
   }
