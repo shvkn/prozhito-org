@@ -11,5 +11,6 @@
 @media screen and (max-width: 1024px) {
   .popup-special-project__title {
     font-size: 18px;
+    line-height: 1.2;
   }
 }
