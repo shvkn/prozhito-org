@@ -1,17 +1,19 @@
 .special-projects {
-  padding: 56px 32px 0;
   display: flex;
   flex-direction: column;
+  padding: 32px 12px 0;
+  align-items: center;
+
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .special-projects {
     padding: 32px 17px 0;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .special-projects {
-    padding: 32px 12px 0;
+    padding: 56px 32px 0;
   }
 }

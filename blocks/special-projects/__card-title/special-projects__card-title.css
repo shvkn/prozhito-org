@@ -1,15 +1,16 @@
 .special-projects__card-title {
   margin: 0;
-  font-size: 26px;
   color: #323232;
-  line-height: 1;
-  font-family: 'WF', Times, Sans;
+  font-family: "WF", Times, sans-serif;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.2;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .special-projects__card-title {
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 26px;
+    line-height: 1;
+
   }
 }

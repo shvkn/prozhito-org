@@ -2,18 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 28px 52px 17px 32px;
+  margin: 12px 1px 12px 8px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .special-projects__text-wrapper {
     margin: 12px;
     flex-grow: 1;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .special-projects__text-wrapper {
-    margin: 12px 1px 12px 8px;
+    margin: 28px 52px 17px 32px;
   }
 }
