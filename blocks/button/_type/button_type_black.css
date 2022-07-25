@@ -1,8 +1,0 @@
-.button_color_black {
-    border: 1px solid #FFFFFF;  
-}
-@media screen and (max-width: 1024px) {
-    .button_type_black { 
-       border: none;
-    }
-}

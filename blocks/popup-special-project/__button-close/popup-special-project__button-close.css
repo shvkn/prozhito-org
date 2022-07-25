@@ -1,12 +1,12 @@
 .popup-special-project__button-close {
   position: absolute;
-  width: 24px;
-  height: 24px;
-  margin: 0 0 0 -24px;
   top: 0;
   left: 0;
-  border: none;
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 -16px;
   background: transparent url(/images/icon-close.svg) center center no-repeat;
+  border: none;
   cursor: pointer;
   transition: opacity .3s ease-in-out;
 }
@@ -15,10 +15,10 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 768px) {
   .popup-special-project__button-close {
-    width: 16px;
-    height: 16px;
-    margin: 0 0 0 -16px;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -24px;
   }
 }

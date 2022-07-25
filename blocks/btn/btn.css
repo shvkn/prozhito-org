@@ -1,6 +1,7 @@
 .btn {
   display: inline-block;
   max-width: 335px;
+  min-width: 335px;
   min-height: 50px;
   padding: 15px;
   box-sizing: border-box;
@@ -22,6 +23,7 @@
 @media screen and (min-width: 768px) {
   .btn {
     max-width: 237px;
+    min-width: 237px;
     padding: 11px 15px;
   }
 }
@@ -29,6 +31,7 @@
 @media screen and (min-width: 1200px) {
   .btn {
     max-width: 329px;
+    min-width: 329px;
   }
 }
 

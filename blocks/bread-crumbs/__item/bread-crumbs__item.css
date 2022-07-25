@@ -1,7 +1,7 @@
 .bread-crumbs__item {
   list-style-type: '/';
-  margin: 0 0 0 10px;
-  padding-left: 7px;
+  /*padding-left: 3px;*/
+  /*margin-left: 7px;*/
   transition: opacity .3s ease-in-out;
 }
 
@@ -20,17 +20,16 @@
   cursor: default;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .bread-crumbs__item {
     padding-left: 4px;
     margin-left: 9px;
   }
 }
 
-
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1200px) {
   .bread-crumbs__item {
-    padding-left: 3px;
-    margin-left: 7px;
+    margin: 0 0 0 10px;
+    padding-left: 7px;
   }
 }

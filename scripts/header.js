@@ -28,7 +28,7 @@ const isMobileMenuDropped = () =>
   headerDropContainer.classList.contains('nav-menu__drop-container_expanded');
 
 const closeDropMenu = () => {
-  if(isMobileMenuDropped()) {
+  if (isMobileMenuDropped()) {
     toggleMenu();
   }
 }
@@ -40,7 +40,7 @@ const toggleMenu = (e) => {
   toggleHeaderMenuButton.classList.toggle('nav-menu__toggle_expanded');
 
   if (isMobileMenuDropped()) {
-    console.log(document.activeElement);
+
     toggleHeaderMenuButton.setAttribute('aria-expanded', 'true');
     header
       .querySelectorAll(SELECTOR_FOCUSABLE)
@@ -50,7 +50,7 @@ const toggleMenu = (e) => {
           isolateFocusInContext(e, header);
         });
       });
-  } else{
+  } else {
     toggleHeaderMenuButton.setAttribute('aria-expanded', 'false');
     header
       .querySelectorAll(SELECTOR_FOCUSABLE)
@@ -106,6 +106,6 @@ window.addEventListener('load', function () {
 
 window.addEventListener('resize', function () {
   updateMenu();
-  if(tablet.matches) closeDropMenu();
+  if (tablet.matches) closeDropMenu();
 });
 
