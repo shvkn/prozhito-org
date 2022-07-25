@@ -20,8 +20,8 @@ const SELECTOR_FOCUSABLE = `
     [tabindex]:not([tabindex^="-"])
 `;
 
-function isolateTabsInHeader(e) {
-  const focusableEls = header.querySelectorAll(SELECTOR_FOCUSABLE);
+function isolateFocusInContext(e, context) {
+  const focusableEls = context.querySelectorAll(SELECTOR_FOCUSABLE);
   const first = focusableEls[0];
   const last = focusableEls[focusableEls.length - 1];
   const TAB_CODE = 9;
@@ -41,7 +41,6 @@ function isolateTabsInHeader(e) {
   }
 }
 
-
 const collapseMenu = () => {
   headerDropContainer.classList.add('nav-menu__drop-container_collapsed');
   toggleHeaderMenuButton.classList.add('nav-menu__toggle_displayed');
@@ -56,8 +55,11 @@ const expandMenu = () => {
     .forEach(el => el.removeAttribute('tabindex'));
 }
 
-const togglePreventPageScroll = () => page.classList.toggle('no-scroll')
-const isMobileMenuDropped = () => toggleHeaderMenuButton.classList.contains('nav-menu__toggle_expanded');
+const togglePreventPageScroll = () =>
+  page.classList.toggle('no-scroll')
+
+const isMobileMenuDropped = () =>
+  toggleHeaderMenuButton.classList.contains('nav-menu__toggle_expanded');
 
 const toggleMenu = (e) => {
   togglePreventPageScroll();
@@ -72,13 +74,17 @@ const toggleMenu = (e) => {
       .querySelectorAll(SELECTOR_FOCUSABLE)
       .forEach(el => {
         el.removeAttribute('tabindex');
-        el.addEventListener('keydown', isolateTabsInHeader);
+        el.addEventListener('keydown', function (e) {
+          isolateFocusInContext(e, header);
+        });
       });
   } else {
     toggleHeaderMenuButton.setAttribute('aria-expanded', 'false');
     header
       .querySelectorAll(SELECTOR_FOCUSABLE)
-      .forEach(el => el.removeEventListener('keydown', isolateTabsInHeader));
+      .forEach(el => el.removeEventListener('keydown', function (e) {
+        isolateFocusInContext(e, header)
+      }));
 
     headerNavMenuItems
       .querySelectorAll(SELECTOR_FOCUSABLE)
@@ -88,13 +94,13 @@ const toggleMenu = (e) => {
 
 toggleHeaderMenuButton.addEventListener('click', toggleMenu);
 
-// Header
 subMenus.forEach((subMenu) => {
   const SUBMENU_EXPANDED_MOD = 'nav-menu__submenu_visible';
   const menuItem = subMenu.closest('.nav-menu__item');
   const menuLink = menuItem.querySelector('.nav-menu__link');
 
-  const submenuExpanded = () => subMenu.classList.contains(SUBMENU_EXPANDED_MOD);
+  const submenuExpanded = () =>
+    subMenu.classList.contains(SUBMENU_EXPANDED_MOD);
 
   const toggleSubmenu = (e) => {
     menuLink.setAttribute('aria-expanded', `${!submenuExpanded()}`);
