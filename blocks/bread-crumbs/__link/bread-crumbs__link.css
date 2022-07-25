@@ -1,7 +1,6 @@
 .bread-crumbs__link {
   margin: 0;
-  text-decoration: none;
   color: #323232;
+  text-decoration: none;
   white-space: nowrap;
 }
-

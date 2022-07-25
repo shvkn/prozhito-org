@@ -38,7 +38,6 @@
 @import "../blocks/special-projects/__card-title/special-projects__card-title.css";
 @import "../blocks/special-projects/__card-description/special-projects__card-description.css";
 @import "../blocks/special-projects/__card-date/special-projects__card-date.css";
-@import "../blocks/button/_place/button_place_special-projects.css";
 
 /* POPUP */
 @import "../blocks/popup-special-project/popup-special-project.css";
@@ -127,7 +126,6 @@
 @import "../blocks/board/__text/board__text.css";
 @import "../blocks/board/__title/board__title.css";
 @import "../blocks/board/__tools/board__tools.css";
-@import "../blocks/button/_place/button_place_board.css";
 
 
 /* block arrow-control [@shvkn] starts */
@@ -139,12 +137,6 @@
 @import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
 /* block arrow-control [@shvkn] ends */
 
-@import "../blocks/button/button.css";
-@import "../blocks/button/__content/button__content.css";
-@import "../blocks/button/__image/button__image.css";
-@import "../blocks/button/_type/button_type_black.css";
-@import "../blocks/button/__image/_type/button__image_type_black.css";
-@import "../blocks/button/__content/_type/button__content_type_black.css";
 
 /* block news_-card starts*/
 @import "../blocks/carousel/carousel.css";

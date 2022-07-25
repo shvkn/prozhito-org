@@ -1,18 +1,17 @@
 .popup-special-project {
   position: absolute;
   right: 0;
-  max-width: 237px;
-  width: 100%;
+  max-width: 157px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .popup-special-project {
     max-width: 191px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 1200px) {
   .popup-special-project {
-    max-width: 157px;
+    max-width: 237px;
   }
 }

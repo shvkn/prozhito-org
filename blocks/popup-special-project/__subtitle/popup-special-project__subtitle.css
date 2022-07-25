@@ -1,20 +1,16 @@
 .popup-special-project__subtitle {
-  margin: 12px 0 0 0;
-  text-overflow: ellipsis;
-  overflow: hidden;
   max-height: 400px;
-  font-size: 14px;
+  margin-top: 4px;
+  text-overflow: ellipsis;
+  font-size: 12px;
   line-height: 1.3;
+  overflow: hidden;
+
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .popup-special-project__subtitle {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .popup-special-project__subtitle {
-    margin-top: 4px;
+    margin: 12px 0 0 0;
+    font-size: 14px;
   }
 }
