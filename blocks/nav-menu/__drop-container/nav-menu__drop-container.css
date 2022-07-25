@@ -1,18 +1,17 @@
-/* TODO переписать анимацию меню*/
 .nav-menu__drop-container {
   top: 50px;
   left: 0;
   right: 0;
-  position: fixed;
   z-index: 10;
-  height: 0;
-    overflow-y: auto;
+
+  overflow-y: auto;
   background-color: inherit;
+  /*overflow: hidden;*/
 }
 
 @media screen and (min-width: 768px) {
   .nav-menu__drop-container {
-    position: static;
+    /*position: static;*/
     height: 100%;
   }
 }

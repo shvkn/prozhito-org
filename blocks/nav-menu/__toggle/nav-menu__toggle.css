@@ -1,5 +1,4 @@
 .nav-menu__toggle {
-  display: block;
   width: 24px;
   height: 24px;
   padding: 5px 4px;
@@ -7,11 +6,12 @@
   border: none;
   cursor: pointer;
   position: static;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .nav-menu__toggle {
-      display: none;
-      position: absolute;
+      /*display: none;*/
+      /*position: absolute;*/
   }
 }
