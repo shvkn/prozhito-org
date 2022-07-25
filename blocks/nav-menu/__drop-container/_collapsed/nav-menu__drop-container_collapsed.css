@@ -1,0 +1,5 @@
+.nav-menu__drop-container_collapsed {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}

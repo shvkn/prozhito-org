@@ -1,15 +1,24 @@
 let mobile = window.matchMedia('(min-width: 320px)');
 let tablet = window.matchMedia('(min-width: 768px)');
+// let desktop = window.matchMedia('(min-width: 1200px)');
+
+const updateMenu = () => {
+  if (tablet.matches) {
+    expandMenu();
+  } else if (mobile.matches) {
+    collapseMenu();
+  }
+}
 
 const updateSlidersByMQ = () => {
   if (tablet.matches) {
-    console.log('tablet');
+    // console.log('tablet');
     if (magazineSliderMobile.swiper instanceof Swiper) magazineSliderMobile.destroy()
     if (materialsSlider.swiper instanceof Swiper) materialsSlider.destroy()
     if (magazineSliderTablet.swiper === undefined) magazineSliderTablet.init();
     if (newsSlider.swiper === undefined) newsSlider.init();
   } else if (mobile.matches) {
-    console.log('mobile');
+    // console.log('mobile');
     if (magazineSliderTablet.swiper instanceof Swiper) magazineSliderTablet.destroy();
     if (newsSlider.swiper instanceof Swiper) newsSlider.destroy();
     if (magazineSliderMobile.swiper === undefined) magazineSliderMobile.init();
@@ -125,10 +134,12 @@ const materialsSlider = {
 
 window.addEventListener('load', function () {
   updateSlidersByMQ();
+  updateMenu();
 });
 
 window.addEventListener('resize', function () {
   updateSlidersByMQ();
+  updateMenu();
 });
 
 
