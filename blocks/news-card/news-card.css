@@ -8,8 +8,14 @@
       "nc-img"
       "nc-text"
       "nc-info";
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
 }
 
+.news-card:hover {
+  opacity: .5;
+}
 
 @media screen and (min-width: 768px) {
   .news-card {

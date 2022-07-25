@@ -18,7 +18,7 @@
       <a href="/" class="logo__item" aria-label="переход на главную страницу сайта" role="link">
         <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
       </a>
-      <a href="https://eu.spb.ru/" class="logo__item" aria-label="переход на сайт Европейского университета в Санкт-Петербурге" role="link">
+      <a href="https://eu.spb.ru/" target="_blank" class="logo__item" aria-label="переход на сайт Европейского университета в Санкт-Петербурге" role="link">
         <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
       </a>
     </div>
@@ -61,7 +61,7 @@
 <main class="content">
 
   <!-- popup спецпроект блокада-->
-  <div class="popup-special-project">
+  <div class="popup-special-project" role="dialog">
     <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно" role="button"></button>
     <div class="popup-special-project-wrapper">
       <a class="popup-special-project__link" href="#" target="_blank" aria-label="ссылка на спецпроект Блокада" role="link"><h2 class="popup-special-project__title">
@@ -165,7 +165,7 @@
 
       <div class="swiper">
         <div class="swiper-wrapper carousel__slider-items carousel__slider-items_type_news" aria-label="лента новостей" role="feed">
-          <article class="swiper-slide news-card carousel__slider-item" aria-label="новость 1 из 6" role="article">
+          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 1 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
@@ -174,9 +174,9 @@
             <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
               книга
               из серии «Библиотека Прожито. Блокада»</p>
-          </article>
+          </a>
 
-          <article class="swiper-slide news-card carousel__slider-item" aria-label="новость 2 из 6" role="article">
+          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 2 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
@@ -185,9 +185,9 @@
             <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
               лабораторию,
               посвящённую работе с дембельскими альбомами.</p>
-          </article>
+          </a>
 
-          <article class="swiper-slide news-card carousel__slider-item" aria-label="новость 3 из 6" role="article">
+          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 3 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Лекция</p>
@@ -196,9 +196,9 @@
             <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
               историк,
               директор Центра «Прожито» ЕУСПб</p>
-          </article>
+          </a>
 
-          <article class="swiper-slide news-card carousel__slider-item" aria-label="новость 4 из 6" role="article">
+          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 4 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
@@ -207,9 +207,9 @@
             <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
               книга
               из серии «Библиотека Прожито. Блокада»</p>
-          </article>
+          </a>
 
-          <article class="swiper-slide news-card carousel__slider-item" aria-label="новость 5 из 6" role="article">
+          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 5 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag"></p>
@@ -218,9 +218,9 @@
             <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
               лабораторию,
               посвящённую работе с дембельскими альбомами.</p>
-          </article>
+          </a>
 
-          <article class="swiper-slide news-card carousel__slider-item" aria-label="новость 6 из 6" role="article">
+          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 6 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Лекция</p>
@@ -229,7 +229,7 @@
             <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
               историк,
               директор Центра «Прожито» ЕУСПб</p>
-          </article>
+          </a>
 
         </div>
         <div class="carousel__scroll carousel__scroll_type_news">
@@ -473,6 +473,8 @@
   </div>
 </footer>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="scripts/common.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/index.js"></script>
 <script>

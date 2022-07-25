@@ -1,8 +1,14 @@
 .toc__items {
-  height: calc(100vh - 268px);
+  height: calc(75vh);
   padding: 0;
-  margin: 134px 257px;
+  margin: 12% 20px;
   text-align: center;
   overflow-y: scroll;
   list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .toc__items {
+    margin: 12% 24%;
+  }
 }

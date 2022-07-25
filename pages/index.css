@@ -94,7 +94,6 @@
 @import "../blocks/square-menu/square-menu.css";
 @import "../blocks/square-menu/__items/square-menu__items.css";
 @import "../blocks/square-menu/__item/square-menu__item.css";
-@import "../blocks/square-menu/__item-caption/square-menu__item-caption.css";
 @import "../blocks/square-menu/__item-button/square-menu__item-button.css";
 @import "../blocks/square-menu/__item-text/square-menu__item-text.css";
 @import "../blocks/square-menu/__item-title/square-menu__item-title.css";
@@ -109,13 +108,15 @@
 @import "../blocks/nav-menu/__item/nav-menu__item.css";
 @import "../blocks/nav-menu/__link/nav-menu__link.css";
 @import "../blocks/nav-menu/__toggle/nav-menu__toggle.css";
+@import "../blocks/nav-menu/__toggle/_displayed/nav-menu__toggle_displayed.css";
 @import "../blocks/nav-menu/__toggle/_expanded/nav-menu__toggle_expanded.css";
 @import "../blocks/nav-menu/__drop-container/nav-menu__drop-container.css";
 @import "../blocks/nav-menu/__link/_type/nav-menu__link_type_submenu-link.css";
+@import "../blocks/nav-menu/__drop-container/_collapsed/nav-menu__drop-container_collapsed.css";
 @import "../blocks/nav-menu/__drop-container/_expanded/nav-menu__drop-container_expanded.css";
 
 @import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
-
+@import "../blocks/nav-menu/__submenu/_visible/nav-menu__submenu_visible.css";
 
 
 

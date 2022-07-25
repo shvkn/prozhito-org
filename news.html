@@ -6,47 +6,49 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./pages/news.css">
-  <title>Журнал "Прожито"</title>
+  <title>Все новости</title>
 </head>
 
 <body class="page">
 <header class="header header_page_sample-page">
   <div class="header__navbar">
     <div class="logo">
-      <a href="/" class="logo__item">
+      <a href="/" class="logo__item" aria-label="переход на главную страницу сайта" role="link">
         <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
       </a>
-      <a href="https://eu.spb.ru/" class="logo__item">
+      <a href="https://eu.spb.ru/" target="_blank" class="logo__item"
+         aria-label="переход на сайт Европейского университета в Санкт-Петербурге" role="link">
         <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
       </a>
     </div>
 
-    <nav class="nav-menu">
+    <nav class="nav-menu" aria-label="меню сайта" role="menubar">
       <button class="nav-menu__toggle"></button>
       <div class="nav-menu__drop-container">
         <ul class="nav-menu__items">
           <li class="nav-menu__item">
-            <a href="#" class="hover-transition nav-menu__link">Архив</a>
+            <a href="#" class="hover-transition nav-menu__link" role="menuitem">Архив</a>
           </li>
           <li class="nav-menu__item">
-            <a href="#" class="hover-transition nav-menu__link">Корпус</a>
+            <a href="#" class="hover-transition nav-menu__link" role="menuitem">Корпус</a>
           </li>
           <li class="nav-menu__item">
-            <a href="#" class="hover-transition nav-menu__link">О&nbsp;проекте</a>
-            <ul class="nav-menu__items nav-menu__submenu">
-              <li class="nav-menu__item">
+            <a href="#" class="hover-transition nav-menu__link" role="menuitem">О&nbsp;проекте</a>
+            <ul class="nav-menu__items nav-menu__submenu"
+                aria-label="меню ссылок на страницы рассказывающие о проекте Прожито" role="menubar">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">О&nbsp;прожито</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Как работать?</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Медиа</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Новости</a>
               </li>
-              <li class="nav-menu__item">
+              <li class="nav-menu__item" role="menuitem">
                 <a href="#" class="hover-transition nav-menu__link nav-menu__link_type_submenu-link">Спецпроекты</a>
               </li>
             </ul>
@@ -63,137 +65,213 @@
   <nav aria-label="Breadcrumb" aria-current="page" class="bread-crumbs bread-crumbs_page_magazine">
     <ol class="bread-crumbs__list">
       <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Главная страница</a></li>
-      <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Журнал &laquo;Прожито&raquo;</a></li>
-      <li class="bread-crumbs__item bread-crumbs__item_current"><a href="#" class="bread-crumbs__link">Опыт прочтения
-        одного дневника</a></li>
+      <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Все новости</a></li>
     </ol>
   </nav>
-  <h1 class="page-title">Журнал «Прожито»</h1>
+  <h1 class="page-title">Новости</h1>
 
   <div class="content-grid">
 
-    <article class="news-card carousel__slider-item ">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Спецпроект</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-1.jpg">
-            <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
-              книга
-              из серии «Библиотека Прожито. Блокада»</p>
-          </article>
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 1 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Спецпроект</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-1.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+        книга
+        из серии «Библиотека Прожито. Блокада»</p>
+    </a>
 
-          <article class="news-card carousel__slider-item ">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Спецпроект</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-2.jpg">
-            <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
-              лабораторию,
-              посвящённую работе с дембельскими альбомами.</p>
-          </article>
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 2 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Спецпроект</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-2.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+        лабораторию,
+        посвящённую работе с дембельскими альбомами.</p>
+    </a>
 
-          <article class="news-card carousel__slider-item ">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Лекция</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-3.jpg">
-            <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
-              историк,
-              директор Центра «Прожито» ЕУСПб</p>
-          </article>
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 3 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Лекция</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-3.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+        историк,
+        директор Центра «Прожито» ЕУСПб</p>
+    </a>
 
-          <article class="news-card carousel__slider-item ">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Спецпроект</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-1.jpg">
-            <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
-              книга
-              из серии «Библиотека Прожито. Блокада»</p>
-          </article>
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 4 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Спецпроект</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-1.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+        книга
+        из серии «Библиотека Прожито. Блокада»</p>
+    </a>
 
-          <article class="news-card carousel__slider-item ">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag"></p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-2.jpg">
-            <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
-              лабораторию,
-              посвящённую работе с дембельскими альбомами.</p>
-          </article>
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 5 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag"></p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-2.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+        лабораторию,
+        посвящённую работе с дембельскими альбомами.</p>
+    </a>
 
-          <article class="news-card carousel__slider-item ">
-            <div class="news-card__info">
-              <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
-              <p class="news-card__tag">Лекция</p>
-            </div>
-            <img class="news-card__image" src="./images/news-card-3.jpg">
-            <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
-              историк,
-              директор Центра «Прожито» ЕУСПб</p>
-          </article>
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 6 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Лекция</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-3.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+        историк,
+        директор Центра «Прожито» ЕУСПб</p>
+    </a>
+
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 7 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Спецпроект</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-1.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+        книга
+        из серии «Библиотека Прожито. Блокада»</p>
+    </a>
+
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 8 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Спецпроект</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-2.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+        лабораторию,
+        посвящённую работе с дембельскими альбомами.</p>
+    </a>
+
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 9 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Лекция</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-3.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+        историк,
+        директор Центра «Прожито» ЕУСПб</p>
+    </a>
+
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 10 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Спецпроект</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-1.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+        книга
+        из серии «Библиотека Прожито. Блокада»</p>
+    </a>
+
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 11 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag"></p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-2.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+        лабораторию,
+        посвящённую работе с дембельскими альбомами.</p>
+    </a>
+
+    <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 12 из 12" role="article">
+      <div class="news-card__info">
+        <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
+        <p class="news-card__tag">Лекция</p>
+      </div>
+      <img class="news-card__image" src="./images/news-card-3.jpg" alt="Иллюстрация к новости">
+      <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+        историк,
+        директор Центра «Прожито» ЕУСПб</p>
+    </a>
 
   </div>
-  <div class="paginator paginator_page_magazine">
-    <a class="arrow arrow_way_left btn_disabled" href="#" disabled=""></a>
+  <nav class="paginator paginator_page_magazine" aria-label="pagination">
+    <a class="arrow arrow_way_left btn_disabled" href="#" disabled="" aria-label="Перейти к предидущей странице"></a>
     <ul class="paginator__container">
       <li class="paginator__page paginator__page_type_active">
-        <a class="paginator__link paginator__link_type_active" href="#">1</a>
+        <a class="paginator__link paginator__link_type_active" href="#" aria-label="Страница 1">1</a>
       </li>
       <li class="paginator__page">
-        <a class="paginator__link" href="#">2</a>
+        <a class="paginator__link" href="#" aria-label="Страница 2">2</a>
       </li>
       <li class="paginator__page">
         <a class="paginator__link" href="#">...</a>
       </li>
       <li class="paginator__page">
-        <a class="paginator__link" href="#">5</a>
+        <a class="paginator__link" href="#" aria-label="Страница 5">5</a>
       </li>
     </ul>
-    <a class="arrow" href="#"></a>
-  </div>
+    <a class="arrow" href="#" aria-label="Перейти на следующую страницу"></a>
+  </nav>
 </main>
+
 <footer class="footer">
-  <nav class="sub-menu">
+  <nav class="sub-menu"
+       aria-label="дополнительное меню сайта с часто задаваемыми вопросами, инструкциями и информацией о команде и партнерах проекта"
+       role="menubar">
     <ul class="sub-menu__items">
-      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">О&nbsp;команде</a></li>
-      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Благодарности</a></li>
-      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Партнеры</a></li>
-      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">FAQ</a></li>
-      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link">Инструкции</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link" role="menuitem">О&nbsp;команде</a>
+      </li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link" role="menuitem">Благодарности</a>
+      </li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link" role="menuitem">Партнеры</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link" role="menuitem">FAQ</a></li>
+      <li class="sub-menu__item"><a href="#" class="hover-transition sub-menu__link" role="menuitem">Инструкции</a></li>
     </ul>
   </nav>
 
-  <div class="grid footer__grid-container">
+  <div class="grid footer__grid-container"
+       aria-label="дополнительное меню сайта со ссылками на главную страницу сайта, юридическую информацию соцсети и другие материалы"
+       role="menubar">
 
     <div class="logo footer__grid-elem footer__grid-elem_area_logo ">
-      <a href="/" class="logo__item">
+      <a href="/" class="logo__item" aria-label="переход на главную страницу сайта" role="link">
         <img src="./images/logo-prozhito.svg" alt="Прожито" class="logo__image">
       </a>
-      <a href="https://eu.spb.ru/" class="logo__item">
+      <a href="https://eu.spb.ru/" class="logo__item"
+         aria-label="переход на сайт Европейского университета в Санкт-Петербурге" role="link">
         <img src="./images/logo-eu-ru.svg" alt="Европейский университет в Санкт-Петербурге" class="logo__image">
       </a>
     </div>
 
     <nav class="footer__grid-elem footer__grid-elem_area_social footer__links">
-      <a href="https://t.me/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social">
+      <a href="https://t.me/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social"
+         role="menuitem">
         <img src="./images/icon-telegram.svg" alt="" class="footer__social-icon">Telegram</a>
 
-      <a href="https://vk.com/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social">
+      <a href="https://vk.com/prozhito" target="_blank" class="hover-transition footer__link footer__link_type_social"
+         role="menuitem">
         <img src="./images/icon-vk.svg" alt="" class="footer__social-icon">VK</a>
     </nav>
 
     <nav class="footer__grid-elem footer__grid-elem_area_copyright footer__links">
-      <a href="#" class="hover-transition footer__link">Юридическая информация</a>
-      <a href="#" class="hover-transition footer__link">Политика конфиденциальности</a>
+      <a href="#" class="hover-transition footer__link" role="menuitem">Юридическая информация</a>
+      <a href="#" class="hover-transition footer__link" role="menuitem">Политика конфиденциальности</a>
     </nav>
 
   </div>
 </footer>
+<script src="scripts/common.js"></script>
+<script src="scripts/header.js"></script>
 </body>
 </html>

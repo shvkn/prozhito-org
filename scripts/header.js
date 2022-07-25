@@ -1,16 +1,111 @@
 const page = document.querySelector('.page');
 const header = page.querySelector('.header');
 const headerNavMenu = header.querySelector('.nav-menu');
+const headerNavMenuItems = header.querySelector('.nav-menu__items');
+const headerDropContainer = headerNavMenu.querySelector('.nav-menu__drop-container');
 const toggleHeaderMenuButton = headerNavMenu.querySelector('.nav-menu__toggle');
-const headerToggleMenu = headerNavMenu.querySelector('.nav-menu__drop-container');
+const subMenus = headerNavMenu.querySelectorAll('.nav-menu__submenu');
 
-const togglePreventPageScroll = () => {
-  page.classList.toggle('no-scroll');
+
+const collapseMenu = () => {
+  headerDropContainer.classList.add('nav-menu__drop-container_collapsed');
+  toggleHeaderMenuButton.classList.add('nav-menu__toggle_displayed');
+  headerNavMenuItems.querySelectorAll(SELECTOR_FOCUSABLE)
+    .forEach(el => el.tabIndex = -1);
+}
+
+const expandMenu = () => {
+  headerDropContainer.classList.remove('nav-menu__drop-container_collapsed')
+  toggleHeaderMenuButton.classList.remove('nav-menu__toggle_displayed');
+  header.querySelectorAll(SELECTOR_FOCUSABLE)
+    .forEach(el => el.removeAttribute('tabindex'));
+}
+
+const togglePreventPageScroll = () =>
+  page.classList.toggle('no-scroll')
+
+const isMobileMenuDropped = () =>
+  headerDropContainer.classList.contains('nav-menu__drop-container_expanded');
+
+const closeDropMenu = () => {
+  if(isMobileMenuDropped()) {
+    toggleMenu();
+  }
 }
 
 const toggleMenu = (e) => {
   togglePreventPageScroll();
-  headerToggleMenu.classList.toggle('nav-menu__drop-container_expanded');
+
+  headerDropContainer.classList.toggle('nav-menu__drop-container_expanded');
   toggleHeaderMenuButton.classList.toggle('nav-menu__toggle_expanded');
+
+  if (isMobileMenuDropped()) {
+    console.log(document.activeElement);
+    toggleHeaderMenuButton.setAttribute('aria-expanded', 'true');
+    header
+      .querySelectorAll(SELECTOR_FOCUSABLE)
+      .forEach(el => {
+        el.removeAttribute('tabindex');
+        el.addEventListener('keydown', function (e) {
+          isolateFocusInContext(e, header);
+        });
+      });
+  } else{
+    toggleHeaderMenuButton.setAttribute('aria-expanded', 'false');
+    header
+      .querySelectorAll(SELECTOR_FOCUSABLE)
+      .forEach(el => el.removeEventListener('keydown', function (e) {
+        isolateFocusInContext(e, header)
+      }));
+
+    headerNavMenuItems
+      .querySelectorAll(SELECTOR_FOCUSABLE)
+      .forEach(el => el.tabIndex = -1);
+  }
 }
+
 toggleHeaderMenuButton.addEventListener('click', toggleMenu);
+
+subMenus.forEach((subMenu) => {
+  const SUBMENU_EXPANDED_MOD = 'nav-menu__submenu_visible';
+  const menuItem = subMenu.closest('.nav-menu__item');
+  const menuLink = menuItem.querySelector('.nav-menu__link');
+
+  const submenuExpanded = () =>
+    subMenu.classList.contains(SUBMENU_EXPANDED_MOD);
+
+  const toggleSubmenu = (e) => {
+    menuLink.setAttribute('aria-expanded', `${!submenuExpanded()}`);
+    subMenu.classList.toggle(SUBMENU_EXPANDED_MOD);
+    e.preventDefault();
+  }
+
+  menuLink.addEventListener('click', toggleSubmenu);
+
+  menuItem.addEventListener('mouseover', (e) => {
+    if (!submenuExpanded()) toggleSubmenu(e);
+  });
+
+  menuItem.addEventListener('mouseout', (e) => {
+    if (submenuExpanded()) toggleSubmenu(e);
+  });
+});
+
+
+const updateMenu = () => {
+  if (tablet.matches) {
+    expandMenu();
+  } else if (mobile.matches) {
+    collapseMenu();
+  }
+}
+
+window.addEventListener('load', function () {
+  updateMenu();
+});
+
+window.addEventListener('resize', function () {
+  updateMenu();
+  if(tablet.matches) closeDropMenu();
+});
+
