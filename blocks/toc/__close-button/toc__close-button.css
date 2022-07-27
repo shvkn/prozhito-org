@@ -9,7 +9,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background: url("/images/icon-close.svg") no-repeat center center;
+  background: url("../../../images/icon-close.svg") no-repeat center center;
   background-size: cover;
 }
 @media screen and (min-width: 768px){

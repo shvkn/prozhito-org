@@ -2,7 +2,7 @@
   position: absolute;
   top: 12px;
   right: 12px;
-  background: url("/images/icon-close.svg") center center no-repeat;
+  background: url("../../../images/icon-close.svg") center center no-repeat;
   height: 24px;
   width: 24px;
   border: none;

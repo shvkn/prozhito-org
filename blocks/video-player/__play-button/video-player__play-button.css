@@ -5,7 +5,7 @@
   z-index: 1;
   width: 112px;
   height: 112px;
-  background: transparent url("/images/video-play.svg") center center no-repeat;
+  background: transparent url("../../../images/video-play.svg") center center no-repeat;
   border: none;
   outline: none;
   cursor: pointer;
