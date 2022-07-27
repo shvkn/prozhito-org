@@ -1,5 +1,5 @@
 .audio-player__control_type_volume {
-  background-image: url("/images/icon-audio-player-volume.svg");
+  background-image: url("../../../../images/icon-audio-player-volume.svg");
   grid-area: volume;
   display: none;
   position: relative;

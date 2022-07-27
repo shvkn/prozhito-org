@@ -2,7 +2,7 @@
   width: 24px;
   height: 24px;
   padding: 5px 4px;
-  background: url("/images/icon-burger.svg") center center no-repeat;
+  background: url("../../../images/icon-burger.svg") center center no-repeat;
   border: none;
   cursor: pointer;
   position: static;

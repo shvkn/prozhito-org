@@ -5,7 +5,7 @@
   width: 16px;
   height: 16px;
   margin: 0 0 0 -16px;
-  background: transparent url(/images/icon-close.svg) center center no-repeat;
+  background: transparent url("../../../images/icon-close.svg") center center no-repeat;
   border: none;
   cursor: pointer;
   transition: opacity .3s ease-in-out;
