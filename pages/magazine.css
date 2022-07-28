@@ -105,3 +105,6 @@
 /* block MAGAZINE-CARD ends */
 
 @import "../blocks/page-title/page-title.css";
+
+@import "../blocks/btn/_disabled/btn_disabled.css";
+
