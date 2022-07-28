@@ -1,13 +1,13 @@
 .intro {
-  padding: 0 12px 96px;
+  padding: 16px 12px 93px;
   background-color: #F7F4F0;
-  grid-template-rows: [intro-text-starts] auto [intro-text-ends] 93px [square-menu-starts] auto [squate-menu-ends] 98px;
+  grid-template-rows: [intro-text-starts] auto [intro-text-ends] 96px [square-menu-starts] auto [squate-menu-ends];
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    padding: 0 16px 32px;
-    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 28px [square-menu-starts] auto [squate-menu-ends] 36px;
+    padding: 0 16px 36px;
+    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 27px [square-menu-starts] auto [squate-menu-ends] 36px;
   }
 }
 

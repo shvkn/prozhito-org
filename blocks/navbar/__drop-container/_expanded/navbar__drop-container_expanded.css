@@ -1,0 +1,6 @@
+.navbar__drop-container_expanded {
+  height: calc(100vh - 50px);
+  visibility: visible;
+  position: fixed;
+  width: 100%;
+}

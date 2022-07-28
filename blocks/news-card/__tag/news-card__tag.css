@@ -4,13 +4,14 @@
   color: #323232;
   margin: 0;
   padding: 0;
+      font-style: italic;
+
 }
 
 @media screen and (min-width: 768px) {
   .news-card__tag {
     padding-top: 4px;
     font-size: 12px;
-    font-style: italic;
   }
 }
 
@@ -18,5 +19,6 @@
   .news-card__tag {
     padding-top: 8px;
     font-size: 14px;
+    font-style: normal;
   }
 }

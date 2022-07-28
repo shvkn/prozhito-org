@@ -1,0 +1,5 @@
+@media screen and (min-width: 1200px) {
+  .carousel__title_content_magazine {
+    width: max-content;
+  }
+}

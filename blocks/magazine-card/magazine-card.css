@@ -1,18 +1,19 @@
 .magazine-card {
+  position: relative;
+  display: flex;
   width: 252px;
   min-height: 352px;
-  display: flex;
-  /*height: auto;*/
-  position: relative;
-  border-radius: 8px;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  border-radius: 8px;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
 }
 
 .magazine-card:hover {
-  opacity: .8;
   background: #C4C4C4;
+  opacity: .8;
 }
 
 @media screen and (min-width: 768px) {
