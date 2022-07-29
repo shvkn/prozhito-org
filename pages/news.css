@@ -60,12 +60,8 @@
 @import "../blocks/bread-crumbs/__link/bread-crumbs__link.css";
 
 
-/*блок hover-transition*/
-@import "../blocks/hover-transition/hover-transition.css";
-
 /*блок paginator*/
 @import "../blocks/paginator/paginator.css";
-@import "../blocks/paginator/_page/paginator_page_magazine.css";
 @import "../blocks/paginator/__page/paginator__page.css";
 @import "../blocks/paginator/__container/paginator__container.css";
 @import "../blocks/paginator/__page/paginator__page.css";

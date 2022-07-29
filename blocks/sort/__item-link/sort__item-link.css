@@ -10,10 +10,13 @@
   text-transform: uppercase;
   padding: 0 10px;
   color: #323232;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
 }
 
 .sort__item-link:hover {
   border-color: #323232;
+  opacity: .5;
 }
 
 @media screen and (min-width: 768px) {
