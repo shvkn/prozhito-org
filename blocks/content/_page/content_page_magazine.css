@@ -2,14 +2,15 @@
   padding: 0 12px;
 }
 
-@media screen and (min-width: 1200px) {
-  .content_page_magazine {
-    padding: 0 20px;
-  }
-}
 @media screen and (max-width: 768px) {
   .content_page_magazine {
     padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content_page_magazine {
+    padding: 0 20px 62px;
   }
 }
 
