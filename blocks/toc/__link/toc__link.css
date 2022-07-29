@@ -5,4 +5,10 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 1;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.toc__link:hover {
+  opacity: .5;
 }
