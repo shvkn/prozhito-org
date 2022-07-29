@@ -48,7 +48,7 @@ article p {
   text-align: initial;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.66;
 }
 
 article figure {
@@ -58,9 +58,8 @@ article figure {
 }
 
 article figcaption {
-  width: 100%;
+  /*width: 100%;*/
   padding: 16px 0;
-  margin: 0 auto;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
   text-align: left;
   font-size: 14px;
@@ -107,6 +106,10 @@ article a:hover {
   article {
     grid-template-columns: 1fr 58px 652px 58px 1fr;
   }
+
+  article figcaption {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -122,7 +125,9 @@ article a:hover {
   }
 
   article figcaption {
-    width: 50%;
+    /*width: 50%;*/
+      margin: 0 116px 0 232px;
+
   }
 }
 article table {
@@ -132,5 +137,6 @@ article table {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
+
 }
 

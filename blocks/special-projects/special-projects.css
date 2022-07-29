@@ -1,7 +1,7 @@
 .special-projects {
   display: flex;
   flex-direction: column;
-  padding: 32px 12px 0;
+  padding: 32px 12px 27px;
   align-items: center;
 
 }
@@ -14,6 +14,6 @@
 
 @media screen and (min-width: 1200px) {
   .special-projects {
-    padding: 56px 32px 0;
+    padding: 56px 32px 72px;
   }
 }

@@ -3,7 +3,7 @@
   grid-row: footer;
   background-color: #FFFFFF;
   /*grid-template-rows: [bottom-menu] auto 25px [footer-columns] auto;*/
-  padding: 27px 12px 16px;
+  padding: 0 12px 16px;
   box-sizing: border-box;
 
 }
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 1200px) {
   .footer {
-    padding: 72px 32px 33px;
+    padding: 0 32px 33px;
     grid-template-rows: [bottom-menu] auto 32px [footer-columns] auto;
   }
 }
