@@ -94,7 +94,6 @@
 @import "../blocks/btn/__text/_theme/btn__text_theme_night.css";
 @import "../blocks/btn/_disabled/btn_disabled.css";
 @import "../blocks/btn/__icon/btn__icon.css";
-@import "../blocks/btn/__icon/_theme/btn__icon_theme_night.css";
 @import "../blocks/btn/_type/btn_type_primary.css";
 @import "../blocks/btn/_type/btn_type_secondary.css";
 @import "../blocks/btn/_theme/btn_theme_night.css";
@@ -121,7 +120,6 @@
 /* ARROW-CONTROL >>> */
 @import "../blocks/arrow-control/arrow-control.css";
 @import "../blocks/arrow-control/_disabled/arrow-control_disabled.css";
-@import "../blocks/arrow-control/_size/arrow-control_size_s.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_green.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
