@@ -11,6 +11,6 @@
   .audio-player__inner {
     grid-template-areas:
     "play . ccw . cw . progress . time-left . volume";
-    grid-template-columns: auto 24px auto 12px auto 20px auto 20px 75px 16px auto;
+    grid-template-columns: auto 24px auto 12px auto 20px auto 20px 75px 3px auto;
   }
 }

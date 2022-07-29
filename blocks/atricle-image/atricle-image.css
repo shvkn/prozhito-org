@@ -3,7 +3,8 @@ article figure.image {
   display: grid;
   grid-column: 2 / -2;
   grid-template-columns: 1fr;
-  grid-template-rows: minmax(320px, 48vh) auto;
+  /*grid-template-rows: minmax(320px, 48vh) auto;*/
+  grid-template-rows: minmax(320px, 520px) auto;
   width: 100%;
 }
 
@@ -26,8 +27,8 @@ article figure.image img {
   max-height: 100%;
   margin: auto;
   object-fit: cover;
-  width:235px; 
-  height:461px;
+  /*width:235px; */
+  /*height:461px;*/
 }
 
 article .image figcaption {
