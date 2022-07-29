@@ -7,13 +7,11 @@
   box-sizing: border-box;
   background-color: #FFFFFF;
   color: #323232;
-  /*margin-top: 33px;*/
 }
 
 @media screen and (min-width: 768px) {
   .carousel__side-panel {
     flex: 0 0 253px;
-    /*min-height: 380px;*/
     align-items: normal;
     padding: 15px 20px 41px 16px;
     background-color: #323232;
@@ -25,7 +23,5 @@
   .carousel__side-panel {
     flex: 0 0 477px;
     padding: 16px 32px 42px;
-
-    /*min-height: 560px;*/
   }
 }

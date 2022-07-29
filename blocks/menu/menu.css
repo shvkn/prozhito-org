@@ -18,9 +18,3 @@
     padding: 0;
   }
 }
-
-@media screen and (min-width: 1200px) {
-  .menu {
-    /*grid-column-gap: 60px;*/
-  }
-}

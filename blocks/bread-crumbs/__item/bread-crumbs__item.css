@@ -1,7 +1,5 @@
 .bread-crumbs__item {
   list-style-type: '/';
-  /*padding-left: 3px;*/
-  /*margin-left: 7px;*/
   transition: opacity .3s ease-in-out;
 }
 

@@ -1,7 +1,4 @@
 .toc {
-  /*position: fixed;*/
-  /*top: 295px;*/
-  /*z-index: 2;*/
-  /*left: 0;*/
+  display: block;
 }
 

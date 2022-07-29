@@ -5,12 +5,10 @@
   margin-top: 22px;
 }
 
-
 @media screen and (min-width: 768px) {
   .materials__wrapper-cards {
-      justify-content: center;
-        margin-top: 24px;
-    /*column-gap: 40px;*/
+    justify-content: center;
+    margin-top: 24px;
   }
 }
 

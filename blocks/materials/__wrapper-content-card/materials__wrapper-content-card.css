@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
-  /*row-gap: 12px;*/
-    /*padding: 24px 12px 16px;*/
   margin: 36px 12px 16px;
 
 }
@@ -17,7 +15,6 @@
 
 @media screen and (min-width: 1200px) {
   .materials__wrapper-content-card {
-    /*padding: 28px 16px;*/
     margin: 28px 16px 16px;
   }
 }

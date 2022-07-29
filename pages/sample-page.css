@@ -28,7 +28,6 @@
 
 /* CONTENT >>> */
 @import "../blocks/content/content.css";
-@import "../blocks/content/_page/content_page_sample-page.css";
 /* <<< CONTENT */
 
 /* FOOTER >>> */
@@ -48,7 +47,6 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
-@import "../blocks/sub-menu/__link/_page/sub-menu__link_page_sample-page.css";
 /* <<< FOOTER */
 
 /* LOGO >>> */
@@ -69,6 +67,7 @@
 
 /* BREAD-CRUMBS >>> */
 @import "../blocks/bread-crumbs/bread-crumbs.css";
+@import "../blocks/bread-crumbs/_page/bread-crumbs_page_sample-page.css";
 @import "../blocks/bread-crumbs/__list/bread-crumbs__list.css";
 @import "../blocks/bread-crumbs/__item/bread-crumbs__item.css";
 @import "../blocks/bread-crumbs/__link/bread-crumbs__link.css";
@@ -76,12 +75,12 @@
 
 /* AUDIO-PLAYER >>> */
 @import "../blocks/audio-player/audio-player.css";
-@import "../blocks/audio-player/__button/audio-player__control.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_cw.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_ccw.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_play.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_pause.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_volume.css";
+@import "../blocks/audio-player/__control/audio-player__control.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_cw.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_ccw.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_play.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_pause.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_volume.css";
 @import "../blocks/audio-player/__progress/audio-player__progress.css";
 @import "../blocks/audio-player/__time/audio-player__time-left.css";
 @import "../blocks/audio-player/__current-progress/audio-player__current-progress.css";

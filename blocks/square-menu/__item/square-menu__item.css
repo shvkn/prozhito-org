@@ -1,11 +1,9 @@
 .square-menu__item {
-  /*display: grid;*/
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   border: 1px solid rgba(50, 50, 50, 0.3);
   padding: 10px 11px;
-  /*min-height: 184px;*/
 }
 
 @media screen and (min-width: 768px) {

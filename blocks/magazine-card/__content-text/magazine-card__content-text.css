@@ -1,7 +1,6 @@
 .magazine-card__content-text {
   display: flex;
   flex-direction: column;
-  /*max-width: 295px;*/
   row-gap: 4px;
 }
 

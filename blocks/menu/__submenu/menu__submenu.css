@@ -2,7 +2,6 @@
   position: relative;
   display: grid;
   grid-auto-flow: column;
-
   grid-auto-rows: min-content;
   grid-row-gap: 26px;
   grid-column-gap: 87px;
@@ -16,7 +15,6 @@
   border-right: none;
   border-left: none;
   list-style: none;
-  /*grid-auto-flow: row;*/
 }
 
 @media screen and (min-width: 768px) {

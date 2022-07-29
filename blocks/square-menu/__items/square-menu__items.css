@@ -9,8 +9,6 @@
 
 @media screen and (min-width: 768px) {
   .square-menu__items {
-      /*grid-gap: 20px;*/
-
     grid-template-columns: 1fr 1fr;
     grid-gap: 24px 12px;
   }

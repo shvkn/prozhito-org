@@ -1,14 +1,20 @@
 .paginator {
-    display: flex;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 678px;
-
-    /*gap: 366px;*/
-    justify-content: space-between;
-    margin-bottom: 62px;
+  margin: 0 auto;
+  padding: 0 0 12px;
 }
-@media screen and (max-width: 768px) {
-    .paginator {
-        display: none;
-    }
- }
+
+@media screen and (min-width: 768px) {
+  .paginator {
+    padding-bottom: 31px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .paginator {
+    padding-bottom: 62px;
+  }
+}

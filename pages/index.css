@@ -4,7 +4,6 @@
 @import "../blocks/page/page.css";
 @import "../blocks/page/page.css";
 @import "../blocks/no-scroll/no-scroll.css";
-@import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
 /* HEADER >>> */
@@ -19,9 +18,9 @@
 @import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
 
 @import "../blocks/menu/menu.css";
-@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
 @import "../blocks/menu/__item/menu__item.css";
 @import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
 @import "../blocks/menu/__submenu/menu__submenu.css";
 @import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
 /* <<< HEADER */
@@ -69,6 +68,7 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
+@import "../blocks/sub-menu/__link/_page/sub-menu__link_page_index.css";
 /* <<< FOOTER */
 
 /* LOGO >>> */
@@ -120,7 +120,7 @@
 
 /* ARROW-CONTROL >>> */
 @import "../blocks/arrow-control/arrow-control.css";
-@import "../blocks/arrow-control/_disabled/arrow-control.css";
+@import "../blocks/arrow-control/_disabled/arrow-control_disabled.css";
 @import "../blocks/arrow-control/_size/arrow-control_size_s.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_green.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";

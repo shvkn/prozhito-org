@@ -1,6 +1,6 @@
 .toc__open-button {
   position: fixed;
-  top: 53%;
+  top: 47%;
   left: 0;
   display: inline-block;
   z-index: 2;
@@ -17,8 +17,8 @@
   transform-origin: top left;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .toc__open-button {
-    left: auto;
+    left: 20px;
   }
 }

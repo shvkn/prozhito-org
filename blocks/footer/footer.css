@@ -1,24 +1,20 @@
 .footer {
-  /*display: grid;*/
   grid-row: footer;
-  background-color: #FFFFFF;
-  /*grid-template-rows: [bottom-menu] auto 25px [footer-columns] auto;*/
   padding: 0 12px 16px;
   box-sizing: border-box;
-
+  background-color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 0 16px 22px;
     min-height: 207px;
+    padding: 0 16px 22px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer {
     padding: 0 32px 33px;
-    grid-template-rows: [bottom-menu] auto 32px [footer-columns] auto;
   }
 }
 

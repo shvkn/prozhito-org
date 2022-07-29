@@ -1,5 +1,4 @@
 .news-card__image {
-  /*grid-area: 1 / 2 / 3 / 3;*/
   grid-area: nc-img;
   width: 100%;
   height: 100%;

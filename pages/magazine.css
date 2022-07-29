@@ -3,9 +3,10 @@
 @import "../blocks/page/page.css";
 
 @import "../blocks/no-scroll/no-scroll.css";
-@import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
 
 /* HEADER >>> */
 @import "../blocks/header/header.css";
@@ -19,15 +20,14 @@
 @import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
 
 @import "../blocks/menu/menu.css";
-@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
 @import "../blocks/menu/__item/menu__item.css";
 @import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
 @import "../blocks/menu/__submenu/menu__submenu.css";
 @import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
 /* <<< HEADER */
 
 @import "../blocks/content/content.css";
-@import "../blocks/content/_page/content_page_magazine.css";
 
 /* FOOTER >>> */
 @import "../blocks/footer/footer.css";
@@ -77,6 +77,7 @@
 @import "../blocks/paginator/__page/paginator__page.css";
 @import "../blocks/paginator/__link/paginator__link.css";
 @import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
+@import "../blocks/paginator/__control/paginator__control.css";
 
 @import "../blocks/arrow/arrow.css";
 @import "../blocks/arrow/_way/arrow_way_left.css";

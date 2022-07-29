@@ -11,7 +11,5 @@
 @media screen and (min-width: 1200px) {
   .magazine-card__title_type_experience {
     min-height: 78px;
-    /*font-size: 26px;*/
-    /*line-height: 1;*/
   }
 }
