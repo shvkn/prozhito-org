@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .carousel__scroll_content_news {
+    bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel__scroll_content_news {
+    bottom: 21px;
+  }
+}

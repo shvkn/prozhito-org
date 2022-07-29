@@ -1,13 +1,15 @@
 .logo__image {
   width: 100%;
   height: auto;
-  max-height: 24px;
-  min-height: 24px;
+  /*max-height: 24px;*/
+  /*min-height: 24px;*/
+  max-height: 25px;
+  min-height: 25px;
   object-fit: scale-down;
 }
 
 @media screen and (min-width: 768px) {
   .logo__image {
-    max-height: 28px;
+    max-height: 29px;
   }
 }

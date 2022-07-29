@@ -92,25 +92,25 @@
 @import "../blocks/header/header.css";
 @import "../blocks/header/__navbar/header__navbar.css";
 
-@import "../blocks/nav-menu/nav-menu.css";
-@import "../blocks/nav-menu/__items/nav-menu__items.css";
-@import "../blocks/nav-menu/__item/nav-menu__item.css";
-@import "../blocks/nav-menu/__link/nav-menu__link.css";
-@import "../blocks/nav-menu/__toggle/nav-menu__toggle.css";
-@import "../blocks/nav-menu/__toggle/_displayed/nav-menu__toggle_displayed.css";
-@import "../blocks/nav-menu/__toggle/_expanded/nav-menu__toggle_expanded.css";
-@import "../blocks/nav-menu/__drop-container/nav-menu__drop-container.css";
-@import "../blocks/nav-menu/__link/_type/nav-menu__link_type_submenu-link.css";
-@import "../blocks/nav-menu/__drop-container/_collapsed/nav-menu__drop-container_collapsed.css";
-@import "../blocks/nav-menu/__drop-container/_expanded/nav-menu__drop-container_expanded.css";
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__subitem/menu__subitem.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
 
-@import "../blocks/nav-menu/__submenu/nav-menu__submenu.css";
-@import "../blocks/nav-menu/__submenu/_visible/nav-menu__submenu_visible.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
 
 
 
 /*Блок board*/
 @import "../blocks/board/board.css";
+@import "../blocks/board/__inner/board__inner.css";
 @import "../blocks/board/__image/board__image.css";
 @import "../blocks/board/__button/board__button.css";
 @import "../blocks/board/__text/board__text.css";
@@ -143,7 +143,9 @@
 /* block news_-card starts*/
 @import "../blocks/carousel/carousel.css";
 @import "../blocks/carousel/__side-panel/carousel__side-panel.css";
+@import "../blocks/carousel/__side-panel/_content/carousel__side-panel_content_magazine.css";
 @import "../blocks/carousel/__title/carousel__title.css";
+@import "../blocks/carousel/__title/_content/carousel__title_content_magazine.css";
 @import "../blocks/news-card/news-card.css";
 @import "../blocks/news-card/__tag/news-card__tag.css";
 @import "../blocks/news-card/__card-text/news-card__text.css";
@@ -154,17 +156,18 @@
 
 /* block __slider starts */
 @import "../blocks/carousel/__slider/carousel__slider.css";
-@import "../blocks/carousel/__slider-control-bar/carousel__slider-panel.css";
-@import "../blocks/carousel/__heading/slider__heading.css";
+@import "../blocks/carousel/__slider-control-bar/carousel__slider-control-bar.css";
+@import "../blocks/carousel/__slider-control-bar/_content/carousel__slider-control-bar_content_magazine.css";
+@import "../blocks/carousel/__slider-heading/carousel__slider-heading.css";
 @import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
 @import "../blocks/carousel/__slider-items/carousel__slider-items.css";
-@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_news.css";
-@import "../blocks/carousel/__slider-items/_type/carousel__slider-items_type_magazine.css";
+@import "../blocks/carousel/__slider-items/_content/carousel__slider-items_content_news.css";
+@import "../blocks/carousel/__slider-items/_content/carousel__slider-items_content_magazine.css";
 @import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
 @import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
 @import "../blocks/carousel/__scroll/carousel__scroll.css";
-@import "../blocks/carousel/__scroll/_type/carousel__scroll_type_magazine.css";
-@import "../blocks/carousel/__scroll/_type/carousel__scroll_type_news.css";
+@import "../blocks/carousel/__scroll/_content/carousel__scroll_content_magazine.css";
+@import "../blocks/carousel/__scroll/_content/carousel__scroll_content_news.css";
 @import "../blocks/carousel/__scroll-drag/carousel__drag.css";
 /* block __slider ends */
 

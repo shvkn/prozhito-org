@@ -1,9 +1,11 @@
 .materials__slider-dots {
-  position: static;
-  margin-top: 32px;
-  text-align: center;
-  transition: .3s opacity;
-  transform: translate3d(0, 0, 0);
+  /*position: static;*/
+  /*margin-top: 32px;*/
+  /*text-align: center;*/
+  /*transition: .3s opacity;*/
+  /*transform: translate3d(0, 0, 0);*/
+  position: absolute;
+  bottom: 32px;
   z-index: 10;
   display: flex;
   justify-content: center;
@@ -12,6 +14,6 @@
 
 @media screen and (min-width: 768px) {
   .materials__slider-dots {
-    visibility: hidden;
+    display: none;
   }
 }

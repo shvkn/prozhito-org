@@ -1,0 +1,17 @@
+.carousel__side-panel_content_magazine {
+  margin-top: 33px;
+}
+@media screen and (min-width: 768px) {
+  .carousel__side-panel_content_magazine {
+    margin: 0;
+    padding: 15px 20px 38px 16px;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel__side-panel_content_magazine {
+    padding: 20px 32px 39px 33px;
+    align-items: stretch;
+  }
+}

@@ -1,24 +1,27 @@
 .board {
-  grid-template-rows: [board-title] auto 20px [board-image-starts] auto [board-image-ends] 20px [board-text] auto 20px [board-tools];
-  padding: 20px 12px;
-  box-sizing: border-box;
-  background-color: #f7f4f0;
-  margin: 0 0 32px 0;
+  /*grid-template-rows: [board-title] auto 20px [board-image-starts] auto [board-image-ends] 20px [board-text] auto 20px [board-tools];*/
+  /*padding: 20px 12px;*/
+  /*box-sizing: border-box;*/
+  /*background-color: #f7f4f0;*/
+  /*margin: 0 0 32px 0;*/
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   .board {
-    grid-template-rows: [board-image-starts board-title] auto 20px [board-text] auto 61px [board-tools] auto [board-image-ends];
-    padding: 20px;
-    margin: 0 0 25px 0;
+    /*grid-template-rows: [board-image-starts board-title] auto 12px [board-text] 1fr [board-tools] auto [board-image-ends];*/
+    /*padding: 20px 17px;*/
+    margin-bottom: 26px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .board {
-    grid-template-rows: [board-image-starts board-title] auto 32px [board-text] auto 182px [board-tools] 60px [board-image-ends];
-    padding-top: 56px;
-    padding-bottom: 64px;
-    margin: 0 32px 76px 32px;
+    padding: 0 32px;
+    /*grid-template-rows: [board-image-starts board-title] auto 32px [board-text] 1fr [board-tools] auto [board-image-ends];*/
+    /*padding: 56px 0 64px;*/
+    /*margin: 0 32px 76px 32px;*/
+    margin-bottom: 75px;
   }
 }

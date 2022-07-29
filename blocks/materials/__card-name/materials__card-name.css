@@ -7,6 +7,8 @@
   font-size: 18px;
   line-height: 1.25;
   min-height: 44px;
+  width: min-content;
+  /*margin-bottom: 11px;*/
 }
 
 @media screen and (min-width: 1200px) {
