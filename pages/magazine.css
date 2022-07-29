@@ -66,12 +66,9 @@
 @import "../blocks/sort/__item/sort__item.css";
 @import "../blocks/sort/__title/sort__title.css";
 
-/*блок hover-transition*/
-@import "../blocks/hover-transition/hover-transition.css";
 
 /*блок paginator*/
 @import "../blocks/paginator/paginator.css";
-@import "../blocks/paginator/_page/paginator_page_magazine.css";
 @import "../blocks/paginator/__page/paginator__page.css";
 @import "../blocks/paginator/__container/paginator__container.css";
 @import "../blocks/paginator/__page/paginator__page.css";
