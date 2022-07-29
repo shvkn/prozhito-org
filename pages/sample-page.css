@@ -75,12 +75,12 @@
 
 /* AUDIO-PLAYER >>> */
 @import "../blocks/audio-player/audio-player.css";
-@import "../blocks/audio-player/__button/audio-player__control.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_cw.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_ccw.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_play.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_pause.css";
-@import "../blocks/audio-player/__button/_type/audio-player__control_type_volume.css";
+@import "../blocks/audio-player/__control/audio-player__control.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_cw.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_ccw.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_play.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_pause.css";
+@import "../blocks/audio-player/__control/_type/audio-player__control_type_volume.css";
 @import "../blocks/audio-player/__progress/audio-player__progress.css";
 @import "../blocks/audio-player/__time/audio-player__time-left.css";
 @import "../blocks/audio-player/__current-progress/audio-player__current-progress.css";

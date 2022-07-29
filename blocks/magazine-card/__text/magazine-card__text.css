@@ -2,15 +2,9 @@
   font-size: 12px;
   line-height: 1.3;
   font-weight: 400;
-  /*margin-top: 12px;*/
   margin: 0;
   padding: 0;
 }
-
-/*.magazine-card__text ~ .magazine-card__text {*/
-/*  margin: 0;*/
-/*}*/
-
 
 @media screen and (min-width: 768px) {
   .magazine-card__text {
@@ -19,12 +13,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-
-
   .magazine-card__text {
     font-size: 14px;
-
   }
-
-
 }

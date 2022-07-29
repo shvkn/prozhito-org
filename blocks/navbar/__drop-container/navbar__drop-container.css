@@ -3,14 +3,11 @@
   left: 0;
   right: 0;
   z-index: 20;
-
   overflow-y: auto;
   background-color: inherit;
-
   width: 0;
   height: 0;
   visibility: hidden;
-  /*overflow: hidden;*/
 }
 
 @media screen and (min-width: 768px) {

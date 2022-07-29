@@ -4,8 +4,8 @@ article .article-gallery .article-gallery__control {
   z-index: 2;
   background: transparent;
   border: none;
-  transform: translateY(-50%);
   opacity: 1;
+  transform: translateY(-50%);
   transition: opacity .5s ease-in-out;
 }
 

@@ -17,14 +17,12 @@
 
 @media screen and (min-width: 768px) {
   .square-menu__item-button {
-    /*margin-top: 28px;*/
     font-size: 14px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .square-menu__item-button {
-    /*margin-top: 36px;*/
     font-size: 20px;
   }
 }

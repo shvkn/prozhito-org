@@ -2,14 +2,14 @@
   display: grid;
   align-items: start;
   grid-row: footer-columns;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 24px auto 26px auto;
   grid-template-areas:
       "social social social"
       ". . ."
       "logo logo logo"
       ". . ."
       "copyright copyright copyright";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 24px auto 26px auto;
   margin-top: 24px;
 
 }

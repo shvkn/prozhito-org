@@ -1,9 +1,4 @@
 .materials__slider-dots {
-  /*position: static;*/
-  /*margin-top: 32px;*/
-  /*text-align: center;*/
-  /*transition: .3s opacity;*/
-  /*transform: translate3d(0, 0, 0);*/
   position: absolute;
   bottom: 32px;
   z-index: 10;
