@@ -1,5 +1,5 @@
 .video-player {
   position: relative;
   grid-column: 3 / -3;
-  margin: 0 0 32px;
+  margin: 0 0 16px;
 }

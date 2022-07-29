@@ -6,13 +6,30 @@
 @import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
+
+/* HEADER >>> */
 @import "../blocks/header/header.css";
-@import "../blocks/header/__navbar/header__navbar.css";
 @import "../blocks/header/_page/header_page_sample-page.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
 
 @import "../blocks/content/content.css";
 @import "../blocks/content/_page/content_page_magazine.css";
 
+/* FOOTER >>> */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__grid-container/footer__grid-container.css";
 @import "../blocks/footer/__links/footer__links.css";
@@ -28,28 +45,12 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
+/* <<< FOOTER */
 
 @import "../blocks/logo/logo.css";
 @import "../blocks/logo/__image/logo__image.css";
 @import "../blocks/logo/__item/logo__item.css";
 
-
-@import "../blocks/navbar/navbar.css";
-@import "../blocks/menu/menu.css";
-@import "../blocks/menu/__item/menu__item.css";
-@import "../blocks/menu/__link/menu__link.css";
-@import "../blocks/navbar/__toggle/navbar__toggle.css";
-@import "../blocks/navbar/__toggle/_displayed/navbar__toggle_displayed.css";
-@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
-@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
-@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
-@import "../blocks/navbar/__drop-container/_collapsed/navbar__drop-container_collapsed.css";
-@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
-
-@import "../blocks/menu/__submenu/menu__submenu.css";
-@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
-
-@import "../blocks/screen-overlay/screen-overlay.css";
 
 /* bread-crumbs */
 @import "../blocks/bread-crumbs/bread-crumbs.css";
@@ -82,8 +83,7 @@
 /*блок с карточками card-container*/
 @import "../blocks/content-grid/content-grid.css";
 
-
-/* block MAGAZINE-CARD starts */
+/* MAGAZINE-CARD >>> */
 @import "../blocks/magazine-card/magazine-card.css";
 @import "../blocks/magazine-card/__title/magazine-card__title.css";
 @import "../blocks/magazine-card/__title/_type_experience/magazine-card__title_type_experience.css";
@@ -102,6 +102,10 @@
 @import "../blocks/magazine-card/__inner/_type/magazine-card__about_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
 @import "../blocks/magazine-card/__content-text/_type/magazine-card__content-text_type_experience.css";
-/* block MAGAZINE-CARD ends */
+/* <<< MAGAZINE-CARD */
+
 
 @import "../blocks/page-title/page-title.css";
+
+@import "../blocks/btn/_disabled/btn_disabled.css";
+

@@ -16,13 +16,17 @@ article .article-gallery .content {
 article .article-gallery .content .image {
   min-width: 100%;
 }
-
+article .article-gallery .image:nth-child(2n+1) img:nth-child(1) {
+  width:569px; 
+  height:397px;
+}
 article .article-gallery .content .image figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 678px;
+  width: 100%;
 }
-
 
 
 

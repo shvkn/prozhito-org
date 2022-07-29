@@ -6,13 +6,30 @@
 @import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
+
+/* HEADER >>> */
 @import "../blocks/header/header.css";
-@import "../blocks/header/__navbar/header__navbar.css";
 @import "../blocks/header/_page/header_page_sample-page.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
 
 @import "../blocks/content/content.css";
-@import "../blocks/content/_page/content_page_magazine.css";
+@import "../blocks/content/_page/content_page_news.css";
 
+/* FOOTER >>> */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__grid-container/footer__grid-container.css";
 @import "../blocks/footer/__links/footer__links.css";
@@ -28,27 +45,12 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
+/* <<< FOOTER */
 
 @import "../blocks/logo/logo.css";
 @import "../blocks/logo/__image/logo__image.css";
 @import "../blocks/logo/__item/logo__item.css";
 
-@import "../blocks/navbar/navbar.css";
-@import "../blocks/menu/menu.css";
-@import "../blocks/menu/__item/menu__item.css";
-@import "../blocks/menu/__link/menu__link.css";
-@import "../blocks/navbar/__toggle/navbar__toggle.css";
-@import "../blocks/navbar/__toggle/_displayed/navbar__toggle_displayed.css";
-@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
-@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
-@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
-@import "../blocks/navbar/__drop-container/_collapsed/navbar__drop-container_collapsed.css";
-@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
-
-@import "../blocks/menu/__submenu/menu__submenu.css";
-@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
-
-@import "../blocks/screen-overlay/screen-overlay.css";
 /* bread-crumbs */
 @import "../blocks/bread-crumbs/bread-crumbs.css";
 @import "../blocks/bread-crumbs/_page/bread-crumbs_page_magazine.css";
@@ -71,15 +73,18 @@
 
 @import "../blocks/arrow/arrow.css";
 @import "../blocks/arrow/_way/arrow_way_left.css";
+
 /*блок с карточками card-container*/
+
 @import "../blocks/content-grid/content-grid.css";
 
 @import "../blocks/page-title/page-title.css";
 
-
+/* NEWS-CARD >>> */
 @import "../blocks/news-card/news-card.css";
 @import "../blocks/news-card/__tag/news-card__tag.css";
 @import "../blocks/news-card/__card-text/news-card__text.css";
 @import "../blocks/news-card/__image/news-card__image.css";
 @import "../blocks/news-card/__date/news-card__date.css";
 @import "../blocks/news-card/__info/news-card__info.css";
+/* <<< NEWS-CARD */

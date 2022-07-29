@@ -26,6 +26,8 @@ article figure.image img {
   max-height: 100%;
   margin: auto;
   object-fit: cover;
+  width:235px; 
+  height:461px;
 }
 
 article .image figcaption {

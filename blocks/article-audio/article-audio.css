@@ -8,7 +8,7 @@ article .audio figcaption {
 
 @media screen and (min-width: 768px) {
   article .audio figcaption {
-    width: 62%;
+    width: 83%;
     margin: 0 0 0 auto;
   }
 }

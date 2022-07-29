@@ -2,5 +2,11 @@ article video{
   width: 100%;
   height: 100%;
 }
-
-
+article figure.video{
+  grid-column: 3/ -3;
+}
+article .video figcaption {
+  padding: 0 0 16px;
+  width: 85%;
+  margin: 0 0 0 auto;
+}
