@@ -17,8 +17,8 @@
   transform-origin: top left;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .toc__open-button {
-    left: auto;
+    left: 20px;
   }
 }

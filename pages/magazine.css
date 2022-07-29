@@ -6,6 +6,8 @@
 @import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
 
 /* HEADER >>> */
 @import "../blocks/header/header.css";
@@ -27,7 +29,6 @@
 /* <<< HEADER */
 
 @import "../blocks/content/content.css";
-@import "../blocks/content/_page/content_page_magazine.css";
 
 /* FOOTER >>> */
 @import "../blocks/footer/footer.css";
@@ -77,6 +78,7 @@
 @import "../blocks/paginator/__page/paginator__page.css";
 @import "../blocks/paginator/__link/paginator__link.css";
 @import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
+@import "../blocks/paginator/__control/paginator__control.css";
 
 @import "../blocks/arrow/arrow.css";
 @import "../blocks/arrow/_way/arrow_way_left.css";

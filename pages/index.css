@@ -69,6 +69,7 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
+@import "../blocks/sub-menu/__link/_page/sub-menu__link_page_index.css";
 /* <<< FOOTER */
 
 /* LOGO >>> */
@@ -120,7 +121,7 @@
 
 /* ARROW-CONTROL >>> */
 @import "../blocks/arrow-control/arrow-control.css";
-@import "../blocks/arrow-control/_disabled/arrow-control.css";
+@import "../blocks/arrow-control/_disabled/arrow-control_disabled.css";
 @import "../blocks/arrow-control/_size/arrow-control_size_s.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_green.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";

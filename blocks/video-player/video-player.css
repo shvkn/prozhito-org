@@ -1,5 +1,11 @@
 .video-player {
   position: relative;
   grid-column: 3 / -3;
-  height: 379px;
+  display: flex;
 }
+
+/*@media screen and (min-width: 1200px) {*/
+/*  .video-player {*/
+/*    height: 379px;*/
+/*  }*/
+/*}*/
