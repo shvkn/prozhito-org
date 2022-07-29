@@ -6,12 +6,10 @@
   border: none;
   cursor: pointer;
   position: static;
-  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .navbar__toggle {
-      /*display: none;*/
-      /*position: absolute;*/
+      display: none;
   }
 }

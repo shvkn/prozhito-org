@@ -98,11 +98,9 @@
 @import "../blocks/menu/__item/menu__item.css";
 @import "../blocks/menu/__link/menu__link.css";
 @import "../blocks/navbar/__toggle/navbar__toggle.css";
-@import "../blocks/navbar/__toggle/_displayed/navbar__toggle_displayed.css";
 @import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
 @import "../blocks/navbar/__drop-container/navbar__drop-container.css";
 @import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
-@import "../blocks/navbar/__drop-container/_collapsed/navbar__drop-container_collapsed.css";
 @import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
 
 @import "../blocks/menu/__submenu/menu__submenu.css";
