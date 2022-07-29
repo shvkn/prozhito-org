@@ -1,14 +1,17 @@
 .materials__card-image {
-  width: 168px;
+  width: 160px;
   height: 180px;
   object-fit: cover;
   object-position: center;
   display: block;
+  margin: 0 0 12px;
 }
 
 @media screen and (min-width: 768px) {
   .materials__card-image {
     width: 173px;
+    margin-top: 12px;
+
   }
 }
 

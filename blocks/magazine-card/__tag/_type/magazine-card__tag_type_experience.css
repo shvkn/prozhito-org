@@ -3,4 +3,17 @@
   margin: auto 0 0;
   font-style: normal;
   text-transform: uppercase;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__tag_type_experience {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card__tag_type_experience {
+    font-size: 14px;
+  }
 }

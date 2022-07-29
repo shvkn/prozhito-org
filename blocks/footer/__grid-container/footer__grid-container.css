@@ -1,17 +1,36 @@
 .footer__grid-container {
+  display: grid;
   align-items: start;
   grid-row: footer-columns;
-  grid-template-rows: auto 24px auto 29px auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 24px auto 26px auto;
+  grid-template-areas:
+      "social social social"
+      ". . ."
+      "logo logo logo"
+      ". . ."
+      "copyright copyright copyright";
+  margin-top: 24px;
+
 }
 
 @media screen and (min-width: 768px) {
   .footer__grid-container {
-    grid-template-rows: auto 36px auto;
+    grid-template-areas:
+      "logo . social"
+      ". . ."
+      "copyright . .";
+    grid-template-columns: max-content 1fr auto;
+    grid-template-rows: auto 33px auto;
+    margin-top: 28px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer__grid-container {
+    grid-template-areas: "logo . social . copyright .";
+    grid-template-columns: auto 63fr auto 34fr auto 8fr;
     grid-template-rows: auto;
+    margin-top: 34px;
   }
 }

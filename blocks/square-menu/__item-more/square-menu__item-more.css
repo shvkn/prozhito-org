@@ -3,17 +3,18 @@
   justify-content: space-between;
   align-items: center;
   align-self: end;
-  margin-top: 12px;
+  /*margin-top: 12px;*/
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 768px) {
   .square-menu__item-more {
-    margin-top: 28px;
+    /*margin-top: 28px;*/
   }
 }
 
 @media screen and (min-width: 1200px) {
   .square-menu__item-more {
-    margin-top: 36px;
+    /*margin-top: 36px;*/
   }
 }

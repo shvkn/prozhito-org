@@ -10,6 +10,7 @@
   .special-projects__wrapper-cards {
     column-gap: 13px;
     flex-direction: row;
+    margin: 26px 0 24px;
   }
 }
 

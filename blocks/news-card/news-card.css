@@ -23,7 +23,7 @@
     grid-template-rows: auto auto;
     /*grid-template-rows: minmax(120px, min-content) minmax(90px, min-content);*/
     grid-column-gap: 10px;
-    grid-row-gap: 20px;
+    grid-row-gap: 8px;
     /*column-gap: 28px;*/
     grid-template-areas:
     "nc-info nc-img"

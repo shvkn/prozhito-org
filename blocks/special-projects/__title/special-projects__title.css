@@ -5,6 +5,7 @@
   font-size: 32px;
   font-weight: 400;
   line-height: 1.2;
+  align-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {

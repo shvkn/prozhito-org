@@ -1,0 +1,17 @@
+.carousel__slider-items_content_magazine {
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__slider-items_content_magazine {
+    margin-top: 16px;
+    margin-bottom: 31px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel__slider-items_content_magazine {
+    margin-top: 23px;
+    margin-bottom: 60px;
+  }
+}

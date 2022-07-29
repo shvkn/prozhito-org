@@ -2,7 +2,7 @@
    /*padding: 32px 16px 72px; */
    /*row-gap: 20px;*/
   padding: 16px 0;
-  row-gap: 12px;
+  /*row-gap: 12px;*/
    color: #323232;
    text-align: center;
 }
@@ -10,13 +10,13 @@
 @media screen and (min-width: 768px) {
   .magazine-card__inner_type_experience {
     padding: 12px 8px 10px;
-    row-gap: 4px;
+    /*row-gap: 4px;*/
   }
 }
 
 @media screen and (min-width: 1200px) {
   .magazine-card__inner_type_experience {
     padding: 32px 16px 28px;
-    row-gap: 20px;
+    /*row-gap: 20px;*/
   }
 }

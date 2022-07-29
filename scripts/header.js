@@ -1,31 +1,31 @@
 const page = document.querySelector('.page');
 const header = page.querySelector('.header');
-const headerNavMenu = header.querySelector('.nav-menu');
-const headerNavMenuItems = header.querySelector('.nav-menu__items');
-const headerDropContainer = headerNavMenu.querySelector('.nav-menu__drop-container');
-const toggleHeaderMenuButton = headerNavMenu.querySelector('.nav-menu__toggle');
-const subMenus = headerNavMenu.querySelectorAll('.nav-menu__submenu');
+const headerNavMenu = header.querySelector('.navbar');
+const headerNavMenuItems = header.querySelector('.menu');
+const headerDropContainer = headerNavMenu.querySelector('.navbar__drop-container');
+const toggleHeaderMenuButton = headerNavMenu.querySelector('.navbar__toggle');
+const subMenus = headerNavMenu.querySelectorAll('.menu__submenu');
 
 
 const collapseMenu = () => {
-  headerDropContainer.classList.add('nav-menu__drop-container_collapsed');
-  toggleHeaderMenuButton.classList.add('nav-menu__toggle_displayed');
+  headerDropContainer.classList.add('navbar__drop-container_collapsed');
+  toggleHeaderMenuButton.classList.add('navbar__toggle_displayed');
   headerNavMenuItems.querySelectorAll(SELECTOR_FOCUSABLE)
     .forEach(el => el.tabIndex = -1);
 }
 
 const expandMenu = () => {
-  headerDropContainer.classList.remove('nav-menu__drop-container_collapsed')
-  toggleHeaderMenuButton.classList.remove('nav-menu__toggle_displayed');
+  headerDropContainer.classList.remove('navbar__drop-container_collapsed')
+  toggleHeaderMenuButton.classList.remove('navbar__toggle_displayed');
   header.querySelectorAll(SELECTOR_FOCUSABLE)
     .forEach(el => el.removeAttribute('tabindex'));
 }
 
 const togglePreventPageScroll = () =>
-  page.classList.toggle('no-scroll')
+  page.classList.toggle('no-scroll2')
 
 const isMobileMenuDropped = () =>
-  headerDropContainer.classList.contains('nav-menu__drop-container_expanded');
+  headerDropContainer.classList.contains('navbar__drop-container_expanded');
 
 const closeDropMenu = () => {
   if (isMobileMenuDropped()) {
@@ -36,8 +36,8 @@ const closeDropMenu = () => {
 const toggleMenu = (e) => {
   togglePreventPageScroll();
 
-  headerDropContainer.classList.toggle('nav-menu__drop-container_expanded');
-  toggleHeaderMenuButton.classList.toggle('nav-menu__toggle_expanded');
+  headerDropContainer.classList.toggle('navbar__drop-container_expanded');
+  toggleHeaderMenuButton.classList.toggle('navbar__toggle_expanded');
 
   if (isMobileMenuDropped()) {
 
@@ -67,9 +67,9 @@ const toggleMenu = (e) => {
 toggleHeaderMenuButton.addEventListener('click', toggleMenu);
 
 subMenus.forEach((subMenu) => {
-  const SUBMENU_EXPANDED_MOD = 'nav-menu__submenu_visible';
-  const menuItem = subMenu.closest('.nav-menu__item');
-  const menuLink = menuItem.querySelector('.nav-menu__link');
+  const SUBMENU_EXPANDED_MOD = 'menu__submenu_visible';
+  const menuItem = subMenu.closest('.menu__item');
+  const menuLink = menuItem.querySelector('.menu__link');
 
   const submenuExpanded = () =>
     subMenu.classList.contains(SUBMENU_EXPANDED_MOD);

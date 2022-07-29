@@ -1,0 +1,17 @@
+.navbar__drop-container {
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 20;
+
+  overflow-y: auto;
+  background-color: inherit;
+  /*overflow: hidden;*/
+}
+
+@media screen and (min-width: 768px) {
+  .navbar__drop-container {
+    /*position: static;*/
+    height: 100%;
+  }
+}

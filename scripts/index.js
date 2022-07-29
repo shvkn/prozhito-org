@@ -30,7 +30,7 @@ const newsSlider = {
         prevEl: '.news .carousel__slider-navigation-prev',
       },
       breakpoints: {
-        1200: {
+        768: {
           spaceBetween: 20,
         }
       },
@@ -51,7 +51,8 @@ const magazineSliderMobile = {
       slidesPerView: 'auto',
       grabCursor: true,
       effect: 'cards',
-      centeredSlides: true,
+      cssMode: true,
+      // centeredSlides: true,
       cardsEffect: {
         rotate: false,
       }
@@ -70,6 +71,7 @@ const magazineSliderTablet = {
     this.swiper = new Swiper(".magazine .swiper", {
       slidesPerView: 'auto',
       spaceBetween: 16,
+      // slideClass: 'magazine-card',
       scrollbar: {
         el: ".magazine .carousel__scroll",
         dragClass: "carousel__scroll-drag",
@@ -80,6 +82,9 @@ const magazineSliderTablet = {
         prevEl: '.magazine .carousel__slider-navigation-prev',
       },
       breakpoints: {
+        768: {
+          spaceBetween: 12,
+        },
         1200: {
           spaceBetween: 20,
         }
@@ -99,9 +104,10 @@ const materialsSlider = {
       slidesPerView: 'auto',
       centeredSlides: true,
       pagination: {
-        el: '.materials .materials__slider-dots',
-        click: true,
+        el: '.materials__slider-dots',
+
         bulletClass: 'materials__slider-dot',
+        // horizontalClass: 'materials__slider-dots',
         bulletActiveClass: 'materials__slider-dot_type_active',
       }
     });
@@ -110,7 +116,7 @@ const materialsSlider = {
     if (this.swiper instanceof Swiper) this.swiper.destroy(true, true);
     this.swiper = undefined;
   }
-}
+};
 
 window.addEventListener('load', function () {
   updateSlidersByMQ();
@@ -119,5 +125,6 @@ window.addEventListener('load', function () {
 window.addEventListener('resize', function () {
   updateSlidersByMQ();
 });
+
 
 
