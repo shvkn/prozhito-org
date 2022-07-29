@@ -7,9 +7,25 @@
 @import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
-
+/* HEADER >>> */
 @import "../blocks/header/header.css";
 @import "../blocks/header/_page/header_page_index.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
+
 @import "../blocks/content/content.css";
 
 /* Блок материалы */
@@ -37,8 +53,8 @@
 @import "../blocks/popup-special-project/__title/popup-special-project__title.css";
 @import "../blocks/popup-special-project/__subtitle/popup-special-project__subtitle.css";
 
+/* FOOTER >>> */
 @import "../blocks/footer/footer.css";
-
 @import "../blocks/footer/__grid-container/footer__grid-container.css";
 @import "../blocks/footer/__links/footer__links.css";
 @import "../blocks/footer/__link/footer__link.css";
@@ -53,22 +69,26 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
+/* <<< FOOTER */
 
+/* LOGO >>> */
 @import "../blocks/logo/logo.css";
 @import "../blocks/logo/__image/logo__image.css";
 @import "../blocks/logo/__item/logo__item.css";
+/* <<< LOGO */
 
+/* INTRO >>> */
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__text/intro__text.css";
+/* <<< INTRO */
 
-
-/* block arrow [@shvkn] starts */
+/* ARROW >>> */
 @import "../blocks/arrow/arrow.css";
 @import "../blocks/arrow/_theme/arrow_theme_night.css";
 @import "../blocks/arrow/_way/arrow_way_left.css";
-/* block arrow [@shvkn] ends */
+/* <<< ARROW */
 
-/* block btn [@shvkn] start*/
+/* BTN >>> */
 @import "../blocks/btn/btn.css";
 @import "../blocks/btn/__text/btn__text.css";
 @import "../blocks/btn/__text/_theme/btn__text_theme_night.css";
@@ -78,7 +98,7 @@
 @import "../blocks/btn/_type/btn_type_primary.css";
 @import "../blocks/btn/_type/btn_type_secondary.css";
 @import "../blocks/btn/_theme/btn_theme_night.css";
-/* block btn [@shvkn] end*/
+/* <<< BTN */
 
 @import "../blocks/square-menu/square-menu.css";
 @import "../blocks/square-menu/__items/square-menu__items.css";
@@ -87,28 +107,8 @@
 @import "../blocks/square-menu/__item-text/square-menu__item-text.css";
 @import "../blocks/square-menu/__item-title/square-menu__item-title.css";
 /*<<<<<<< HEAD*/
-/*@import "../blocks/square-menu/__item-more/square-menu__item-more.css";*/
 
-@import "../blocks/header/header.css";
-@import "../blocks/header/__navbar/header__navbar.css";
-
-@import "../blocks/navbar/navbar.css";
-@import "../blocks/menu/menu.css";
-@import "../blocks/menu/__subitem/menu__subitem.css";
-@import "../blocks/menu/__item/menu__item.css";
-@import "../blocks/menu/__link/menu__link.css";
-@import "../blocks/navbar/__toggle/navbar__toggle.css";
-@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
-@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
-@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
-@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
-
-@import "../blocks/menu/__submenu/menu__submenu.css";
-@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
-
-
-
-/*Блок board*/
+/* BOARD >>> */
 @import "../blocks/board/board.css";
 @import "../blocks/board/__inner/board__inner.css";
 @import "../blocks/board/__image/board__image.css";
@@ -116,18 +116,18 @@
 @import "../blocks/board/__text/board__text.css";
 @import "../blocks/board/__title/board__title.css";
 @import "../blocks/board/__tools/board__tools.css";
+/* <<< BOARD */
 
-
-/* block arrow-control [@shvkn] starts */
+/* ARROW-CONTROL >>> */
 @import "../blocks/arrow-control/arrow-control.css";
 @import "../blocks/arrow-control/_disabled/arrow-control.css";
 @import "../blocks/arrow-control/_size/arrow-control_size_s.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_green.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";
 @import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
-/* block arrow-control [@shvkn] ends */
+/* <<< ARROW-CONTROL */
 
-/* Блок спецпроекты */
+/* SPECIAL PROJECTS >>> */
 @import "../blocks/special-projects/special-projects.css";
 @import "../blocks/special-projects/__title/special-projects__title.css";
 @import "../blocks/special-projects/__wrapper-cards/special-projects__wrapper-cards.css";
@@ -139,22 +139,23 @@
 @import "../blocks/special-projects/__card-description/special-projects__card-description.css";
 @import "../blocks/special-projects/__card-date/special-projects__card-date.css";
 @import "../blocks/special-projects/__button/special-projects__button.css";
+/* <<< SPECIAL PROJECTS */
 
-/* block news_-card starts*/
-@import "../blocks/carousel/carousel.css";
-@import "../blocks/carousel/__side-panel/carousel__side-panel.css";
-@import "../blocks/carousel/__side-panel/_content/carousel__side-panel_content_magazine.css";
-@import "../blocks/carousel/__title/carousel__title.css";
-@import "../blocks/carousel/__title/_content/carousel__title_content_magazine.css";
+/* NEWS-CARD >>> */
 @import "../blocks/news-card/news-card.css";
 @import "../blocks/news-card/__tag/news-card__tag.css";
 @import "../blocks/news-card/__card-text/news-card__text.css";
 @import "../blocks/news-card/__image/news-card__image.css";
 @import "../blocks/news-card/__date/news-card__date.css";
 @import "../blocks/news-card/__info/news-card__info.css";
-/* block news_-card ends*/
+/* <<< NEWS-CARD */
 
-/* block __slider starts */
+/* CAROUSEL >>> */
+@import "../blocks/carousel/carousel.css";
+@import "../blocks/carousel/__side-panel/carousel__side-panel.css";
+@import "../blocks/carousel/__side-panel/_content/carousel__side-panel_content_magazine.css";
+@import "../blocks/carousel/__title/carousel__title.css";
+@import "../blocks/carousel/__title/_content/carousel__title_content_magazine.css";
 @import "../blocks/carousel/__slider/carousel__slider.css";
 @import "../blocks/carousel/__slider-control-bar/carousel__slider-control-bar.css";
 @import "../blocks/carousel/__slider-control-bar/_content/carousel__slider-control-bar_content_magazine.css";
@@ -169,11 +170,10 @@
 @import "../blocks/carousel/__scroll/_content/carousel__scroll_content_magazine.css";
 @import "../blocks/carousel/__scroll/_content/carousel__scroll_content_news.css";
 @import "../blocks/carousel/__scroll-drag/carousel__drag.css";
-/* block __slider ends */
+/* <<< CAROUSEL */
 
-@import "../blocks/hidden-tablet/hidden-tablet.css";
 
-/* block MAGAZINE-CARD starts */
+/* MAGAZINE-CARD >>> */
 @import "../blocks/magazine-card/magazine-card.css";
 @import "../blocks/magazine-card/__title/magazine-card__title.css";
 @import "../blocks/magazine-card/__title/_type_experience/magazine-card__title_type_experience.css";
@@ -192,4 +192,5 @@
 @import "../blocks/magazine-card/__inner/_type/magazine-card__about_type_experience.css";
 @import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
 @import "../blocks/magazine-card/__content-text/_type/magazine-card__content-text_type_experience.css";
-/* block MAGAZINE-CARD ends */
+/* <<< MAGAZINE-CARD */
+

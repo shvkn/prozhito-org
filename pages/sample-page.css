@@ -5,13 +5,31 @@
 @import "../blocks/hover-transition/hover-transition.css";
 @import "../blocks/grid/grid.css";
 
+/* HEADER >>> */
 @import "../blocks/header/header.css";
-@import "../blocks/header/__navbar/header__navbar.css";
 @import "../blocks/header/_page/header_page_sample-page.css";
+@import "../blocks/header/__navbar/header__navbar.css";
 
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
+
+/* CONTENT >>> */
 @import "../blocks/content/content.css";
 @import "../blocks/content/_page/content_page_sample-page.css";
+/* <<< CONTENT */
 
+/* FOOTER >>> */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__grid-container/footer__grid-container.css";
 @import "../blocks/footer/__links/footer__links.css";
@@ -27,29 +45,15 @@
 @import "../blocks/sub-menu/__item/sub-menu__item.css";
 @import "../blocks/sub-menu/__items/sub-menu__items.css";
 @import "../blocks/sub-menu/__link/sub-menu__link.css";
+/* <<< FOOTER */
 
+/* LOGO >>> */
 @import "../blocks/logo/logo.css";
 @import "../blocks/logo/__image/logo__image.css";
 @import "../blocks/logo/__item/logo__item.css";
+/* <<< LOGO */
 
-
-@import "../blocks/navbar/navbar.css";
-@import "../blocks/menu/menu.css";
-@import "../blocks/menu/__item/menu__item.css";
-@import "../blocks/menu/__link/menu__link.css";
-@import "../blocks/navbar/__toggle/navbar__toggle.css";
-@import "../blocks/navbar/__toggle/_displayed/navbar__toggle_displayed.css";
-@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
-@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
-@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
-@import "../blocks/navbar/__drop-container/_collapsed/navbar__drop-container_collapsed.css";
-@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
-
-@import "../blocks/menu/__submenu/menu__submenu.css";
-@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
-
-@import "../blocks/screen-overlay/screen-overlay.css";
-
+/* TABLE OF CONTENT >>> */
 @import "../blocks/toc/toc.css";
 @import "../blocks/toc/__item/toc__item.css";
 @import "../blocks/toc/__items/toc__items.css";
@@ -57,13 +61,16 @@
 @import "../blocks/toc/__nav/toc__nav.css";
 @import "../blocks/toc/__link/toc__link.css";
 @import "../blocks/toc/__close-button/toc__close-button.css";
+/* <<< TABLE OF CONTENT */
 
-/* bread-crumbs */
+/* BREAD-CRUMBS >>> */
 @import "../blocks/bread-crumbs/bread-crumbs.css";
 @import "../blocks/bread-crumbs/__list/bread-crumbs__list.css";
 @import "../blocks/bread-crumbs/__item/bread-crumbs__item.css";
 @import "../blocks/bread-crumbs/__link/bread-crumbs__link.css";
+/* <<< BREAD-CRUMBS */
 
+/* AUDIO-PLAYER >>> */
 @import "../blocks/audio-player/audio-player.css";
 @import "../blocks/audio-player/__button/audio-player__control.css";
 @import "../blocks/audio-player/__button/_type/audio-player__control_type_cw.css";
@@ -75,34 +82,45 @@
 @import "../blocks/audio-player/__time/audio-player__time-left.css";
 @import "../blocks/audio-player/__current-progress/audio-player__current-progress.css";
 @import "../blocks/audio-player/__inner/audio-player__inner.css";
+/* <<< AUDIO-PLAYER */
 
-@import "../blocks/caption/caption.css";
-
+/* ARTICLE >>> */
 @import "../blocks/article/article.css";
 @import "../blocks/atricle-image/atricle-image.css";
 @import "../blocks/article-audio/article-audio.css";
+@import "../blocks/article-video/article-video.css";
 
 @import "../blocks/article-gallery/article-gallery.css";
 @import "../blocks/article-gallery/__control/gallery__control.css";
 @import "../blocks/article-gallery/__control/_type/gallery__control_type_left.css";
 @import "../blocks/article-gallery/__control/_type/gallery__control_type_right.css";
 @import "../blocks/article-gallery/__counter/article-gallery__counter.css";
+/* <<< ARTICLE */
 
+/* ARROW >>> */
 @import "../blocks/arrow/arrow.css";
 @import "../blocks/arrow/_way/arrow_way_left.css";
+/* <<< ARROW */
 
+/* ARROW-CONTROL >>> */
 @import "../blocks/arrow-control/arrow-control.css";
+/* <<< ARROW-CONTROL */
 
-@import "../blocks/article-video/article-video.css";
+/* VIDEO-PLAYER >>> */
 @import "../blocks/video-player/video-player.css";
 @import "../blocks/video-player/__play-button/video-player__play-button.css";
+/* <<< VIDEO-PLAYER */
 
+/* TAG-LIST >>> */
 @import "../blocks/tag-list/tag-list.css";
 @import "../blocks/tag-list/__item/tag-list__item.css";
 @import "../blocks/tag-list/_place/tag-list_place_sample-page.css";
+/* <<< TAG-LIST */
 
+/* STICKER >>> */
 @import "../blocks/sticker/sticker.css";
 @import "../blocks/sticker/__text/sticker__text.css";
 @import "../blocks/sticker/__title/sticker__title.css";
 @import "../blocks/sticker/__close-button/sticker__close-button.css";
 @import "../blocks/sticker/_visible/sticker_visible.css";
+/* <<< STICKER */
