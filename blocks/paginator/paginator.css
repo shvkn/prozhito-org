@@ -18,3 +18,8 @@
     padding-bottom: 62px;
   }
 }
+@media screen and (max-width: 678px) {
+  .paginator {
+    margin: 0 5px 0;
+  }
+}
