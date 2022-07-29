@@ -6,12 +6,18 @@
 
   overflow-y: auto;
   background-color: inherit;
+
+  width: 0;
+  height: 0;
+  visibility: hidden;
   /*overflow: hidden;*/
 }
 
 @media screen and (min-width: 768px) {
   .navbar__drop-container {
-    /*position: static;*/
+    position: static;
     height: 100%;
+    width: auto;
+    visibility: visible;
   }
 }

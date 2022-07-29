@@ -5,7 +5,6 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">-->
   <link rel="stylesheet" href="./vendor/swiper-bundle.min.css">
   <link rel="stylesheet" href="./pages/index.css">
 
@@ -37,7 +36,8 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link" role="menuitem">О&nbsp;проекте</a>
-            <ul class="menu__submenu menu__submenu_visible" aria-label="меню ссылок на страницы рассказывающие о проекте Прожито" role="menubar">
+            <ul class="menu__submenu"
+                aria-label="меню ссылок на страницы рассказывающие о проекте Прожито" role="menubar">
               <li class="menu__sub-item" role="menuitem">
                 <a href="#" class="menu__link menu__link_type_submenu-link">О&nbsp;Прожито</a>
               </li>
@@ -62,24 +62,12 @@
 </header>
 <main class="content">
 
-  <!-- popup спецпроект блокада-->
-  <div class="popup-special-project" role="dialog">
-    <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно" role="button"></button>
-    <div class="popup-special-project-wrapper">
-      <a class="popup-special-project__link" href="#" target="_blank" aria-label="ссылка на спецпроект Блокада"
-         role="link"><h2 class="popup-special-project__title">
-        Спецпроект блокада</h2></a>
-      <p class="popup-special-project__subtitle">Исследование блокадных дневников</p>
-    </div>
-  </div>
-
-
   <section class="grid intro">
-    <p class="intro__text">
+    <h1 class="intro__text">
       Центр &laquo;Прожито&raquo; собирает, описывает и&nbsp;публикует документы личного происхождения и&nbsp;разрабатывает
       исследовательские инструменты для работы с&nbsp;ними. Материалы публикуются и&nbsp;описываются силами
       участников-волонтёров, к&nbsp;сообществу которых может присоединиться каждый.
-    </p>
+    </h1>
     <nav class="square-menu" aria-label="меню полезных разделов сайта" role="menu">
       <ul class="square-menu__items">
         <li class="square-menu__item" role="menuitem">
@@ -135,6 +123,19 @@
         </li>
       </ul>
     </nav>
+
+    <!-- popup спецпроект блокада-->
+    <div class="popup-special-project" role="dialog">
+      <button class="popup-special-project__button-close" type="button" aria-label="Закрыть окно"
+              role="button"></button>
+      <div class="popup-special-project-wrapper">
+        <a class="popup-special-project__link" href="#" target="_blank" aria-label="ссылка на спецпроект Блокада"
+           role="link"><h2 class="popup-special-project__title">
+          Спецпроект блокада</h2></a>
+        <p class="popup-special-project__subtitle">Исследование блокадных дневников</p>
+      </div>
+    </div>
+
   </section>
 
   <section class="carousel news" aria-label="раздел новостей сайта" role="feed">
@@ -154,7 +155,7 @@
 
       <div class="carousel__slider-control-bar" aria-label="панель управления лентой новостей на текущей странице"
            role="toolbar">
-        <h2 class="carousel__slider-heading">Свежее</h2>
+        <h3 class="carousel__slider-heading">Свежее</h3>
         <div class="carousel__slider-controls">
           <button
             class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-prev"
@@ -170,39 +171,40 @@
       </div>
 
       <div class="swiper">
-        <div class="swiper-wrapper carousel__slider-items carousel__slider-items_content_news" aria-label="лента новостей"
+        <div class="swiper-wrapper carousel__slider-items carousel__slider-items_content_news"
+             aria-label="лента новостей"
              role="feed">
-          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 1 из 6" role="article">
+          <a href="#" class="news-card carousel__slider-item swiper-slide" aria-label="новость 1 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">27.01.2022</time>
               <p class="news-card__tag">Спецпроект</p>
             </div>
             <img class="news-card__image" src="./images/news-card-3.jpg" alt="Иллюстрация к новости">
-            <p class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
+            <h4 class="news-card__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая
               книга
-              из серии «Библиотека Прожито. Блокада»</p>
+              из серии «Библиотека Прожито. Блокада»</h4>
           </a>
 
-          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 2 из 6" role="article">
+          <a href="#" class="news-card carousel__slider-item swiper-slide" aria-label="новость 2 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">13.05.2022</time>
               <p class="news-card__tag">Спецпроект</p>
             </div>
             <img class="news-card__image" src="./images/news-card-2.jpg" alt="Иллюстрация к новости">
-            <p class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
+            <h4 class="news-card__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
               лабораторию,
-              посвящённую работе с дембельскими альбомами.</p>
+              посвящённую работе с дембельскими альбомами.</h4>
           </a>
 
-          <a href="#" class="swiper-slide news-card carousel__slider-item" aria-label="новость 3 из 6" role="article">
+          <a href="#" class="news-card carousel__slider-item swiper-slide" aria-label="новость 3 из 6" role="article">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2020-01-27">25.05.2021</time>
               <p class="news-card__tag">Лекция</p>
             </div>
             <img class="news-card__image" src="./images/news-card-1.jpg" alt="Иллюстрация к новости">
-            <p class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
+            <h4 class="news-card__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
               историк,
-              директор Центра «Прожито» ЕУСПб</p>
+              директор Центра «Прожито» ЕУСПб</h4>
           </a>
 
         </div>
@@ -225,11 +227,9 @@
              aria-label="ссылка ведущая на страницу с материалами, указанными в заголовке ссылки" role="link">
 
           <p class="materials__card-status" role="heading">Нужна сверка</p>
-          <p class="materials__card-name">Анонимный&nbsp;блокадный дневник</p>
+          <h3 class="materials__card-name">Анонимный&nbsp;блокадный дневник</h3>
           <img class="materials__card-image" src="./images/materials-default-image.svg"
                alt="Анонимный блокадный дневник">
-          <!--          <p class="materials__card-description">Музей Ахматовой передал нам для работы рукопись анонимного-->
-          <!--            преподавателя ФЗУ, ставшего свидетелем блокады Ленинграда</p>-->
           <p class="materials__card-description">Петербургский краевед и педагог.
             Нам необходимо набрать 20 рукописных тетрадей</p>
 
@@ -240,7 +240,7 @@
         <div class="materials__wrapper-content-card"
              aria-label="ссылка ведущая на страницу с материалами, указанными в заголовке ссылки" role="link">
           <p class="materials__card-status" role="heading">Нужен наборщик</p>
-          <p class="materials__card-name">Артамонов Виктор</p>
+          <h3 class="materials__card-name">Артамонов Виктор</h3>
           <img class="materials__card-image" src="./images/materials-1.jpg" alt="Анонимный блокадный дневник">
           <p class="materials__card-description">Петербургский краевед и&nbsp;педагог.<br>Нам необходимо набрать 20&nbsp;рукописных
             тетрадей</p>
@@ -253,9 +253,10 @@
              aria-label="ссылка ведущая на страницу с материалами, указанными в заголовке ссылки" role="link">
 
           <p class="materials__card-status" role="heading">Новые материалы</p>
-          <p class="materials__card-name">Родоман Борис</p>
+          <h3 class="materials__card-name">Родоман Борис</h3>
           <img class="materials__card-image" src="images/materials-3.jpg" alt="Анонимный блокадный дневник">
-          <p class="materials__card-description">Документы из домашнего архива географа: переписка, дневники и материалы для его научных статей</p>
+          <p class="materials__card-description">Документы из домашнего архива географа: переписка, дневники и материалы
+            для его научных статей</p>
         </div>
 
       </a>
@@ -300,9 +301,10 @@
       </a>
     </div>
 
-    <div class="carousel__slider" aria-label="панель управления просмотром материалов журнала прожито на текущей странице" role="toolbar">
+    <div class="carousel__slider"
+         aria-label="панель управления просмотром материалов журнала прожито на текущей странице" role="toolbar">
       <div class="carousel__slider-control-bar carousel__slider-control-bar_content_magazine">
-        <h2 class="carousel__slider-heading">Новые материалы</h2>
+        <h3 class="carousel__slider-heading">Новые материалы</h3>
         <div class="carousel__slider-controls">
           <button
             class="arrow-control arrow-control_size_s arrow-control_bg_stroke carousel__slider-navigation-prev"
@@ -324,7 +326,7 @@
           <a class="magazine-card swiper-slide" href="#">
             <div class="magazine-card__inner" aria-label="карточка с материалами 2 из 4" role="article">
               <p class="magazine-card__tag">Тематическая подборка</p>
-              <h3 class="magazine-card__title">Сталин умер</h3>
+              <h4 class="magazine-card__title">Сталин умер</h4>
               <p class="magazine-card__subtitle">Что теперь будет?! Как нам жить без него?</p>
               <p class="magazine-card__text">Все газеты впервые опубликовали портреты т.Сталина и&nbsp;многочисленные
                 статьи.</p>
@@ -335,10 +337,10 @@
             </div>
           </a>
 
-          <a class="magazine-card swiper-slide" href="#" >
+          <a class="magazine-card swiper-slide" href="#">
             <div class="magazine-card__inner" aria-label="карточка с материалами 1 из 4" role="article">
               <p class="magazine-card__tag">Спецпроект</p>
-              <h3 class="magazine-card__title">Блокада</h3>
+              <h4 class="magazine-card__title">Блокада</h4>
               <p class="magazine-card__subtitle">Исследование блокадных дневников</p>
               <p class="magazine-card__text">В&nbsp;условиях катастрофического голода, холода, вражеских бомбардировок и&nbsp;обстрелов
                 сотни тысяч людей оказались заперты в&nbsp;городе. У&nbsp;многих из&nbsp;них был доступ к&nbsp;бумаге и&nbsp;чернилам,
@@ -354,8 +356,8 @@
             <div class="magazine-card__inner magazine-card__inner_type_experience"
                  aria-label="карточка с материалами 4 из 4" role="article">
               <p class="magazine-card__tag magazine-card__tag_type_experience">Опыт читателя</p>
-              <h3 class="magazine-card__title magazine-card__title_type_experience">Галина Зеленина о&nbsp;дневниках
-                Леонида Липкина</h3>
+              <h4 class="magazine-card__title magazine-card__title_type_experience">Галина Зеленина о&nbsp;дневниках
+                Леонида Липкина</h4>
               <p class="magazine-card__text magazine-card__text_type_experience">историк, доцент кафедры теологии
                 иудаизма, библеистики и&nbsp;иудаики РГГУ и&nbsp;ст.&nbsp;н.&nbsp;с. ШАГИ РАНХиГС</p>
               <div class="magazine-card__image-overlay magazine-card__image-overlay_type_experience">
@@ -368,7 +370,7 @@
           <a class="magazine-card swiper-slide" href="#">
             <div class="magazine-card__inner" aria-label="карточка с материалами 2 из 4" role="article">
               <p class="magazine-card__tag">Тематическая подборка</p>
-              <h3 class="magazine-card__title">Сталин умер</h3>
+              <h4 class="magazine-card__title">Сталин умер</h4>
               <p class="magazine-card__subtitle">Что теперь будет?! Как нам жить без него?</p>
               <p class="magazine-card__text">Все газеты впервые опубликовали портреты т.Сталина и&nbsp;многочисленные
                 статьи.</p>
@@ -379,10 +381,10 @@
             </div>
           </a>
 
-          <a class="magazine-card swiper-slide" href="#" >
+          <a class="magazine-card swiper-slide" href="#">
             <div class="magazine-card__inner" aria-label="карточка с материалами 1 из 4" role="article">
               <p class="magazine-card__tag">Спецпроект</p>
-              <h3 class="magazine-card__title">Блокада</h3>
+              <h4 class="magazine-card__title">Блокада</h4>
               <p class="magazine-card__subtitle">Исследование блокадных дневников</p>
               <p class="magazine-card__text">В&nbsp;условиях катастрофического голода, холода, вражеских бомбардировок и&nbsp;обстрелов
                 сотни тысяч людей оказались заперты в&nbsp;городе. У&nbsp;многих из&nbsp;них был доступ к&nbsp;бумаге и&nbsp;чернилам,
@@ -398,8 +400,8 @@
             <div class="magazine-card__inner magazine-card__inner_type_experience"
                  aria-label="карточка с материалами 4 из 4" role="article">
               <p class="magazine-card__tag magazine-card__tag_type_experience">Опыт читателя</p>
-              <h3 class="magazine-card__title magazine-card__title_type_experience">Галина Зеленина о&nbsp;дневниках
-                Леонида Липкина</h3>
+              <h4 class="magazine-card__title magazine-card__title_type_experience">Галина Зеленина о&nbsp;дневниках
+                Леонида Липкина</h4>
               <p class="magazine-card__text magazine-card__text_type_experience">историк, доцент кафедры теологии
                 иудаизма, библеистики и&nbsp;иудаики РГГУ и&nbsp;ст.&nbsp;н.&nbsp;с. ШАГИ РАНХиГС</p>
               <div class="magazine-card__image-overlay magazine-card__image-overlay_type_experience">

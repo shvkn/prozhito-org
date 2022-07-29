@@ -4,3 +4,10 @@
   position: fixed;
   width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  .navbar__drop-container_expanded {
+    height: 100%;
+    position: static;
+  }
+}

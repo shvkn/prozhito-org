@@ -8,21 +8,17 @@ const subMenus = headerNavMenu.querySelectorAll('.menu__submenu');
 
 
 const collapseMenu = () => {
-  headerDropContainer.classList.add('navbar__drop-container_collapsed');
-  toggleHeaderMenuButton.classList.add('navbar__toggle_displayed');
   headerNavMenuItems.querySelectorAll(SELECTOR_FOCUSABLE)
     .forEach(el => el.tabIndex = -1);
 }
 
 const expandMenu = () => {
-  headerDropContainer.classList.remove('navbar__drop-container_collapsed')
-  toggleHeaderMenuButton.classList.remove('navbar__toggle_displayed');
   header.querySelectorAll(SELECTOR_FOCUSABLE)
     .forEach(el => el.removeAttribute('tabindex'));
 }
 
 const togglePreventPageScroll = () =>
-  page.classList.toggle('no-scroll2')
+  page.classList.toggle('no-scroll')
 
 const isMobileMenuDropped = () =>
   headerDropContainer.classList.contains('navbar__drop-container_expanded');
@@ -106,6 +102,5 @@ window.addEventListener('load', function () {
 
 window.addEventListener('resize', function () {
   updateMenu();
-  if (tablet.matches) closeDropMenu();
 });
 
