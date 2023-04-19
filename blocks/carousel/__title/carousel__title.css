@@ -1,0 +1,23 @@
+.carousel__title {
+  padding: 0;
+  margin: 0;
+  font-family: "WF", Times, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__title {
+    width: min-content;
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .carousel__title {
+    font-size: 46px;
+    line-height: 1;
+  }
+}

@@ -1,0 +1,194 @@
+@import "../vendor/normalize.css";
+@import "../fonts/fonts.css";
+
+@import "../blocks/page/page.css";
+@import "../blocks/page/page.css";
+@import "../blocks/no-scroll/no-scroll.css";
+@import "../blocks/grid/grid.css";
+
+/* HEADER >>> */
+@import "../blocks/header/header.css";
+@import "../blocks/header/_page/header_page_index.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
+
+@import "../blocks/content/content.css";
+
+/* Блок материалы */
+@import "../blocks/materials/materials.css";
+@import "../blocks/materials/__title/materials__title.css";
+@import "../blocks/materials/__wrapper-cards/materials__wrapper-cards.css";
+@import "../blocks/materials/__card/materials__card.css";
+@import "../blocks/materials/__wrapper-content-card/materials__wrapper-content-card.css";
+@import "../blocks/materials/__card-status/materials__status.css";
+@import "../blocks/materials/__card-status-description/materials__status-description.css";
+@import "../blocks/materials/__card-name/materials__card-name.css";
+@import "../blocks/materials/__card-image/materials__card-image.css";
+@import "../blocks/materials/__card-description/materials__card-description.css";
+@import "../blocks/materials/__slider-dots/materials__slider-dots.css";
+@import "../blocks/materials/__slider-dot/materials__slider-dot.css";
+@import "../blocks/materials/__slider-dot/_type_active/materials__slider-dot_type_active.css";
+
+
+
+/* POPUP */
+@import "../blocks/popup-special-project/popup-special-project.css";
+@import "../blocks/popup-special-project/__wrapper/popup-special-project-wrapper.css";
+@import "../blocks/popup-special-project/__link/popup-special-project__link.css";
+@import "../blocks/popup-special-project/__button-close/popup-special-project__button-close.css";
+@import "../blocks/popup-special-project/__title/popup-special-project__title.css";
+@import "../blocks/popup-special-project/__subtitle/popup-special-project__subtitle.css";
+
+/* FOOTER >>> */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__grid-container/footer__grid-container.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__link/_type/footer__link_type_social.css";
+@import "../blocks/footer/__grid-elem/footer__grid-elem.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_social.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_logo.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_copyright.css";
+@import "../blocks/footer/__social-icon/footer__social-icon.css";
+
+@import "../blocks/sub-menu/sub-menu.css";
+@import "../blocks/sub-menu/__item/sub-menu__item.css";
+@import "../blocks/sub-menu/__items/sub-menu__items.css";
+@import "../blocks/sub-menu/__link/sub-menu__link.css";
+@import "../blocks/sub-menu/__link/_page/sub-menu__link_page_index.css";
+/* <<< FOOTER */
+
+/* LOGO >>> */
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__image/logo__image.css";
+@import "../blocks/logo/__item/logo__item.css";
+/* <<< LOGO */
+
+/* INTRO >>> */
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__text/intro__text.css";
+/* <<< INTRO */
+
+/* ARROW >>> */
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_theme/arrow_theme_night.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+/* <<< ARROW */
+
+/* BTN >>> */
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/__text/btn__text.css";
+@import "../blocks/btn/__text/_theme/btn__text_theme_night.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
+@import "../blocks/btn/__icon/btn__icon.css";
+@import "../blocks/btn/_type/btn_type_primary.css";
+@import "../blocks/btn/_type/btn_type_secondary.css";
+@import "../blocks/btn/_theme/btn_theme_night.css";
+/* <<< BTN */
+
+@import "../blocks/square-menu/square-menu.css";
+@import "../blocks/square-menu/__items/square-menu__items.css";
+@import "../blocks/square-menu/__item/square-menu__item.css";
+@import "../blocks/square-menu/__item-button/square-menu__item-button.css";
+@import "../blocks/square-menu/__item-text/square-menu__item-text.css";
+@import "../blocks/square-menu/__item-title/square-menu__item-title.css";
+/*<<<<<<< HEAD*/
+
+/* BOARD >>> */
+@import "../blocks/board/board.css";
+@import "../blocks/board/__inner/board__inner.css";
+@import "../blocks/board/__image/board__image.css";
+@import "../blocks/board/__button/board__button.css";
+@import "../blocks/board/__text/board__text.css";
+@import "../blocks/board/__title/board__title.css";
+@import "../blocks/board/__tools/board__tools.css";
+/* <<< BOARD */
+
+/* ARROW-CONTROL >>> */
+@import "../blocks/arrow-control/arrow-control.css";
+@import "../blocks/arrow-control/_disabled/arrow-control_disabled.css";
+@import "../blocks/arrow-control/_bg/arrow-control_bg_green.css";
+@import "../blocks/arrow-control/_bg/arrow-control_bg_none.css";
+@import "../blocks/arrow-control/_bg/arrow-control_bg_stroke.css";
+/* <<< ARROW-CONTROL */
+
+/* SPECIAL PROJECTS >>> */
+@import "../blocks/special-projects/special-projects.css";
+@import "../blocks/special-projects/__title/special-projects__title.css";
+@import "../blocks/special-projects/__wrapper-cards/special-projects__wrapper-cards.css";
+@import "../blocks/special-projects/__card/special-projects__card.css";
+@import "../blocks/special-projects/__card-image/special-projects__card-image.css";
+@import "../blocks/special-projects/__text-wrapper/special-projects__text-wrapper.css";
+@import "../blocks/special-projects/__card-link/special-projects__card-link.css";
+@import "../blocks/special-projects/__card-title/special-projects__card-title.css";
+@import "../blocks/special-projects/__card-description/special-projects__card-description.css";
+@import "../blocks/special-projects/__card-date/special-projects__card-date.css";
+@import "../blocks/special-projects/__button/special-projects__button.css";
+/* <<< SPECIAL PROJECTS */
+
+/* NEWS-CARD >>> */
+@import "../blocks/news-card/news-card.css";
+@import "../blocks/news-card/__tag/news-card__tag.css";
+@import "../blocks/news-card/__card-text/news-card__text.css";
+@import "../blocks/news-card/__image/news-card__image.css";
+@import "../blocks/news-card/__date/news-card__date.css";
+@import "../blocks/news-card/__info/news-card__info.css";
+/* <<< NEWS-CARD */
+
+/* CAROUSEL >>> */
+@import "../blocks/carousel/carousel.css";
+@import "../blocks/carousel/__side-panel/carousel__side-panel.css";
+@import "../blocks/carousel/__side-panel/_content/carousel__side-panel_content_magazine.css";
+@import "../blocks/carousel/__title/carousel__title.css";
+@import "../blocks/carousel/__title/_content/carousel__title_content_magazine.css";
+@import "../blocks/carousel/__slider/carousel__slider.css";
+@import "../blocks/carousel/__slider-control-bar/carousel__slider-control-bar.css";
+@import "../blocks/carousel/__slider-control-bar/_content/carousel__slider-control-bar_content_magazine.css";
+@import "../blocks/carousel/__slider-heading/carousel__slider-heading.css";
+@import "../blocks/carousel/__slider-controls/carousel__slider-controls.css";
+@import "../blocks/carousel/__slider-items/carousel__slider-items.css";
+@import "../blocks/carousel/__slider-items/_content/carousel__slider-items_content_news.css";
+@import "../blocks/carousel/__slider-items/_content/carousel__slider-items_content_magazine.css";
+@import "../blocks/carousel/__side-panel-button/carousel__side-panel-button.css";
+@import "../blocks/carousel/__side-panel-button-icon/carousel__side-panel-button-icon.css";
+@import "../blocks/carousel/__scroll/carousel__scroll.css";
+@import "../blocks/carousel/__scroll/_content/carousel__scroll_content_magazine.css";
+@import "../blocks/carousel/__scroll/_content/carousel__scroll_content_news.css";
+@import "../blocks/carousel/__scroll-drag/carousel__drag.css";
+/* <<< CAROUSEL */
+
+
+/* MAGAZINE-CARD >>> */
+@import "../blocks/magazine-card/magazine-card.css";
+@import "../blocks/magazine-card/__title/magazine-card__title.css";
+@import "../blocks/magazine-card/__title/_type_experience/magazine-card__title_type_experience.css";
+@import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__text/_type/magazine-card__text_type_experience.css";
+@import "../blocks/magazine-card/__content-text/magazine-card__content-text.css";
+@import "../blocks/magazine-card/__tag/magazine-card__tag.css";
+@import "../blocks/magazine-card/__tag/_type/magazine-card__tag_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
+@import "../blocks/magazine-card/__image/magazine-card__image.css";
+@import "../blocks/magazine-card/__image-overlay/magazine-card__image-overlay.css";
+@import "../blocks/magazine-card/__inner/magazine-card__inner.css";
+@import "../blocks/magazine-card/_type/magazine-card_type_experience.css";
+@import "../blocks/magazine-card/__image/_type/magazine-card__image_type_experience.css";
+@import "../blocks/magazine-card/__image-overlay/_type/magazine-card__image-overlay_type_experience.css";
+@import "../blocks/magazine-card/__inner/_type/magazine-card__about_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+@import "../blocks/magazine-card/__content-text/_type/magazine-card__content-text_type_experience.css";
+/* <<< MAGAZINE-CARD */
+

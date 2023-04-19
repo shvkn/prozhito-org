@@ -1,0 +1,20 @@
+.materials__card-name {
+  width: min-content;
+  min-height: 44px;
+  padding: 0;
+  margin: 0;
+  color: #323232;
+  text-align: center;
+  font-family: 'WF', Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 1200px) {
+  .materials__card-name {
+    min-height: 52px;
+    font-size: 26px;
+    line-height: 1;
+  }
+}

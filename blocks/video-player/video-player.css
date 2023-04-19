@@ -1,0 +1,5 @@
+.video-player {
+  position: relative;
+  grid-column: 3 / -3;
+  display: flex;
+}

@@ -1,0 +1,20 @@
+.arrow-control_bg_stroke {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-control_bg_stroke {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .arrow-control_bg_stroke {
+    width: 36px;
+    height: 36px;
+  }
+}

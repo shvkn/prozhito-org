@@ -1,0 +1,14 @@
+article .audio {
+  grid-column: 3 / -3;
+}
+
+article .audio figcaption {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  article .audio figcaption {
+    width: 83%;
+    margin: 0 0 0 auto;
+  }
+}

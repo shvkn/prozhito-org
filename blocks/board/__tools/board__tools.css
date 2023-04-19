@@ -1,0 +1,26 @@
+.board__tools {
+  display: flex;
+  flex-direction: column-reverse;
+  grid-column: 1 / -1;
+  grid-row: board-tools;
+  grid-row-gap: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .board__tools {
+    display: grid;
+    grid-column: 5 / -1;
+    grid-column-gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .board__tools {
+    grid-column: 6 / 12;
+    grid-column-gap: 20px;
+  }
+}

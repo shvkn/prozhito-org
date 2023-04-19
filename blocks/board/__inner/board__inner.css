@@ -1,0 +1,23 @@
+.board__inner {
+  grid-template-rows: [board-title] auto 16px [board-image-starts] auto [board-image-ends] 16px [board-text] auto 16px [board-tools];
+  padding: 18px 12px;
+  box-sizing: border-box;
+  background-color: #f7f4f0;
+  /*margin: 0 0 32px 0;*/
+}
+
+@media screen and (min-width: 768px) {
+  .board__inner {
+    grid-template-rows: [board-image-starts board-title] auto 12px [board-text] 1fr [board-tools] auto [board-image-ends];
+    padding: 20px 17px;
+    /*margin: 0 0 26px 0;*/
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .board__inner {
+    grid-template-rows: [board-image-starts board-title] auto 30px [board-text] 1fr [board-tools] auto [board-image-ends];
+    padding: 56px 0 64px;
+    /*margin: 0 32px 76px 32px;*/
+  }
+}

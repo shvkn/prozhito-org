@@ -1,0 +1,10 @@
+.audio-player__current-progress {
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 0;
+  height: 100%;
+  background-image: url("../../../images/icon-audio-player-progress.svg");
+  content: "";
+}

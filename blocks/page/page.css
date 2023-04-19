@@ -1,0 +1,10 @@
+.page {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  color: #323232;
+  background-color: #F7F4F0;
+  font-family: "PT Sans", "Arial", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

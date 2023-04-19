@@ -1,0 +1,9 @@
+.paginator__container {
+    margin: 0;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 34px;
+    display: grid;
+    max-width: min-content;
+    padding: 0;
+    gap: 18px;
+}

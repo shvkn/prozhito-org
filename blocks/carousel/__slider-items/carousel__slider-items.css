@@ -1,0 +1,19 @@
+.carousel__slider-items {
+  display: flex;
+  grid-row-gap: 16px;
+  padding: 0;
+  margin: 14px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__slider-items {
+    flex-direction: row;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel__slider-items {
+    margin-top: 23px;
+  }
+}

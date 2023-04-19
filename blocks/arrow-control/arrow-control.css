@@ -1,0 +1,37 @@
+.arrow-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out, background-color .3s ease-in-out, .3s border-color ease-in-out;
+}
+
+.arrow-control:hover:not([disabled]) {
+  opacity: .3;
+}
+
+.arrow-control:active:not([disabled]) {
+  opacity: .5;
+}
+
+.arrow-control:disabled {
+  cursor: auto;
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-control {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .arrow-control {
+    width: 50px;
+    height: 50px;
+  }
+}

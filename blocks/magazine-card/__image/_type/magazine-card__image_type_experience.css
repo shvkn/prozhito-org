@@ -1,0 +1,20 @@
+.magazine-card__image_type_experience {
+  position: static;
+  align-self: center;
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__image_type_experience {
+    width: 86px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card__image_type_experience {
+    width: 204px;
+  }
+}
+

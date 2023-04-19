@@ -1,0 +1,33 @@
+.bread-crumbs__item {
+  list-style-type: '/';
+  transition: opacity .3s ease-in-out;
+}
+
+.bread-crumbs__item:hover {
+  opacity: .8;
+}
+
+.bread-crumbs__item:first-child {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.bread-crumbs__item:last-child:hover {
+  opacity: 1;
+  cursor: default;
+}
+
+@media screen and (min-width: 768px) {
+  .bread-crumbs__item {
+    padding-left: 4px;
+    margin-left: 9px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bread-crumbs__item {
+    margin: 0 0 0 10px;
+    padding-left: 7px;
+  }
+}

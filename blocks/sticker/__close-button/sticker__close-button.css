@@ -1,0 +1,16 @@
+.sticker__close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: url("../../../images/icon-close.svg") center center no-repeat;
+  height: 24px;
+  width: 24px;
+  border: none;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+}
+
+.sticker__close-button:hover {
+  opacity: .5;
+}

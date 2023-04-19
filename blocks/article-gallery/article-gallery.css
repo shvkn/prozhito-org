@@ -1,0 +1,39 @@
+article .article-gallery {
+  position: relative;
+  overflow: hidden;
+  grid-column: 3 / -3;
+  margin: 0 0 32px;
+}
+
+article .article-gallery .content {
+  position: relative;
+  left: 0;
+  display: flex;
+  transition: left .5s ease-in-out;
+
+}
+
+article .article-gallery .content .image {
+  min-width: 100%;
+}
+article .article-gallery .image:nth-child(2n+1) img:nth-child(1) {
+  width:569px;
+  height:397px;
+}
+article .article-gallery .content .image figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*margin: 0 116px;*/
+}
+
+@media screen and (min-width: 1200px) {
+  article .article-gallery .content .image figcaption {
+    margin: 0 116px;
+  }
+
+  article .article-gallery {
+    grid-column: 2 / -2;
+  }
+}
+

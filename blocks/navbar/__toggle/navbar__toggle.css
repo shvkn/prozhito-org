@@ -1,0 +1,15 @@
+.navbar__toggle {
+  width: 24px;
+  height: 24px;
+  padding: 5px 4px;
+  background: url("../../../images/icon-burger.svg") center center no-repeat;
+  border: none;
+  cursor: pointer;
+  position: static;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar__toggle {
+      display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  z-index: 9;
+  grid-row: header;
+  min-height: 50px;
+  padding: 0 12px 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 17px 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 0 20px 70px;
+  }
+}

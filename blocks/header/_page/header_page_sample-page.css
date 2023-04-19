@@ -1,0 +1,13 @@
+.header_page_sample-page {
+  background-color: #FFFFFF;
+}
+@media screen and (min-width: 1200px) {
+  .header_page_sample-page {
+    padding: 0 20px 44px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_page_sample-page {
+    padding:0 16px 27px;
+  }
+}

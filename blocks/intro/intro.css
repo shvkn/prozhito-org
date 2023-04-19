@@ -1,0 +1,20 @@
+.intro {
+  padding: 16px 12px 96px;
+  background-color: #F7F4F0;
+  grid-template-rows: [intro-text-starts] auto [intro-text-ends] 93px [square-menu-starts] auto [squate-menu-ends];
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 0 16px 36px;
+    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 27px [square-menu-starts] auto [squate-menu-ends];
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intro {
+    padding: 0 32px 164px;
+    grid-template-rows: [intro-text-starts] auto [intro-text-ends] 114px [square-menu-starts] auto [squate-menu-ends];
+  }
+}
+

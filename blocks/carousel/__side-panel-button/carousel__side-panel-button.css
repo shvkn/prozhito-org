@@ -1,0 +1,30 @@
+.carousel__side-panel-button {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: #323232;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.carousel__side-panel-button:hover {
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__side-panel-button {
+    align-self: flex-end;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel__side-panel-button {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,4 @@
+.audio-player__control_type_play {
+  background-image: url("../../../../images/icon-audio-player-play.svg");
+  grid-area: play;
+}

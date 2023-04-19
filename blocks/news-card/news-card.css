@@ -1,0 +1,44 @@
+.news-card {
+  display: grid;
+  grid-row-gap: 8px;
+  grid-template-areas:
+      "nc-img"
+      "nc-text"
+      "nc-info";
+  grid-template-columns: 1fr;
+  grid-template-rows: 160px auto auto;
+  opacity: 1;
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;
+}
+
+.news-card:hover {
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+  .news-card {
+    grid-row-gap: 8px;
+    grid-column-gap: 10px;
+    grid-template-areas:
+    "nc-info nc-img"
+    "nc-text nc-text";
+    grid-template-columns: 66px auto;
+    grid-template-rows: auto auto;
+    width: 328px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .news-card {
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .news-card {
+    grid-column-gap: 28px;
+    grid-template-columns: 89px auto;
+    width: 328px;
+  }
+}

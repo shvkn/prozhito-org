@@ -1,0 +1,10 @@
+.square-menu {
+  grid-row: square-menu-starts / square-menu-ends;
+  grid-column: 1 / -1;
+}
+
+@media screen and (min-width: 1200px) {
+  .square-menu {
+    grid-column: 2 / -2;
+  }
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+  .carousel__slider-control-bar_content_magazine {
+    margin-right: 18px;
+    margin-left: 3px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel__slider-control-bar_content_magazine {
+    margin-right: 32px;
+    margin-left: 0;
+  }
+}

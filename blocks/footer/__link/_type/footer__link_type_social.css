@@ -1,0 +1,9 @@
+.footer__link_type_social {
+  font-size: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__link_type_social {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,89 @@
+@import "../vendor/normalize.css";
+@import "../fonts/fonts.css";
+@import "../blocks/page/page.css";
+
+@import "../blocks/no-scroll/no-scroll.css";
+@import "../blocks/grid/grid.css";
+
+
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
+
+/* HEADER >>> */
+@import "../blocks/header/header.css";
+@import "../blocks/header/_page/header_page_sample-page.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
+
+@import "../blocks/content/content.css";
+
+/* FOOTER >>> */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__grid-container/footer__grid-container.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__link/_type/footer__link_type_social.css";
+@import "../blocks/footer/__grid-elem/footer__grid-elem.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_social.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_logo.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_copyright.css";
+@import "../blocks/footer/__social-icon/footer__social-icon.css";
+
+@import "../blocks/sub-menu/sub-menu.css";
+@import "../blocks/sub-menu/__item/sub-menu__item.css";
+@import "../blocks/sub-menu/__items/sub-menu__items.css";
+@import "../blocks/sub-menu/__link/sub-menu__link.css";
+/* <<< FOOTER */
+
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__image/logo__image.css";
+@import "../blocks/logo/__item/logo__item.css";
+
+/* bread-crumbs */
+@import "../blocks/bread-crumbs/bread-crumbs.css";
+@import "../blocks/bread-crumbs/_page/bread-crumbs_page_news.css";
+@import "../blocks/bread-crumbs/__list/bread-crumbs__list.css";
+@import "../blocks/bread-crumbs/__item/bread-crumbs__item.css";
+@import "../blocks/bread-crumbs/__link/bread-crumbs__link.css";
+
+
+/*блок paginator*/
+@import "../blocks/paginator/paginator.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__container/paginator__container.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__link/paginator__link.css";
+@import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
+@import "../blocks/paginator/__control/paginator__control.css";
+
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+
+/*блок с карточками card-container*/
+
+@import "../blocks/content-grid/content-grid.css";
+
+@import "../blocks/page-title/page-title.css";
+
+/* NEWS-CARD >>> */
+@import "../blocks/news-card/news-card.css";
+@import "../blocks/news-card/__tag/news-card__tag.css";
+@import "../blocks/news-card/__card-text/news-card__text.css";
+@import "../blocks/news-card/__image/news-card__image.css";
+@import "../blocks/news-card/__date/news-card__date.css";
+@import "../blocks/news-card/__info/news-card__info.css";
+/* <<< NEWS-CARD */
+

@@ -1,0 +1,30 @@
+.toc__open-button {
+  position: fixed;
+  top: 47%;
+  left: 0;
+  display: inline-block;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  color: #323232;
+  font-family: "WF", Times, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  transform: rotate(270deg);
+  transform-origin: top left;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.toc__open-button:hover {
+  opacity: .5;
+}
+
+@media screen and (min-width: 1200px) {
+  .toc__open-button {
+    left: 20px;
+  }
+}

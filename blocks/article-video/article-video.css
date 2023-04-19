@@ -1,0 +1,19 @@
+article video{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 678 / 379;
+}
+article figure.video{
+  grid-column: 3 / -3;
+}
+article .video figcaption {
+  padding: 16px 0;
+  margin: 0;
+  /*margin: 0 0 0 116px;*/
+}
+
+@media screen and (min-width: 1200px) {
+  article .video figcaption {
+  margin: 0 0 0 116px;
+}
+}

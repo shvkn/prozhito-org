@@ -1,0 +1,8 @@
+.square-menu__item-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: end;
+  flex-grow: 1;
+}
+

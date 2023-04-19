@@ -1,0 +1,14 @@
+.sort {
+  padding: 0 0 35px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .sort {
+    padding-bottom: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sort {
+    padding: 0 0 36px;
+  }
+}

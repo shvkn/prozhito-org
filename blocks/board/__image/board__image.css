@@ -1,0 +1,27 @@
+.board__image {
+  display: block;
+  grid-column: 2 / 4;
+  grid-row: board-image-starts / board-image-ends;
+  width: 164px;
+  height: 258px;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .board__image {
+    grid-column: 1 / 4;
+    width: 174px;
+    height: 259px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .board__image {
+    grid-column: 2 / 5;
+    width: 329px;
+    height: 440px;
+  }
+}

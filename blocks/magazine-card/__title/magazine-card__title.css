@@ -1,0 +1,22 @@
+.magazine-card__title {
+  padding: 0;
+  margin: 0 0 3px;
+  font-family: "WF", Times, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__title {
+    margin-bottom: 11px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card__title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1;
+  }
+}

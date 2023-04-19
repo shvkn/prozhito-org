@@ -1,0 +1,13 @@
+.footer__grid-elem_area_social {
+  justify-self: center;
+  grid-area: social;
+  grid-auto-flow: column;
+  grid-column-gap: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__grid-elem_area_social {
+    grid-auto-flow: row;
+    justify-self: start;
+  }
+}

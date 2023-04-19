@@ -1,0 +1,9 @@
+.footer__grid-elem_area_copyright {
+  grid-area: copyright;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__grid-elem_area_copyright {
+    justify-self: left;
+  }
+}

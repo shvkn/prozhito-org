@@ -1,0 +1,17 @@
+.magazine-card__inner_type_experience {
+  padding: 16px 0;
+  color: #323232;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card__inner_type_experience {
+    padding: 12px 8px 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card__inner_type_experience {
+    padding: 32px 16px 28px;
+  }
+}

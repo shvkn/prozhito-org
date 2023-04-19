@@ -1,0 +1,30 @@
+.special-projects__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #F7F4F0;
+  border: 1px solid #A5CDAB;
+  border-top: none;
+  transition: background-color .3s ease-in-out;
+
+}
+
+.special-projects__card:hover {
+  background-color: #f9f7f5;
+}
+
+@media screen and (min-width: 768px) {
+  .special-projects__card {
+    justify-content: space-between;
+    max-width: 361px;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .special-projects__card {
+    flex-direction: row;
+    max-width: 678px;
+    min-height: 352px;
+  }
+}

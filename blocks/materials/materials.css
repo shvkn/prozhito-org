@@ -1,0 +1,19 @@
+.materials {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0 64px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .materials {
+    padding: 31px 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .materials {
+    padding: 54px 0 75px;
+  }
+}

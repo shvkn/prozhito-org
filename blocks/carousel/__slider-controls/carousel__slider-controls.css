@@ -1,0 +1,4 @@
+.carousel__slider-controls {
+  display: flex;
+  column-gap: 12px;
+}

@@ -1,0 +1,16 @@
+.popup-special-project__title {
+  margin: 0;
+  color: #323232;
+  text-transform: uppercase;
+  font-family: "WF", Times, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 1200px) {
+  .popup-special-project__title {
+    font-size: 26px;
+    line-height: 1;
+  }
+}

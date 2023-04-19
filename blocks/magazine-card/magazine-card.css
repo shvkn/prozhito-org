@@ -1,0 +1,31 @@
+.magazine-card {
+  position: relative;
+  display: flex;
+  width: 252px;
+  min-height: 352px;
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+  opacity: 1;
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;
+}
+
+.magazine-card:hover {
+  background: #C4C4C4;
+  opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-card {
+    width: 180px;
+    min-height: 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .magazine-card {
+    width: 328px;
+    min-height: 526px;
+  }
+}

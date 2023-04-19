@@ -1,0 +1,109 @@
+@import "../vendor/normalize.css";
+@import "../fonts/fonts.css";
+@import "../blocks/page/page.css";
+
+@import "../blocks/no-scroll/no-scroll.css";
+@import "../blocks/grid/grid.css";
+
+@import "../blocks/btn/btn.css";
+@import "../blocks/btn/_disabled/btn_disabled.css";
+
+/* HEADER >>> */
+@import "../blocks/header/header.css";
+@import "../blocks/header/_page/header_page_sample-page.css";
+@import "../blocks/header/__navbar/header__navbar.css";
+
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar/__toggle/navbar__toggle.css";
+@import "../blocks/navbar/__toggle/_expanded/navbar__toggle_expanded.css";
+@import "../blocks/navbar/__drop-container/navbar__drop-container.css";
+@import "../blocks/navbar/__drop-container/_expanded/navbar__drop-container_expanded.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+@import "../blocks/menu/__link/_type/menu__link_type_submenu-link.css";
+@import "../blocks/menu/__submenu/menu__submenu.css";
+@import "../blocks/menu/__submenu/_visible/menu__submenu_visible.css";
+/* <<< HEADER */
+
+@import "../blocks/content/content.css";
+
+/* FOOTER >>> */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__grid-container/footer__grid-container.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__link/_type/footer__link_type_social.css";
+@import "../blocks/footer/__grid-elem/footer__grid-elem.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_social.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_logo.css";
+@import "../blocks/footer/__grid-elem/_area/footer__grid-elem_area_copyright.css";
+@import "../blocks/footer/__social-icon/footer__social-icon.css";
+
+@import "../blocks/sub-menu/sub-menu.css";
+@import "../blocks/sub-menu/__item/sub-menu__item.css";
+@import "../blocks/sub-menu/__items/sub-menu__items.css";
+@import "../blocks/sub-menu/__link/sub-menu__link.css";
+/* <<< FOOTER */
+
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__image/logo__image.css";
+@import "../blocks/logo/__item/logo__item.css";
+
+
+/* bread-crumbs */
+@import "../blocks/bread-crumbs/bread-crumbs.css";
+@import "../blocks/bread-crumbs/_page/bread-crumbs_page_magazine.css";
+@import "../blocks/bread-crumbs/__list/bread-crumbs__list.css";
+@import "../blocks/bread-crumbs/__item/bread-crumbs__item.css";
+@import "../blocks/bread-crumbs/__link/bread-crumbs__link.css";
+
+/*блок sort*/
+@import "../blocks/sort/sort.css";
+@import "../blocks/sort/__container/sort__container.css";
+@import "../blocks/sort/__item-link/sort__item-link.css";
+@import "../blocks/sort/__item/sort__item.css";
+@import "../blocks/sort/__title/sort__title.css";
+
+
+/*блок paginator*/
+@import "../blocks/paginator/paginator.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__container/paginator__container.css";
+@import "../blocks/paginator/__page/paginator__page.css";
+@import "../blocks/paginator/__link/paginator__link.css";
+@import "../blocks/paginator/__link/_type/paginator__link_type_active.css";
+@import "../blocks/paginator/__control/paginator__control.css";
+
+@import "../blocks/arrow/arrow.css";
+@import "../blocks/arrow/_way/arrow_way_left.css";
+/*блок с карточками card-container*/
+@import "../blocks/content-grid/content-grid.css";
+
+/* MAGAZINE-CARD >>> */
+@import "../blocks/magazine-card/magazine-card.css";
+@import "../blocks/magazine-card/__title/magazine-card__title.css";
+@import "../blocks/magazine-card/__title/_type_experience/magazine-card__title_type_experience.css";
+@import "../blocks/magazine-card/__text/magazine-card__text.css";
+@import "../blocks/magazine-card/__text/_type/magazine-card__text_type_experience.css";
+@import "../blocks/magazine-card/__content-text/magazine-card__content-text.css";
+@import "../blocks/magazine-card/__tag/magazine-card__tag.css";
+@import "../blocks/magazine-card/__tag/_type/magazine-card__tag_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/magazine-card__subtitle.css";
+@import "../blocks/magazine-card/__image/magazine-card__image.css";
+@import "../blocks/magazine-card/__image-overlay/magazine-card__image-overlay.css";
+@import "../blocks/magazine-card/__inner/magazine-card__inner.css";
+@import "../blocks/magazine-card/_type/magazine-card_type_experience.css";
+@import "../blocks/magazine-card/__image/_type/magazine-card__image_type_experience.css";
+@import "../blocks/magazine-card/__image-overlay/_type/magazine-card__image-overlay_type_experience.css";
+@import "../blocks/magazine-card/__inner/_type/magazine-card__about_type_experience.css";
+@import "../blocks/magazine-card/__subtitle/_type/magazine-card__subtitle_type_experience.css";
+@import "../blocks/magazine-card/__content-text/_type/magazine-card__content-text_type_experience.css";
+/* <<< MAGAZINE-CARD */
+
+
+@import "../blocks/page-title/page-title.css";
+
+@import "../blocks/btn/_disabled/btn_disabled.css";
+

@@ -1,0 +1,17 @@
+.board {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .board {
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .board {
+    padding: 0 32px;
+    margin-bottom: 75px;
+  }
+}

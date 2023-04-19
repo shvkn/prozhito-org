@@ -1,0 +1,21 @@
+.square-menu__item {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid rgba(50, 50, 50, 0.3);
+  padding: 10px 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .square-menu__item {
+    padding: 27px 26px 27px 27px;
+    min-height: 212px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .square-menu__item {
+    padding: 30px;
+    min-height: 276px;
+  }
+}

@@ -1,0 +1,21 @@
+.square-menu__item-title {
+  padding: 0;
+  margin: 0;
+  font-family: "WF", Times, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 768px) {
+  .square-menu__item-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .square-menu__item-title {
+    font-size: 36px;
+    line-height: 1;
+  }
+}
